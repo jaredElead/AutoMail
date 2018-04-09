@@ -1,8 +1,9 @@
 # Elead Emails Template Using Foundation System
 
+[![Dependency Status](https://david-dm.org/zurb/foundation-emails-template/status.svg)](https://david-dm.org/zurb/foundation-emails-template#info=devDependencies)
 [![devDependency Status](https://david-dm.org/zurb/foundation-emails-template/dev-status.svg)](https://david-dm.org/zurb/foundation-emails-template#info=devDependencies)
 
-**Please open all issues with this template on the main [Foundation for Emails](http://github.com/zurb/foundation-emails/issues) repo.**
+**Please open all issues with this template on the main [Elead-Templates](https://github.com/akosweb/Elead-Templates/issues) repo.**
 
 This is the starter project for Elead Email Templates, a framework for creating responsive HTML emails that work in any email client. It has a Gulp-powered build system with these features:
 
@@ -30,7 +31,7 @@ npm install foundation-cli --global
 To manually set up the template, first download it with Git:
 
 ```bash
-git clone https://github.com/zurb/foundation-emails-template projectname
+git clone https://github.com/akosweb/Elead-Templates.git projectname
 ```
 
 Then open the folder in your command line, and install the needed dependencies:

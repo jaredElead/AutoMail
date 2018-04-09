@@ -127,6 +127,7 @@ function inliner(css) {
     })
     .pipe($.replace, '<!-- <style> -->', `<style>${mqCss}</style>`)
     .pipe($.replace, '<link rel="stylesheet" type="text/css" href="css/app.css">', '')
+    // Change to False if you want unminified HTML/CSS Files
     .pipe($.htmlmin, {
       collapseWhitespace: true,
       minifyCSS: true
