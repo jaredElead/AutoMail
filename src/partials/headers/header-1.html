@@ -3,11 +3,11 @@
         <row>
             <div class="purpose"><div class="purpose-inner">Header 1</div></div>
             <columns small="12" large="6">
-                <img class="logo" src="/assets/img/dealer/hclogo.png">
+                <img class="logo" src="{{ variables.dealer-logo }}">
             </columns>
             <columns small="12" large="6">
-                <p class="text-black text-right small-text-center title">HAMMER CARS</p>
-                <a href="https://eleads.dealerx.com/hours-directions/" title="Hammer Cars Location"><p class="small text-black text-right small-text-center">4460 LEGENDARY DR DESTIN, FL 32541</p></a>
+                <p class="text-black text-right small-text-center title">{{ variables.dealer-name }}</p>
+                <a href="https://eleads.dealerx.com/hours-directions/" title="{{ variables.dealer-name }} Location"><p class="small text-black text-right small-text-center">{{ variables.dealer-address }}</p></a>
             </columns>
         </row>
     </container>

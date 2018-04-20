@@ -1,3 +1,17 @@
 ---
-navbg: #42FFCF
-navcolor: #FFFFFF
+dealer-name: HAMMER CARS
+dealer-logo: /assets/img/dealer/hclogo.png
+dealer-address: 4460 LEGENDARY DR DESTIN, FL 32541
+dealer-phone: 888-333-1254
+dealer-logo-white: /assets/img/dealer/hclogo-inverted.png
+dealer-footer-mark: https://i.imgur.com/36DSjPE.png
+dealer-home: https://eleads.dealerx.com/
+dealer-service: https://eleads.dealerx.com/
+dealer-about: https://eleads.dealerx.com/
+dealer-directions: https://eleads.dealerx.com/
+dealer-new-inventory: https://eleads.dealerx.com/
+dealer-service-specials: https://eleads.dealerx.com/
+dealer-used-specials: https://eleads.dealerx.com/
+navbg: 0FB289
+navcolor: FFFFFF
+

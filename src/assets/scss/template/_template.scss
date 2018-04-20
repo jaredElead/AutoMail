@@ -98,7 +98,7 @@ small{
   .columns {
     padding-bottom: 0;
   }
-  p.title {
+  p.title, a.title {
     //color: $black;
     margin-bottom: 0;
     font-size: 34px;
@@ -122,10 +122,13 @@ small{
       display: block;
       text-align: right;
     }
+    a{
+      display: inline-block;
+      margin-right: 10px;
+    }
     img{
       width: auto;
       height: 40px;
-      margin-right: 6px;
       display: inline;
       vertical-align: text-top;
       &:last-child{
