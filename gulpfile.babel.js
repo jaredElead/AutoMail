@@ -139,14 +139,14 @@ function inliner(css) {
 
 // Ensure creds for Litmus are at least there.
 function creds(done) {
-  var configPath = './config.json';
-  try { CONFIG = JSON.parse(fs.readFileSync(configPath)); }
-  catch(e) {
-    beep();
-    console.log('[AWS]'.bold.red + ' Sorry, there was an issue locating your config.json. Please see README.md');
-    process.exit();
-  }
-  done();
+  // var configPath = './config.json';
+  // try { CONFIG = JSON.parse(fs.readFileSync(configPath)); }
+  // catch(e) {
+  //   beep();
+  //   console.log('[AWS]'.bold.red + ' Sorry, there was an issue locating your config.json. Please see README.md');
+  //   process.exit();
+  // }
+  // done();
 }
 
 // Post images to AWS S3 so they are accessible to Litmus and manual test
