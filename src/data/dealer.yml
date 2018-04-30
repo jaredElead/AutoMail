@@ -1,10 +1,10 @@
 ---
 name: Pensacola Honda
 logo: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/logos/Honda/hondalogo.png
-address: 4460 LEGENDARY DR DESTIN, FL 32541
-phone: 888-333-1254
-logo-white: /assets/img/dealer/hclogo-inverted.png
-footer-mark: https://i.imgur.com/36DSjPE.png
+address: <{DealershipAddress}>
+phone: <{DealershipPhone}
+logo-white: 
+footer-mark: 
 link-1: https://www.pensacolahonda.com/
 link-2: https://www.pensacolahonda.com/new-inventory/index.htm
 link-3: https://www.pensacolahonda.com/service/appointment-form.htm

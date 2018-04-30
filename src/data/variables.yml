@@ -1,5 +1,5 @@
 ---
-hero-caption-img: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/ReplaceBattery-Hero-620x320.jpg
+hero-caption-img: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/WheelAlignment-Hero_620x320.jpg
 hero-caption-text: It's Time For a Wheel Alignment.
 content-1-offer-title: On your recent visit, our service team measured your alignment and determined it needed to be adjusted.
 content-1-offer-discount: 10% Off Wheel Alignment
@@ -23,7 +23,7 @@ service-offers-2col-disclaimer: Email must be presented at time of write-up. For
 service-offers-2col-link-text: Schedule Service
 service-offers-2col-link: https://www.pensacolahonda.com/service/appointment-form.htm
 content-msg-text-primary: You Matter To Us
-content-msg-text: I'd love to hear how I can help improve your service experience. Please let me know what we can do.
+content-msg-text: I'd love to hear how I can help improve your service experience. Please let me know what we can cdo.
 content-msg-signature: <{ServiceManagerFullName}>
 content-msg-link-text: Email me
 content-msg-link:mailto: <{SalespersonEmailAddress:SRM}>
