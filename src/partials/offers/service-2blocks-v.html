@@ -2,40 +2,40 @@
 <wrapper class="lease">
     <container>
         <row>
-            <div class="purpose"><div class="purpose-inner">Lease - 2 Offers Vertical Blocks</div></div>
+            <!--<div class="purpose"><div class="purpose-inner">Service - 2 Offers Vertical Blocks</div></div>-->
             <columns small="12" large="6">
-                <h5 class="text-primary">Oil Change Special</h5>
-                <img src="https://wd.eleadcrm.com/evo2/companies/OHCHATVWK/Images/Service-318/OILCHANGE.jpg" alt="">
+                <h5 class="text-primary">{{ variables.ervice-offers-1col-text-primary }}</h5>
+                <img src="https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/WheelAlignment350x230.jpg" alt="">
                 <row class="lease__price border-black">
                     <columns small="12" valign="middle">
-                        <h3 class="text-left text-primary lease__price-tag">$30 Off <small class="text-medium-gray">plus tax</small></h3>
+                        <h3 class="text-left text-primary lease__price-tag">{{ variables.service-offers-1col-offer }}<small class="text-medium-gray">{{ variables.service-offers-1col-offer-sub }}</small></h3>
                     </columns>
                 </row>
                 <spacer size="8"></spacer>
                 <p class="text-medium-gray">
-                    $30 off regularly priced oil change (79.99, 89.99, 199.99)
+                    {{ variables.service-offers-1col-offer-details }}
                 </p>
                 <p class="disclaimer text-medium-gray">
-                    * See service advisor for details. Expires 5/28/18
+                    {{ variables.service-offers-1col-disclaimer }}
                 </p>
-                <center><button class="text-center primary medium small-expanded" href="https://eleads.dealerx.com/schedule-service/">Schedule Serevice</button></center>
+                <center><button class="text-center primary medium small-expanded" href="{{ variables.service-offers-1col-link }}">{{ variables.service-offers-1col-link-text }}</button></center>
             </columns>
             <columns small="12" large="6">
-                <h5 class="text-primary">Alignment Check</h5>
-                <img src="https://wd.eleadcrm.com/evo2/companies/OHCHATVWK/Images/Service-318/alignment.jpg" alt="">
+                <h5 class="text-primary">{{ variables.service-offers-2col-primary-text }}</h5>
+                <img src="https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/BatteryChange350x230.jpg" alt="">
                 <row class="lease__price border-black">
                     <columns small="12" valign="middle">
-                        <h3 class="text-left text-primary lease__price-tag">Complimentary></h3>
+                        <h3 class="text-left text-primary lease__price-tag">{{ variables.service-offers-2col-offer }}</h3>
                     </columns>
                 </row>
                 <spacer size="8"></spacer>
                 <p class="text-medium-gray">
-                    Get a complimentary alignment check when you present this coupon.
+                    {{ variables.service-offers-2col-offer-details }}
                 </p>
                 <p class="disclaimer text-medium-gray">
-                    * See service advisor for details. Expires 5/28/18
+                   {{ variables.service-offers-2col-disclaimer }}
                 </p>
-                <center><button class="text-center primary medium small-expanded" href="https://eleads.dealerx.com/schedule-service/">Schedule Serevice</button></center>
+                <center><button class="text-center primary medium small-expanded" href="{{ variables.service-offers-2col-link }}">{{ variables.service-offers-2col-link-text }}</button></center>
             </columns>
         </row>
     </container>

@@ -1,12 +1,12 @@
-<wrapper class="border-black" style="border-top: 6px solid">
+<wrapper class="" style="border-top: 6px solid #666666;">
     <container>
         <row>
             <columns>
                 <spacer size="32"></spacer>
-                <h5 class="text-center">YOU MATTER TO US</h5>
-                <p class="text-center">I'd love to hear how I can help improve your service experience. Please let me know what we can do.</p>
-                <p class="text-center"><small><i>- Celso Abrego, Service Manager</i></small></p>
-                <center><button class="text-center" href="#">Email Me</button></center>
+                <h5 class="text-center">{{variables.content-msg-text-primary}}</h5>
+                <p class="text-center">{{variables.content-msg-text}}</p>
+                <p class="text-center"><small><i>- {{variables.content-msg-signature}}</i></small></p>
+                <center><button class="text-center" href="mailto:{{variables.content-msg-link}}">{{variables.content-msg-link-text}}</button></center>
             </columns>
         </row>
     </container>

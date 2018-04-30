@@ -99,7 +99,7 @@ small{
     padding-bottom: 0;
   }
   p.title, a.title {
-    //color: $black;
+    color: $primary-color;
     margin-bottom: 0;
     font-size: 34px;
     font-weight: 500;
@@ -267,7 +267,7 @@ th.showcase{
 // Prefooter
 
 .prefooter{
-  background: $black;
+  background: $medium-gray;
   .container{
     background: transparent;
   }

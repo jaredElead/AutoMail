@@ -1,14 +1,15 @@
 <container>
     <row class="collapse">
-        <div class="purpose"><div class="purpose-inner">1 Offer Block</div></div>
+        <!--<div class="purpose"><div class="purpose-inner">1 Offer Block</div></div>-->
         <columns>
             <callout class="white">
-                <h6 class="text-center">Birthday Offer!</h6>
+                <h6 class="text-center">{{ variables.content-1-offer-title }}</h6>
                 <h4 class="text-center text-primary">
-                    15% Off Maintenance
+                    {{ variables.content-1-offer-discount }}
                 </h4>
-                <p class="text-center">Up to $150 off your scheduled maintenance. Offer valid for 30 days from receipt. Not valid with other offers. See Dealer for Details.</p>
-                <center><button class="text-center" href="https://eleads.dealerx.com/schedule-service/">Schedule Service</button></center>
+                <p class="text-center small">{{ variables.content-1-offer-details }}</p>
+                <p style="font-size:8px !important;">{{ variables.content-1-offer-disclaimer }}</p>
+                <center><button class="text-center" href="{{ variables.content-1-offer-link }}">{{ variables.content-1-offer-link-text }}</button></center>
             </callout>
         </columns>
     </row>
