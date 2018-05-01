@@ -1,0 +1,38 @@
+<spacer size="16"></spacer>
+<wrapper class="lease">
+    <container>
+
+
+    	
+  {{#each lease-offers}}
+    <row>
+            <columns small="12" large="6">
+                <h6>{{text-primary}}</h6>
+                <row class="lease__price border-black">
+                    <columns small="12" valign="middle">
+                        <h3 class="text-left text-secondary lease__price-tag">{{lease-offer}} <small class="text-medium-gray">{{offer-sub}}</small></h3>
+                    </columns>
+                </row>
+                <spacer size="4"></spacer>
+                <!--<p class="text-medium-gray">
+                    Lease for $198 per month, plus tax. On approval of credit. 5 at this lease.
+                </p>-->
+                <p class="disclaimer text-medium-gray">
+                    {{disclaimer}}
+                </p>
+                <button class="text-center secondary small small-expanded" href="{{link}}">{{link-text}}</button>
+            </columns>
+            <columns small="12" large="6">
+                <img src="https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/vi/misc/2018-bmw-430i.jpg" alt="">
+            </columns>
+        </row>
+
+
+    {{offer-text}}
+    
+    <br/><br/>
+  {{/each}}
+
+
+ </container>
+</wrapper>
