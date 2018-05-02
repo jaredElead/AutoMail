@@ -1,13 +1,15 @@
 <wrapper class="" style="border-top: 6px solid #666666;">
     <container>
-        <row>
+        {{#each content-srm-msg}}
+         <row>
             <columns>
                 <spacer size="32"></spacer>
-                <h5 class="text-center">{{variables.content-msg-text-primary}}</h5>
-                <p class="text-center">{{variables.content-msg-text}}</p>
-                <p class="text-center"><small><i>- {{variables.content-msg-signature}}</i></small></p>
-                <center><button class="text-center" href="mailto:{{variables.content-msg-link}}">{{variables.content-msg-link-text}}</button></center>
+                <h5 class="text-center">{{primary}}</h5>
+                <p class="text-center">{{details}}</p>
+                <p class="text-center"><small><i>- {{signature}}</i></small></p>
+                <center><button class="text-center" href="mailto:{{link}}">{{link-text}}</button></center>
             </columns>
         </row>
+        {{/each}}
     </container>
 </wrapper>

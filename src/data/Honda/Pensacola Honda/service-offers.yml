@@ -1,0 +1,61 @@
+---
+'offer1': 
+  type: alignment
+  title: Wheel Alignment
+  msg: On your recent visit, our service team measured your alignment and determined it needed to be adjusted.
+  offer: 10% Off Wheel Alignment
+  details: Receive a 10% OFF Discount on 4 Wheel Alignment Service. Includes; Adjust caster, camber & toe-in. Adjust proper thrust & centerline angles. Inspect steering linkage & shocks. Check Tire Pressure & Tire Wear. 
+  disclaimer: Email must be presented at time of write-up. For Honda Models. Environmental fees may apply. Taxes excluded. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See service advisor for complete details. Expires 45 days from receipt of e-mail.
+  link-text: Schedule Service
+  link: https://www.pensacolahonda.com/service/appointment-form.htm
+  hero: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/WheelAlignment-Hero_620x320.jpg
+  img-med: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/WheelAlignment-Hero_620x320.jpg
+  hero-caption: It's Time For A Wheel Alignment.
+'offer2':
+  type: tires
+  title: Tire Replacement
+  msg: On your recent visit, our service team inspected your vehicle and recommended it was time to replace the tires.
+  offer: 10% Off Tire Replacement
+  details: The right tires not only help contribute to your vehicle's handling and performance, but can also impact fuel efficiency and safety as well. If your tires are showing signs of wear, you can get exact replacements for the original tires at a competitive price at <{DealershipName}> Service Center. 
+  disclaimer: Email must be presented at time of write-up. For Honda Models. Environmental fees may apply. Taxes excluded. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See service advisor for complete details. Expires 45 days from receipt of e-mail.
+  link-text: Schedule Service
+  link: https://www.pensacolahonda.com/service/appointment-form.htm
+  hero: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/Tires-Hero-620x320.jpg
+  img-med: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/Tires-Hero-620x320.jpg
+  hero-caption: IT'S TIME TO REPLACE YOUR TIRES! 
+'offer3':
+  type: battery
+  title: Battery Replacement
+  msg: On your recent visit, our service team inspected your vehicle and recommended it was time to replace the battery.
+  offer: 10% Off In-stock Batteries
+  details: Receive a 10% OFF Discount on Battery Replacement Service. In general, battery life is very hard to predict due to variables such as climate, terrain and individual driving habits. We'll quickly assess your battery and discover any issues that you may need to take care of today. 
+  disclaimer: Email must be presented at time of write-up. For Honda Models. Environmental fees may apply. Taxes excluded. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See service advisor for complete details. Expires 45 days from receipt of e-mail.
+  link-text: Schedule Service
+  link: https://www.pensacolahonda.com/service/appointment-form.htm
+  hero: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/ReplaceBattery-Hero-620x320.jpg
+  img-med: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/ReplaceBattery-Hero-620x320.jpg
+  hero-caption: It's Time To Replace Your Battery
+'offer4':
+  type: brake
+  title: Brake Service
+  msg: On your recent visit, our service team inspected your vehicle and recommended it was time to service your brakes.
+  offer: 10% Off Brake Service
+  details: Receive a 10% OFF Discount on Brake Service.This special brake service discount includes front or rear brake pad replacement with new genuine Honda brake pads, resurfacing of rotors as necessary, brake line and caliper inspection, brake fluid check, and a comprehensive road test. 
+  disclaimer: Email must be presented at time of write-up. For Honda Models. Environmental fees may apply. Taxes excluded. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See service advisor for complete details. Expires 45 days from receipt of e-mail.
+  link-text: Schedule Service
+  link: https://www.pensacolahonda.com/service/appointment-form.htm
+  hero: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/Brakes-Hero-620x320.jpg
+  img-med: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/Brakes-Hero-620x320.jpg
+  hero-caption: IT'S TIME TO SERVICE YOUR BRAKES!
+'offer5':
+  type: air filter
+  title: In-cabin Air Filter
+  msg: On your recent visit, our service team inspected your vehicle and recommended it was time to replace the cabin air filter.
+  offer: 10% Off Cabin Air Filter
+  details: Receive a 10% OFF Discount on Cabin Air Filter Replacement Service. A cabin air filter cleans the air that enters your car and stops dust, pollen and other particles from reaching you. It's important to change your filter regularly to avoid reduced airflow and bad odors. 
+  disclaimer: Email must be presented at time of write-up. For Honda Models. Environmental fees may apply. Taxes excluded. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See service advisor for complete details. Expires 45 days from receipt of e-mail.
+  link-text: Schedule Service
+  link: https://www.pensacolahonda.com/service/appointment-form.htm
+  hero: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/AirFilter_Hero_620x320.jpg
+  img-med: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/AirFilter_Hero_620x320.jpg
+  hero-caption: IT'S TIME TO REPLACE YOUR CABIN AIR FILTER!

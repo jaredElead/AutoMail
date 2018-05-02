@@ -1,16 +1,21 @@
 <container>
-    <row class="collapse">
-        <!--<div class="purpose"><div class="purpose-inner">1 Offer Block</div></div>-->
-        <columns>
-            <callout class="white">
-                <h6 class="text-center">{{ variables.content-1-offer-title }}</h6>
-                <h4 class="text-center text-primary">
-                    {{ variables.content-1-offer-discount }}
-                </h4>
-                <p class="text-center small">{{ variables.content-1-offer-details }}</p>
-                <p style="font-size:8px !important;">{{ variables.content-1-offer-disclaimer }}</p>
-                <center><button class="text-center" href="{{ variables.content-1-offer-link }}">{{ variables.content-1-offer-link-text }}</button></center>
-            </callout>
-        </columns>
-    </row>
+    {{#ifequal email-type 'service'}}
+        {{#each service-offers}}
+            {{#ifequal ../primary-offer @key}}
+            <row class="collapse">
+                <columns>
+                    <callout class="white">
+                        <h6 class="text-center">{{ title }}</h6>
+                        <h4 class="text-center text-primary">
+                            {{ offer }}
+                        </h4>
+                        <p class="text-center small">{{ details }}</p>
+                        <p style="font-size:8px !important;">{{ disclaimer }}</p>
+                        <center><button class="text-center" href="{{ link }}">{{ link-text }}</button></center>
+                    </callout>
+                </columns>
+            </row>
+               {{/ifequal}}
+           {{/each}}
+       {{/ifequal}}
 </container>

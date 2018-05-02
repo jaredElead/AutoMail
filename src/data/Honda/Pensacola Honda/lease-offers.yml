@@ -1,5 +1,6 @@
 ---
 'offer1':
+  type: lease
   text-primary: 2018 430i GRAN COUPE 1
   img: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/WheelAlignment350x230.jpg
   lease-offer: $549
@@ -9,6 +10,7 @@
   link-text: Schedule Service
   link: https://www.pensacolahonda.com/service/appointment-form.htm
 'offer2':
+  type: lease
   text-primary: 2018 BMW X1
   img: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/WheelAlignment350x230.jpg
   lease-offer: $245
@@ -18,6 +20,7 @@
   link-text: Schedule Service
   link: https://www.pensacolahonda.com/service/appointment-form.htm
 'offer3':
+  type: lease
   text-primary: 2018 430i GRAN COUPE 1
   img: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/WheelAlignment350x230.jpg
   lease-offer: $326
@@ -27,6 +30,7 @@
   link-text: Schedule Service
   link: https://www.pensacolahonda.com/service/appointment-form.htm
 'offer4':
+  type: lease
   text-primary: 2018 BMW X1
   img: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/WheelAlignment350x230.jpg
   lease-offer: $875
@@ -36,6 +40,7 @@
   link-text: Schedule Service
   link: https://www.pensacolahonda.com/service/appointment-form.htm
 'offer5':
+  type: lease
   text-primary: 2018 430i GRAN COUPE 1
   img: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/WheelAlignment350x230.jpg
   lease-offer: $326
@@ -45,6 +50,7 @@
   link-text: Schedule Service
   link: https://www.pensacolahonda.com/service/appointment-form.htm
 'offer6':
+  type: lease
   text-primary: 2018 BMW X1
   img: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/WheelAlignment350x230.jpg
   lease-offer: $875

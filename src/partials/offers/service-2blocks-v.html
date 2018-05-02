@@ -1,42 +1,35 @@
-<spacer size="16"></spacer>
+{{#ifequal email-type 'service'}}
+            <spacer size="16"></spacer>
+  
 <wrapper class="lease">
     <container>
-        <row>
-            <!--<div class="purpose"><div class="purpose-inner">Service - 2 Offers Vertical Blocks</div></div>-->
+        {{#each service-offers}} 
+
+        {{#if_even @index}}<row>{{/if_even}}
             <columns small="12" large="6">
-                <h5 class="text-primary">{{ service2b.1col-text-primary }}</h5>
-                <img src="{{ service2b.1col-img }}" alt="{{ service2b.2col-text-primary }}" width="282">
+                <h5 class="text-primary">{{ title }}</h5>
+                <img src="{{ img-med }}" alt="{{ title }}" width="282">
                 <row class="lease__price border-black">
                     <columns small="12" valign="middle">
-                        <h3 class="text-left text-primary lease__price-tag">{{ service2b.1col-offer }}<small class="text-medium-gray">{{ service2b.1col-offer-sub }}</small></h3>
+                        <h3 class="text-left text-primary lease__price-tag">{{offer}}<!--<small class="text-medium-gray">{{ service2b.1col-offer-sub }}</small>--></h3>
                     </columns>
                 </row>
                 <spacer size="8"></spacer>
                 <p class="text-medium-gray">
-                    {{ service2b.1col-offer-details }}
+                    {{ details }}
                 </p>
                 <p class="disclaimer text-medium-gray">
-                    {{ service2b.1col-disclaimer }}
+                    {{ disclaimer }}
                 </p>
-                <center><button class="text-center primary medium small-expanded" href="{{ service2b.1col-link }}">{{ service2b.1col-link-text }}</button></center>
+                <center><button class="text-center primary medium small-expanded" href="{{ link }}">{{ link-text }}</button></center>
             </columns>
-            <columns small="12" large="6">
-                <h5 class="text-primary">{{ service2b.2col-text-primary }}</h5>
-                <img src="{{ service2b.2col-img }}" alt="{{ service2b.2col-text-primary }}" width="282">
-                <row class="lease__price border-black">
-                    <columns small="12" valign="middle">
-                        <h3 class="text-left text-primary lease__price-tag">{{ service2b.2col-offer }}</h3>
-                    </columns>
-                </row>
-                <spacer size="8"></spacer>
-                <p class="text-medium-gray">
-                    {{ service2b.2col-offer-details }}
-                </p>
-                <p class="disclaimer text-medium-gray">
-                   {{ service2b.2col-disclaimer }}
-                </p>
-                <center><button class="text-center primary medium small-expanded" href="{{ service2b.2col-link }}">{{ service2b.2col-link-text }}</button></center>
-            </columns>
-        </row>
+            
+        {{#if_even @index }}
+
+    {{else}}</row>{{/if_even}}
+
+        {{/each}}
     </container>
 </wrapper>
+           
+       {{/ifequal}}
