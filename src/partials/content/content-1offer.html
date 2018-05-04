@@ -7,10 +7,31 @@
                     <callout class="white">
                         <h6 class="text-center">{{ title }}</h6>
                         <h4 class="text-center text-primary">
-                            {{ offer }}
+                            {{{ offer }}} <small class="medium-gray">{{ sub }}</small>
                         </h4>
+                       
                         <p class="text-center small">{{ details }}</p>
-                        <p style="font-size:8px !important;">{{ disclaimer }}</p>
+                        <p class="text-center" style="font-size:8px !important;">{{ disclaimer }}</p>
+                        <center><button class="text-center" href="{{ link }}">{{ link-text }}</button></center>
+                    </callout>
+                </columns>
+            </row>
+               {{/ifequal}}
+           {{/each}}
+       {{/ifequal}}
+       {{#ifequal email-type 'sales'}}
+        {{#each sales-offers}}
+            {{#ifequal ../primary-offer @key}}
+            <row class="collapse">
+                <columns>
+                    <callout class="white">
+                        <h6 class="text-center">{{ title }}</h6>
+                        <h4 class="text-center text-primary">
+                            {{{ offer }}} <small class="medium-gray">{{ sub }}</small>
+                        </h4>
+                       
+                        <p class="text-center small">{{ details }}</p>
+                        <p class="text-center" style="font-size:8px !important;">{{ disclaimer }}</p>
                         <center><button class="text-center" href="{{ link }}">{{ link-text }}</button></center>
                     </callout>
                 </columns>

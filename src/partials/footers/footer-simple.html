@@ -1,0 +1,25 @@
+<wrapper class="footer">
+    <spacer size="30"></spacer>
+    <container>
+        <row>
+            <columns small="12" large="4">
+                <!--<img src="{{ variables.dealer-footer-mark }}" alt="Hammer Cars Icon">-->
+                <spacer size="8"></spacer>
+                <h6 class="small-text-center">{{ dealer.name}}</h6>
+                <p class="small text-black text-left small-text-center"><small>
+                    {{{dealer.address}}}<br/>
+                </small></p>
+            </columns>
+            <columns small="12" large="4">
+                <spacer size="8"></spacer>
+                <h6 class="small-text-center">Sales Department</h6>
+                <a href="tel:{{dealer.sales-phone}}" title="{{ dealer.name }} Location"><p class="small text-black text-left small-text-center">{{{dealer.sales-phone}}}</p></a>
+                
+            </columns>
+            <columns small="12" large="4">
+                <spacer size="8"></spacer><h6 class="small-text-center">Service Department</h6>
+                <a href="tel:{{dealer.service-phone}}" title="{{ dealer.name }} Location"><p class="small text-black text-left small-text-center">{{{dealer.service-phone}}}</p></a>
+            </columns>
+        </row>
+    </container>
+</wrapper>

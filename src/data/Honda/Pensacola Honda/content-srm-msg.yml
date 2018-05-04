@@ -1,7 +1,0 @@
----
-'content':
-  primary: You Matter To Us
-  details: I'd love to hear how I can help improve your service experience. Please let me know what we can do.
-  signature: <{ServiceManagerFullName}>
-  link-text: Email me
-  link: <{SalespersonEmailAddress:SRM}>

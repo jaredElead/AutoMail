@@ -89,7 +89,7 @@ p,a {
   }
 }
 small{
-  color: $dark-gray;
+  color: $medium-gray;
 }
 
 // Full Width Headers
@@ -283,7 +283,7 @@ th.showcase{
 // Footer
 
 .footer{
-  background: $primary-color;
+  background: $footer-bg-color;
   .container{
     background: transparent;
     padding-top: 20px;

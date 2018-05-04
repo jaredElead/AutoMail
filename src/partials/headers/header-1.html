@@ -7,7 +7,8 @@
             </columns>
             <columns small="12" large="8">
                 <p class="text-black text-right small-text-center title">{{ dealer.name }}</p>
-                <a href="https://eleads.dealerx.com/hours-directions/" title="{{ variables.dealer-name }} Location"><p class="small text-black text-right small-text-center">{{{ dealer.address }}}</p></a>
+                <a href="{{dealer.location-link}}" title="{{ dealer.name }} Location"><p class="small text-black text-right small-text-center">{{{ dealer.address }}}</p></a>
+                <a href="tel:{{dealer.sales-phone}}" title="{{ dealer.name }} Location"><p class="small text-black text-right small-text-center">{{{dealer.sales-phone}}}</p></a>
             </columns>
         </row>
     </container>

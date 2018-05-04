@@ -1,0 +1,16 @@
+<wrapper class="" style="border-top: 6px solid #666666;">
+    <container>
+        {{#each content-msg-general}}
+         <row>
+            <columns>
+                <spacer size="32"></spacer>
+                <h5 class="text-left">{{greeting}}</h5>
+                <p class="text-left">{{{msg}}}</p>
+                <h6 class="text-left"><i>- {{signature}}</i></h6>
+                <p class="text-left"><strong>{{../dealer.name}}</strong></p>
+                <p class="text-left"><small>{{{../dealer.address}}}</small></p>
+            </columns>
+        </row>
+        {{/each}}
+    </container>
+</wrapper>

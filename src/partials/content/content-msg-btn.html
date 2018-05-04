@@ -1,0 +1,16 @@
+<wrapper class="" style="border-top: 6px solid #666666;">
+    <container>
+        {{#each content-msg-btn}}
+         <row>
+            <columns>
+                <spacer size="32"></spacer>
+                <h5 class="text-center">{{{title}}}</h5>
+                <p class="text-center">{{msg}}</p>
+                <p class="text-center"><small><i>- {{signature}}</i></small></p>
+                <center><button class="text-center" href="mailto:{{{link1}}}">{{link-text1}}</button><button class="text-center" href="tel:{{../dealer.sales-phone}}">{{link-text2}}</button></center>
+             
+            </columns>
+        </row>
+        {{/each}}
+    </container>
+</wrapper>

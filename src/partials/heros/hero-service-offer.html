@@ -1,0 +1,17 @@
+
+{{#ifequal email-type 'service'}}
+
+	{{#each service-offers}}
+		{{#ifequal ../primary-offer @key}}
+	    	<wrapper class="hero bg-primary">
+	    		<row class="collapse">
+	        		<columns class="no-expanded">
+	            		<div style="margin-bottom:10px;"><img src="{{ hero }}" width="620"></div>
+	             		<div style="margin-bottom:10px;"><p class="text-center text-white">{{hero-caption}}</p></div>
+	        		</columns>
+	    		</row>
+			</wrapper>
+		{{/ifequal}}
+	{{/each}}
+
+{{/ifequal}}

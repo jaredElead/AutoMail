@@ -1,10 +1,7 @@
 <spacer size="16"></spacer>
 <wrapper class="lease">
-    <container>
-
-
-    	
-  {{#each lease-offers}}
+    <container>	
+  {{#each sales-offers}}
     <row>
             <columns small="12" large="6">
                 <h6>{{text-primary}}</h6>
@@ -23,13 +20,10 @@
                 <button class="text-center secondary small small-expanded" href="{{link}}">{{link-text}}</button>
             </columns>
             <columns small="12" large="6">
-                <img src="https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/vi/misc/2018-bmw-430i.jpg" alt="">
+                <img src="{{img}}" alt="">
             </columns>
         </row>
-
-
     {{offer-text}}
-    
     <br/><br/>
   {{/each}}
 

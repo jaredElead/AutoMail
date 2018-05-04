@@ -1,13 +1,13 @@
 <wrapper class="header bg-black text-white">
     <container>
         <row>
-            <div class="purpose"><div class="purpose-inner">Header 2</div></div>
-            <columns small="12" large="6">
-                <img class="logo" src="{{ variables.dealer-logo-white }}">
+            <columns small="12" large="3">
+                <img class="logo" src="{{ brand.logo-white }}">
             </columns>
-            <columns small="12" large="6">
-                <p class="text-white text-right small-text-center title">{{ variables.dealer-name }}</p>
-                <a href="https://eleads.dealerx.com/hours-directions/" title="{{ variables.dealer-name }} Location"><p class="small text-white text-right small-text-center">{{ variables.dealer-address }}</p></a>
+            <columns small="12" large="9">
+                <p class="text-white text-right small-text-center title">{{ dealer.name }}</p>
+                <a href="{{dealer.location-link}}" title="{{ dealer.name }} Location"><p class="small text-white text-right small-text-center">{{{ dealer.address }}}</p></a>
+                <a href="tel:{{ dealer.sales-phone }}" title="{{ dealer.sales-phone }}"><p class="small text-white text-right small-text-center">{{ dealer.sales-phone }}</p></a>
             </columns>
         </row>
     </container>

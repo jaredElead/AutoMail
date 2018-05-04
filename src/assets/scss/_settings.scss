@@ -16,9 +16,9 @@
 // 1. Global
 // ---------
 
-$primary-color: #0071BB;
+$primary-color: #000000;
 $secondary-color: #4798E2;
-$success-color: #3adb76;
+$success-color: #111A26;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
 $light-gray: #f3f3f3;
@@ -41,9 +41,9 @@ $global-breakpoint: $global-width + $global-gutter;
 $peach: #CF5450;
 
 $color-list: (
-    'primary': #0071BB,
+    'primary': #000000,
     'secondary': #4798E2,
-    'success': #3adb76,
+    'success': #111A26,
     'white': #fefefe,
     'black': #0a0a0a,
     'peach': #CF5450,
@@ -195,3 +195,7 @@ $thumbnail-shadow-hover: 0 0 6px 1px rgba($primary-color, 0.5);
 $thumbnail-transition: box-shadow 200ms ease-out;
 $thumbnail-radius: $global-radius;
 
+// 9. Footer
+// ------------
+
+$footer-bg-color: $black;
