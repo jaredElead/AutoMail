@@ -1,0 +1,103 @@
+<container>
+    {{!-- ---------------------outputs primary service offer ---------------------- --}}
+
+    {{#ifequal email-type 'service'}}
+        {{#each service-offers}}
+            {{#ifequal ../primary-offer @key}}
+          {{#ifequal ../img 'lg'}}
+                    {{#if img-lg}}
+                        <row class="collapse">
+                            <columns>
+                                <img width="620" src="{{ img-lg }}">
+                            </columns>
+                        </row>
+                    {{else}}
+                        No lg image set
+                    {{/if}}
+            {{/ifequal}}
+             {{#ifequal ../img 'md'}}
+                {{#if img-md}}
+                    <row class="collapse">
+                        <columns>&nbsp;
+                        </columns>
+                        <columns large="8">
+                            <img width="350" src="{{img-md}}">
+                        </columns>
+                           <columns>&nbsp;
+                        </columns>
+                    </row>
+                {{/if}}
+            {{/ifequal}}
+            <row class="collapse">
+                <columns>&nbsp;
+                </columns>
+               <columns large="10">
+                    <callout class="white">
+                        <h6 class="text-center">{{year}} {{ make }} {{model}} {{trim}}</h6>
+                        <h4 class="text-center text-primary">
+                            {{{ offer }}} <small class="medium-gray">{{ sub }}</small>
+                        </h4>
+                        <p class="text-center small">{{ details }}</p>
+                        <p class="text-center" style="font-size:8px !important;">{{ disclaimer }}</p>
+                        <center><button class="text-center" href="{{#if link }} {{ link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{ link-text }}</button></center>
+                    </callout>
+                </columns>
+                <columns>&nbsp;
+                </columns>
+            </row>
+               {{/ifequal}}
+           {{/each}}
+       {{/ifequal}}
+    {{!-- ---------------------outputs primary sales offer ---------------------- --}}
+
+       {{#ifequal email-type 'sales'}}
+        {{#each sales-offers}}
+            {{#ifequal ../primary-offer @key}}
+                
+            {{#ifequal ../img 'lg'}}
+                    {{#if img-lg}}
+                        <row class="collapse">
+                            <columns>
+                                <img width="620" src="{{ img-lg }}">
+                            </columns>
+                        </row>
+                    {{else}}
+                        No lg image set
+                    {{/if}}
+            {{/ifequal}}
+             {{#ifequal ../img 'md'}}
+                {{#if img-md}}
+                    <row class="collapse">
+                        <columns>&nbsp;
+                        </columns>
+                        <columns large="8">
+                            <img width="350" src="{{ img-md}}">
+                        </columns>
+                           <columns>&nbsp;
+                        </columns>
+                    </row>
+                {{/if}}
+            {{/ifequal}}
+            
+                    <row class="collapse">
+                       <columns>&nbsp;
+                </columns>
+               <columns large="10">
+                            <callout class="white">
+                                <h6 class="text-center">{{year}} {{ make }} {{model}} {{trim}}</h6>
+                                <h4 class="text-center text-primary">
+                                    {{{ offer }}} <small class="medium-gray">{{ sub }}</small>
+                                </h4>
+                               
+                                <p class="text-center small">{{ details }}</p>
+                                <p class="text-center" style="font-size:8px !important;">{{ disclaimer }}</p>
+                                <center><button class="text-center" href="{{#if link }} {{ link }} {{else}} {{../dealer.new-inventory}} {{/if}}">{{ link-text }}</button></center>
+                            </callout>
+                        </columns>
+                        <columns>&nbsp;
+                </columns>
+                    </row>
+               {{/ifequal}}
+           {{/each}}
+       {{/ifequal}}
+</container>

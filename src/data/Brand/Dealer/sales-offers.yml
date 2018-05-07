@@ -1,21 +1,29 @@
 ---
 'offer1':
   type: lease
-  text-primary: 2018 Audi A4
-  img: https://pictures.dealer.com/t/tomwilliamsaudiaoa/0527/4b4ebf180e6afafc08536e84e8fb9746x.jpg
-  lease-offer: $299
-  offer-sub: per month
-  offer-details: $3,995 Due At Signing
+  year: 2018
+  make: Audi
+  model: Audi A4
+  trim: 
+  offer: $299
+  sub: per month
+  details: $3,995 Due At Signing
   disclaimer: Stock# JN001656 36 months / 10,000 miles per year.  Excess miles charge of .25 per mile. Excludes tax, title, tag. Additional equipment may be extra. Requires credit approval. Additional incentives may be available. Expires 5/31/18.
   link-text: View Inventory
   link: https://www.audiofbirmingham.com/new-inventory/index.htm
+  img-lg: https://pictures.dealer.com/t/tomwilliamsaudiaoa/0527/4b4ebf180e6afafc08536e84e8fb9746x.jpg
+  img-md: https://pictures.dealer.com/t/tomwilliamsaudiaoa/0527/4b4ebf180e6afafc08536e84e8fb9746x.jpg
 'offer2':
-  type: lease
-  text-primary: 2018 Q5 2.0T Premium
-  img: https://pictures.dealer.com/t/tomwilliamsaudiaoa/1969/409d291e20214b082584af6bc91723f0x.jpg
-  lease-offer: $469
-  offer-sub: per month
-  offer-details: $3,995 Due At Signing
+  type: finance
+  year: 2018
+  make: Audi
+  model: Audi A4
+  trim: 
+  offer: $299
+  sub: per month
+  details: $3,995 Due At Signing
   disclaimer: Stock# JN001656 36 months / 10,000 miles per year.  Excess miles charge of .25 per mile. Excludes tax, title, tag. Additional equipment may be extra. Requires credit approval. Additional incentives may be available. Expires 5/31/18.
   link-text: View Inventory
-  link: https://www.audiofbirmingham.com/specials/new.htm 
+  link: https://www.audiofbirmingham.com/new-inventory/index.htm
+  img-lg: https://pictures.dealer.com/t/tomwilliamsaudiaoa/0527/4b4ebf180e6afafc08536e84e8fb9746x.jpg
+  img-md: https://pictures.dealer.com/t/tomwilliamsaudiaoa/0527/4b4ebf180e6afafc08536e84e8fb9746x.jpg

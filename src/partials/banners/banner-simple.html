@@ -1,7 +1,13 @@
+{{#if banner-simple.banner1.img }}
+{{#each banner-simple}}
 <wrapper class="banner">
     <row class="collapse">
         <columns>
-            <img src="/assets/img/banners/accord2018.jpg" alt="All New Accord">
+            <img src="{{img}}" alt="{{../dealer.name}}">
         </columns>
     </row>
 </wrapper>
+{{/each}}
+{{else}}
+<p>Please configure banner-simple.yml</p>
+{{/if}}

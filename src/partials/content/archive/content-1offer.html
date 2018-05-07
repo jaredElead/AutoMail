@@ -3,17 +3,22 @@
         {{#each service-offers}}
             {{#ifequal ../primary-offer @key}}
             <row class="collapse">
-                <columns>
+                <columns>&nbsp;
+                </columns>
+               <columns large="10">
                     <callout class="white">
-                        <h6 class="text-center">{{ title }}</h6>
+                        <h6 class="text-center">{{year}} {{ make }} {{model}} {{trim}}</h6>
                         <h4 class="text-center text-primary">
                             {{{ offer }}} <small class="medium-gray">{{ sub }}</small>
                         </h4>
                        
                         <p class="text-center small">{{ details }}</p>
                         <p class="text-center" style="font-size:8px !important;">{{ disclaimer }}</p>
-                        <center><button class="text-center" href="{{ link }}">{{ link-text }}</button></center>
+                        <center><button class="text-center" href="
+                            {{#if link }} {{ link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{ link-text }}</button></center>
                     </callout>
+                </columns>
+                <columns>&nbsp;
                 </columns>
             </row>
                {{/ifequal}}
@@ -23,9 +28,9 @@
         {{#each sales-offers}}
             {{#ifequal ../primary-offer @key}}
             <row class="collapse">
-                <columns>
+                <columns large="6">
                     <callout class="white">
-                        <h6 class="text-center">{{ title }}</h6>
+                        <h6 class="text-center">{{year}} {{ make }} {{model}} {{trim}}</h6>
                         <h4 class="text-center text-primary">
                             {{{ offer }}} <small class="medium-gray">{{ sub }}</small>
                         </h4>
