@@ -4,23 +4,23 @@
   {{#each sales-offers}}
     <row>
             <columns small="12" large="6">
-                <h6>{{text-primary}}</h6>
+                <h6>{{year}} {{ make }} {{model}} {{trim}}</h6>
                 <row class="lease__price border-black">
                     <columns small="12" valign="middle">
-                        <h3 class="text-left text-secondary lease__price-tag">{{lease-offer}} <small class="text-medium-gray">{{offer-sub}}</small></h3>
+                        <h3 class="text-left text-secondary lease__price-tag">{{{offer}}} <small class="text-medium-gray">{{ sub }}</small></h3>
                     </columns>
                 </row>
                 <spacer size="4"></spacer>
-                <!--<p class="text-medium-gray">
-                    Lease for $198 per month, plus tax. On approval of credit. 5 at this lease.
-                </p>-->
+                <p class="text-medium-gray">
+                    {{{ details }}}
+                </p>
                 <p class="disclaimer text-medium-gray">
                     {{disclaimer}}
                 </p>
-                <button class="text-center secondary small small-expanded" href="{{link}}">{{link-text}}</button>
+                <button class="text-center secondary small small-expanded" href="{{#if link }} {{ link }} {{else}} {{../dealer.new-inventory}} {{/if}}">{{link-text}}</button>
             </columns>
             <columns small="12" large="6">
-                <img src="{{img}}" alt="">
+                <img src="{{ img-md }}" alt="{{ ../dealer.name }}" width="282">
             </columns>
         </row>
     {{offer-text}}

@@ -1,10 +1,9 @@
 // Example file src/helpers/bold.js
 module.exports = function(conditional, count, options) {
+  if(conditional == 0){
+  		return '<row>';
+  	} 
   if((conditional % count) == 0) {
-    return options.fn(this);
-  } else {
-    return options.inverse(this);
+    return '</row><row>';
   }
-
-  
 }

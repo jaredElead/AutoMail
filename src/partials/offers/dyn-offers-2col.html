@@ -1,9 +1,9 @@
             <spacer size="16"></spacer>
-<wrapper class="lease">
+<wrapper class="">
     <container>
         {{#ifequal email-type 'service'}}
             {{#each service-offers}} 
-                {{#if_even @index}}<row>{{/if_even}}
+                {{{stripe @index 2}}}
                     <columns small="12" large="6">
                         <h5 class="text-primary">{{ title }}</h5>
                         {{#if_notequal ../show-img 'false'}}
@@ -15,7 +15,7 @@
                         {{/if_notequal}}                    
                         <row class="lease__price border-black">
                             <columns small="12" valign="middle">
-                                <h3 class="text-left text-primary lease__price-tag">{{{offer}}} <small class="text-medium-gray">{{ sub }}</small></h3>
+                                <h3 class="text-left text-secondary lease__price-tag">{{{offer}}} <small class="text-medium-gray">{{ sub }}</small></h3>
                             </columns>
                         </row>
                         
@@ -26,16 +26,15 @@
                         <p class="disclaimer text-medium-gray">
                             {{ disclaimer }}
                         </p>
-                        <center><button class="text-center primary medium small-expanded" href="{{#if link }} {{ link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{ link-text }}</button></center>
+                        <center><button class="text-center secondary medium small-expanded" href="{{#if link }} {{ link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{ link-text }}</button></center>
                     </columns>
                     
-                {{#if_even @index }}
-                {{else}}</row>{{/if_even}}
+               
 
             {{/each}}
         {{ else ifequal email-type 'sales'}}
             {{#each sales-offers}} 
-                            {{#if_even @index}}<row>{{/if_even}}
+                             {{{stripe @index 2}}}
                                 <columns small="12" large="6">
                                     <h5 class="text-primary">{{year}} {{ make }} {{model}} {{trim}}</h5>
                                     {{#if_notequal ../show-img 'false'}}
@@ -47,7 +46,7 @@
                         {{/if_notequal}}       
                                     <row class="lease__price border-black">
                                         <columns small="12" valign="middle">
-                                            <h3 class="text-left text-primary lease__price-tag">{{{offer}}} <small class="text-medium-gray">{{ sub }}</small></h3>
+                                            <h3 class="text-left text-secondary lease__price-tag">{{{offer}}} <small class="text-medium-gray">{{ sub }}</small></h3>
                                         </columns>
                                     </row>
                                     
@@ -58,11 +57,10 @@
                                     <p class="disclaimer text-medium-gray">
                                         {{ disclaimer }}
                                     </p>
-                                    <center><button class="text-center primary medium small-expanded" href="{{#if link }} {{ link }} {{else}} {{../dealer.new-inventory}} {{/if}}">{{ link-text }}</button></center>
+                                    <center><button class="text-center secondary medium small-expanded" href="{{#if link }} {{ link }} {{else}} {{../dealer.new-inventory}} {{/if}}">{{ link-text }}</button></center>
                                 </columns>
                                 
-                            {{#if_even @index }}
-                            {{else}}</row>{{/if_even}}
+                         
                         {{/each}}
 
         {{/ifequal}}
