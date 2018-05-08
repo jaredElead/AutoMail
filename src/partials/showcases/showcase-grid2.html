@@ -1,9 +1,9 @@
-{{#if Brand }}
+
 <wrapper class="showcase">
-    {{#each showcase-2}}
+{{#each showcase-list}}
+{{#ifequal ../type this.type}}
     <container>
         <row>
-            <!--<div class="purpose"><div class="purpose-inner">Showcase Style 2</div></div>-->
             <columns>
                 <spacer size="16"></spacer>
                 <h2 class="title text-center text-primary">{{title}}</h2>
@@ -28,6 +28,7 @@
                 <columns small="4"><img width="124" src="{{sq3}}" alt="Vehicle 1"></columns>
             </row>
         </columns>
-    </row>{{/each}}
+    </row>
+    {{/ifequal}}
+    {{/each}}
 </wrapper>
-{{/if}}
