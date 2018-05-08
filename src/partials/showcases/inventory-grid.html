@@ -3,7 +3,7 @@
         <row>
             <columns>
                 <spacer size="16"></spacer>
-                <h2 class="title text-center text-black">{{v-type}} Inventory Alert</h2>
+                <h2 class="title text-center text-black titlecase">{{v-type}} Inventory Alert</h2>
             </columns>
         </row>
     </container>
@@ -14,8 +14,8 @@
             <columns small="12" large="6">
                 <a href="{{#if link }} {{ link }} {{else}} {{../dealer.new-inventory}} {{/if}}" title="See the new car">
                     <row class="showcase__tags">
-                        <columns class="bg-peach showcase__tags--left" small="3" valign="middle"><p class="text-white text-center">{{type}}</p></columns>
-                        <columns class="bg-black showcase__tags--right" small="9" valign="middle"><p class="text-white text-left">{{year}} {{ make }} {{model}} {{trim}}</p></columns>
+                        <columns class="bg-peach showcase__tags--left titlecase" small="3" valign="middle"><p class="text-white text-center">{{type}}</p></columns>
+                        <columns class="bg-black showcase__tags--right titlecase" small="9" valign="middle"><p class="text-white text-left">{{year}} {{ make }} {{model}} {{trim}}</p></columns>
                     </row>
                     <img width="282" src="{{img}}" alt="{{year}} {{ make }} {{model}} {{trim}}">
                 </a>

@@ -248,7 +248,9 @@ th.showcase{
     }
   }
 }
-
+.titlecase{
+  text-transform:capitalize;
+}
 // Lease Blocks
 .lease {
   &__price{
