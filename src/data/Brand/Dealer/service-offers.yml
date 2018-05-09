@@ -1,5 +1,6 @@
 ---
 'offer1': 
+  active: true
   type: alignment
   title: Wheel Alignment
   offer: 10% Off
@@ -11,6 +12,7 @@
   img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/WheelAlignment-Hero_620x320.jpg
   img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/WheelAlignment-Hero_620x320.jpg
 'offer2':
+  active: false
   type: alignment
   title: Wheel Alignment
   offer: 10% Off 
@@ -22,6 +24,7 @@
   img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/WheelAlignment-Hero_620x320.jpg
   img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/WheelAlignment-Hero_620x320.jpg
 'offer3':
+  active: true
   type: alignment
   title: Wheel Alignment
   offer: 10% Off
@@ -33,6 +36,7 @@
   img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/WheelAlignment-Hero_620x320.jpg
   img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/WheelAlignment-Hero_620x320.jpg
 'offer4':
+  active: true
   type: alignment
   title: Wheel Alignment
   offer: 10% Off 
@@ -44,6 +48,7 @@
   img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/WheelAlignment-Hero_620x320.jpg
   img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/WheelAlignment-Hero_620x320.jpg
 'offer5':
+  active: true
   type: alignment
   title: Wheel Alignment
   offer: 10% Off 
