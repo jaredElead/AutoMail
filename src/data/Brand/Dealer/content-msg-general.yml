@@ -1,6 +1,0 @@
----
-'message1':
-  greeting: Hello <{CustFirstName}>,
-  msg: '<p>This is Ed Zapico from Acura of Serramonte Customer Relations department.</p><p>I am emailing you to follow up on your recent purchase of a &lt;{BoughtYear}&gt; &lt;{BoughtMake}&gt; &lt;{BoughtModel}&gt;. As part of our client services, you are entitled to a free, personalized tech clinic where we will review the technologies and features of your new vehicle. We will also take the opportunity to familiarize you with our service department and your maintenance schedule.
- </p><p>As every experience is individualized, I ask that you make an appointment to come see me. My hours of availability are Tuesday – Saturday from 9am – 4pm. You should plan for your visit to take anywhere from 30 – 60 minutes depending on your familiarity with your vehicle and our dealership.</p>'
-  signature: Ed Zapico

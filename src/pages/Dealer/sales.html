@@ -4,9 +4,10 @@ primary-offer: offer1
 Brand: Brand
 Dealer: Dealer
 ---
-{{> header-1 theme='light'}}
-{{> nav-primary theme='primary'}}
+{{> header theme='secondary'}}
+{{> nav theme='secondary'}}
 {{> banner-simple}}
+{{> dyn-primary}}
 {{> inventory-grid v-type='new'}}
 {{> spacer size='24' color='light-gray'}}
 {{> showcase-grid1 type='center-grid'}}
@@ -14,13 +15,12 @@ Dealer: Dealer
 {{> showcase-grid2 type='left-grid'}}
 {{> showcase-gif type='gif' cap-location='bottom'}}
 {{> spacer size='24' color='light-gray'}}
-{{> dyn-primary offer-type='service' img='lg' }}
 {{> spacer size='24' color='light-gray'}}
-{{> dyn-offers-2col offer-type='sales' }}
+{{> dyn-offers-2col offer-type='service' }}
 {{> spacer size='24' color='light-gray'}}
 {{> dyn-offers-3col offer-type='service'}}
 {{> spacer size='24' color='light-gray'}}
-{{> dyn-lease-1col align='right'}}
+{{> dyn-lease-1col align='left'}}
 {{> spacer size='24' color='light-gray'}}
 {{> content-message-srm}}
 {{> footer-simple}}

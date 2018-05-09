@@ -14,6 +14,7 @@
             </callout>
         </columns>
     {{/each}}
+</row>
  {{ else ifequal offer-type 'sales'}}
  {{#each sales-offers}}
   {{{stripe @index 3 }}}
@@ -28,6 +29,7 @@
             </callout>
         </columns>
         {{/each}}
+</row>
  {{/ifequal}}
 
 </container>

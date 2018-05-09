@@ -26,7 +26,7 @@
                             <button class="text-center secondary medium small-expanded" href="{{#if link }} {{ link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{ link-text }}</button>
                         </center>
                     </columns>
-            {{/each}}
+            {{/each}}</row>
         {{ else ifequal offer-type 'sales'}}
             {{#each sales-offers}} 
                  {{{stripe @index 2}}}
@@ -51,7 +51,7 @@
                             <button class="text-center secondary medium small-expanded" href="{{#if link }} {{ link }} {{else}} {{../dealer.new-inventory}} {{/if}}">{{ link-text }}</button>
                         </center>
                     </columns>                         
-                {{/each}}
+                {{/each}}</row>
         {{/ifequal}}
     </container>
 </wrapper>

@@ -1,0 +1,47 @@
+<wrapper class="header 
+    {{#ifequal theme 'dark'}}
+        bg-black dark
+    {{else ifequal theme 'primary'}} 
+        bg-primary primary
+    {{else}}
+        bg-white light
+    {{/ifequal}}">
+    <container>
+        <row>
+            <columns small="12" large="4">
+                <img class="logo" src="{{#ifequal theme 'dark'}}{{brand.logo-white}} {{else}} {{brand.logo}}{{/ifequal}}">
+            </columns>
+            <columns small="12" large="8">
+                <p class="{{#ifequal theme 'dark'}}
+                               dark
+                            {{else}} 
+                                light
+                            {{/ifequal}}
+                                text-right small-text-center title">
+                            {{ dealer.name }}</p>
+                <a href="{{dealer.location-link}}" title="{{ dealer.name }} Location">
+                    <p class="
+                            {{#ifequal theme 'dark'}}
+                               dark
+                            {{else}} 
+                                light
+                            {{/ifequal}}
+                                small text-right small-text-center">
+                            {{{ dealer.address }}}
+                        </p>
+                    </a>
+                <a href="tel:{{dealer.sales-phone}}" title="{{ dealer.name }} Location">
+                    <p class="
+                    {{#ifequal theme 'dark'}}
+                               dark
+                            {{else}} 
+                                light
+                            {{/ifequal}}
+                                small text-right small-text-center">
+                            {{{dealer.sales-phone}}}
+                        </p>
+                    </a>
+            </columns>
+        </row>
+    </container>
+</wrapper>

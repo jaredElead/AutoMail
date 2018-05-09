@@ -1,0 +1,31 @@
+<wrapper class="" style="border-top: 6px solid #666666;">
+    <container>
+        {{#each messages}}
+        {{#ifequal ../msg @key}}
+         <row>
+            <columns>
+                <spacer size="32"></spacer>
+                <h5 class="text-left">{{{msg.greeting}}}</h5>
+                <p class="text-center">{{{msg.body}}}</p>
+                <h6 class="text-left"><i>- {{msg.signature}}</i></h6>
+                <p class="text-left"><strong>{{../dealer.name}}</strong></p>
+                <p class="text-left"><small>{{{../dealer.address}}}</small></p>
+                <row class="collapse">
+                    {{#each cta}}
+                    <columns large="3">
+                        <button class="text-center" href="{{{type}}}{{{link}}}">{{text}}</button>
+                    </columns>
+                    {{#if @last}}
+                        {{#if_notequal @index 3}}
+                            <columns>&nbsp;</columns>
+                        {{/if_notequal}}
+                    {{/if}}
+                     {{/each}}
+                </row>
+             
+            </columns>
+        </row>
+        {{/ifequal}}
+        {{/each}}
+    </container>
+</wrapper>

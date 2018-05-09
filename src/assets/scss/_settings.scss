@@ -38,7 +38,7 @@ $global-radius: 3px;
 $global-rounded: 500px;
 $global-breakpoint: $global-width + $global-gutter;
 // other colors
-$peach: #CF5450;
+$peach: #ff0000;
 
 $color-list: (
     'primary': #ff0000,
@@ -46,10 +46,11 @@ $color-list: (
     'success': #111A26,
     'white': #fefefe,
     'black': #0a0a0a,
-    'peach': #CF5450,
+    'peach': #ff0000,
     'dark-gray': #222222,
     'medium-gray': #8a8a8a,
-    'transparent': transparent
+    'transparent': transparent,
+    'light-gray' : $light-gray
 );
 
 @each $value in $color-list {
