@@ -1,0 +1,28 @@
+<wrapper class="showcase">
+    <container>
+        <row>
+            <columns>
+                <spacer size="16"></spacer>
+                <h2 class="title text-center text-primary">2018 RS 3 Sedan Showcase</h2>
+            </columns>
+        </row>
+    </container>
+    {{#ifequal offer-type 'service'}}
+        {{#each service-offers}} 
+            <row class="collapse">
+                {{#if_even @index 2}}<columns valign="middle" style="padding-bottom: 0"> 
+                    <img width="310" src="{{img-sq}}" alt="Audi 2">
+                </columns>{{/if_even}}
+                <columns valign="middle" style="background: #F2E0BD">
+                    <h4 class="thin text-center">{{offer}}</h4>
+                    <p class="text-center">{{{sub}}}</p>
+                    <p class="text-center">{{{details}}}</p>
+                    <center><button class="black text-center" href="{{#if link }} {{ link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{link-text}}</button></center>
+                </columns>
+                {{#if_even @index 2}}{{else}}<columns valign="middle" style="padding-bottom: 0"> 
+                    <img width="310" src="{{img-sq}}" alt="Audi 2">
+                </columns>{{/if_even}}
+            </row>
+        {{/each}}
+    {{/ifequal}}
+</wrapper>
