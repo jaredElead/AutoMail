@@ -1,6 +1,6 @@
 
 <container>
-    {{#ifequal email-type 'service'}}
+    {{#ifequal offer-type 'service'}}
     {{#each service-offers}}
     {{{stripe @index 3 }}}
     <columns small="12" large="4">
@@ -14,7 +14,7 @@
             </callout>
         </columns>
     {{/each}}
- {{ else ifequal email-type 'sales'}}
+ {{ else ifequal offer-type 'sales'}}
  {{#each sales-offers}}
   {{{stripe @index 3 }}}
 <columns small="12" large="4">

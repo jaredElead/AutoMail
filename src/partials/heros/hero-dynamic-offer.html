@@ -1,5 +1,5 @@
 
-{{#ifequal email-type 'service'}}
+{{#ifequal offer-type 'service'}}
 
 	{{#each service-offers}}
 		{{#ifequal ../primary-offer @key}}
@@ -16,7 +16,7 @@
 
 {{/ifequal}}
 
-{{#ifequal email-type 'sales'}}
+{{#ifequal offer-type 'sales'}}
 
 	{{#each sales-offers}}
 		{{#ifequal ../primary-offer @key}}

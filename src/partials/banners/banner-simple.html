@@ -1,13 +1,11 @@
-{{#if banner-simple.banner1.img }}
-{{#each banner-simple}}
 <wrapper class="banner">
     <row class="collapse">
         <columns>
-            <img src="{{img}}" alt="{{../dealer.name}}">
+        	{{#if brand.banner }}
+            	<img src="{{brand.banner}}" alt="{{dealer.name}}">
+			{{else if dealer.banner }}
+				<img src="{{dealer.banner}}" alt="{{dealer.name}}">
+			{{/if}}
         </columns>
     </row>
 </wrapper>
-{{/each}}
-{{else}}
-<p>Please configure banner-simple.yml</p>
-{{/if}}
