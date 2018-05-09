@@ -1,10 +1,40 @@
-<wrapper class="navigation bg-primary">
+<wrapper class="navigation 
+    {{#ifequal theme 'dark'}}
+        bg-black dark
+    {{else ifequal theme 'primary'}} 
+        bg-primary primary
+    {{else ifequal theme 'secondary'}} 
+        bg-secondary light
+    {{else ifequal theme 'light'}}
+        bg-white light
+        {{else}}
+    bg-primary light
+    {{/ifequal}}
+    ">
     <container>
         <row class="collapse">
-            <columns small="6"><a href="{{ dealer.link-1 }}"><spacer size="5"></spacer><p class="text-white text-center">{{ dealer.nav-1 }}</p><spacer size="5"></a></columns>
-            <columns small="6"><a href="{{ dealer.link-2 }}"><spacer size="5"><p class="text-white text-center">{{ dealer.nav-2 }}</p><spacer size="5"></a></columns>
-            <columns small="6"><a href="{{ dealer.link-3 }}"><spacer size="5"><p class="text-white text-center">{{ dealer.nav-3 }}</p><spacer size="5"></a></columns>
-            <columns small="6"><a href="{{ dealer.link-4 }}"><spacer size="5"><p class="text-white text-center">{{ dealer.nav-4 }}</p><spacer size="5"></a></columns>
+            <columns small="6"><a href="{{ dealer.link-1 }}"><spacer size="5"></spacer><p class="
+            	{{#ifequal theme 'light'}}
+            		light
+            	{{else}}
+            		text-white
+            	{{/ifequal}}
+            	 text-center">{{ dealer.nav-1 }}</p><spacer size="5"></a></columns>
+            <columns small="6"><a href="{{ dealer.link-2 }}"><spacer size="5"><p class="{{#ifequal theme 'light'}}
+            		light
+            	{{else}}
+            		text-white
+            	{{/ifequal}} text-center">{{ dealer.nav-2 }}</p><spacer size="5"></a></columns>
+            <columns small="6"><a href="{{ dealer.link-3 }}"><spacer size="5"><p class="{{#ifequal theme 'light'}}
+            		light
+            	{{else}}
+            		text-white
+            	{{/ifequal}} text-center">{{ dealer.nav-3 }}</p><spacer size="5"></a></columns>
+            <columns small="6"><a href="{{ dealer.link-4 }}"><spacer size="5"><p class="{{#ifequal theme 'light'}}
+            		light
+            	{{else}}
+            		text-white
+            	{{/ifequal}} text-center">{{ dealer.nav-4 }}</p><spacer size="5"></a></columns>
         </row>
     </container>
 </wrapper>

@@ -98,6 +98,15 @@ small{
   .columns {
     padding-bottom: 0;
   }
+  .dark{
+    color:$white !important;
+  }
+  .light{
+    color:$black !important;
+  }
+  .primary{
+color:$primary-color !important;
+  }
   p.title, a.title {
     color: $primary-color;
     margin-bottom: 0;

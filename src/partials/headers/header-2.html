@@ -1,4 +1,12 @@
-<wrapper class="header bg-black text-white">
+<wrapper class="header 
+{{#ifequal theme 'dark'}}
+        bg-black dark
+    {{else ifequal theme 'primary'}} 
+        bg-primary primary
+    {{else}}
+        bg-white light
+    {{/ifequal}}
+bg-black text-white">
     <container>
         <row>
             <columns small="12" large="3">
