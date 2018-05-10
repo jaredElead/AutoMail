@@ -13,11 +13,23 @@
                 {{#if_even @index 2}}<columns valign="middle" style="padding-bottom: 0"> 
                     <img width="310" src="{{img-sq}}" alt="Audi 2">
                 </columns>{{/if_even}}
-                <columns valign="middle" style="background: #F2E0BD">
-                    <h4 class="thin text-center">{{offer}}</h4>
-                    <p class="text-center">{{{sub}}}</p>
-                    <p class="text-center">{{{details}}}</p>
-                    <center><button class="black text-center" href="{{#if link }} {{ link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{link-text}}</button></center>
+                <columns valign="middle" class="
+                    {{#ifequal ../theme 'dark'}}
+                        bg-dark-theme dark
+                    {{else ifequal ../theme 'light'}}
+                        bg-white-theme light
+                    {{else ifequal ../theme 'primary'}} 
+                        bg-primary primary
+                    {{else ifequal ../theme 'secondary'}} 
+                        bg-secondary secondary
+                    {{else}}
+                    bg-primary light
+                    {{/ifequal}}">
+                    <p class="thin text-center" style="padding:0 20px;">{{{pre}}}</p>
+                    <h4 class="thin text-center" style="padding:0 20px;">{{offer}}</h4>
+                    <p class="thin text-center" style="padding:0 20px;">{{{sub}}}</p>
+                    <p class="thin text-center" style="padding:0 20px;">{{{details}}}</p>
+                    <center><button class="text-center" href="{{#if link }} {{ link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{link-text}}</button></center>
                 </columns>
                 {{#if_even @index 2}}{{else}}<columns valign="middle" style="padding-bottom: 0"> 
                     <img width="310" src="{{img-sq}}" alt="Audi 2">

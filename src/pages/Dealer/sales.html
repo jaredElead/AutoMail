@@ -4,26 +4,39 @@ primary-offer: offer1
 Brand: Brand
 Dealer: Dealer
 ---
+{{> spacer size='24' color='light-gray' content="<h2>Header</h2>"}}
 {{> header theme='secondary'}}
 {{> nav theme='secondary'}}
+{{> spacer size='24' color='light-gray'}}
+
+{{> spacer size='24' color='light-gray' content="<h2>Banner</h2>"}}
 {{> banner-simple}}
-{{> spacer size='24' color='light-gray'}}
-{{> dyn-primary show-img=true img-size='lg'}}
-{{> inventory-grid v-type='new'}}
-{{> spacer size='24' color='light-gray'}}
+
+
+{{> spacer size='24' color='light-gray' content="<h2>Showcase</h2>"}}
 {{> showcase-grid1 type='center-grid'}}
-{{> spacer size='24' color='light-gray'}}
-{{> dyn-offers-stag offer-type='service'}}
-{{> spacer size='24' color='light-gray'}}
 {{> showcase-grid2 type='left-grid'}}
 {{> showcase-gif type='gif' cap-location='bottom'}}
 {{> spacer size='24' color='light-gray'}}
-{{> spacer size='24' color='light-gray'}}
+
+{{> spacer size='24' color='light-gray' content="<h2>Hero</h2>"}}
+{{> hero-overlay show-trans='true'}}
+{{> hero-dynamic-offer offer-type="service"}}
+{{> hero-simple hero-src="hero1"}}
+
+
+{{> spacer size='24' color='light-gray' content="<h2>Dynamic Offers</h2>"}}
+{{> dyn-primary show-img='true' img-size='lg'}}
+{{> dyn-offers-stag theme='primary' offer-type='service'}}
+{{> inventory-grid v-type='new'}}
 {{> dyn-offers-2col offer-type='service' }}
-{{> spacer size='24' color='light-gray'}}
 {{> dyn-offers-3col offer-type='service'}}
-{{> spacer size='24' color='light-gray'}}
 {{> dyn-lease-1col align='left'}}
 {{> spacer size='24' color='light-gray'}}
-{{> content-message-srm}}
+
+{{> spacer size='24' color='light-gray' content="<h2>Messages</h2>"}}
+{{> msg msg-src="message2"}}
+{{> spacer size='24' color='light-gray'}}
+
+
 {{> footer-simple}}

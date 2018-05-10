@@ -1,0 +1,62 @@
+<wrapper class="hero">
+{{#each sales-offers}}
+{{#ifequal ../primary-offer @key}}
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+ <tr>                                     
+<td background="{{img-lg}}" bgcolor="#666666" width="620" height="320" style="vertical-align:middle !important;">
+  <!--[if gte mso 9]>
+  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:620px;height:320px;">
+    <v:fill type="tile" src="{{img-lg}}" color="#666666" />
+    <v:textbox inset="0,0,0,0">
+  <![endif]-->
+  <div>
+
+<row>
+        <columns large="6"></columns>
+        <columns class="hero__offer" large="6">
+            {{#ifequal ../show-trans 'true'}}
+            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+             <tr>                                     
+                <td background="/assets/img/75_black.png" width="620" >
+                  <!--[if gte mso 9]>
+                  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:620px;">
+                    <v:fill type="tile" src="/assets/img/75_black.png"/>
+                    <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+                  <![endif]-->
+                  <div style="padding:20px;">
+            {{/ifequal}}
+            <p class="big text-white">
+                {{year}} {{ make }} {{model}} {{trim}}
+            </p>
+            <sup>&nbsp;&nbsp;&nbsp;<small>{{pre}}</small></sup>
+            <p class="huge text-white">
+             {{{ offer }}} 
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;<small>{{sub}}</small></p>
+            <button class="primary" href="{{#if link }} {{ link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{link-text}}</button>
+            {{#ifequal ../show-trans 'true'}}
+                </div>
+              <!--[if gte mso 9]>
+                </v:textbox>
+              </v:rect>
+              <![endif]-->
+            </td>
+            </tr>
+            </table>
+            {{/ifequal}}
+        </columns>
+    </row>
+
+
+
+  </div>
+  <!--[if gte mso 9]>
+    </v:textbox>
+  </v:rect>
+  <![endif]-->
+</td>
+</tr>
+</table>
+{{/ifequal}}
+    {{/each}}
+</wrapper>

@@ -2,16 +2,17 @@
 'offer1':
   type: lease
   year: 2018
-  make: Audi
+  make: Ford
   model: A4
   trim: 
+  pre: Up To
   offer: $299
   sub: per month
   details: $3,995 Due At Signing
   disclaimer: Stock# JN001656 36 months / 10,000 miles per year.  Excess miles charge of .25 per mile. Excludes tax, title, tag. Additional equipment may be extra. Requires credit approval. Additional incentives may be available. Expires 5/31/18.
   link-text: View Inventory
   link: https://www.audiofbirmingham.com/new-inventory/index.htm
-  img-lg: https://pictures.dealer.com/t/tomwilliamsaudiaoa/0527/4b4ebf180e6afafc08536e84e8fb9746x.jpg
+  img-lg: /assets/img/heros/hero-5.jpg
   img-md: https://pictures.dealer.com/t/tomwilliamsaudiaoa/0527/4b4ebf180e6afafc08536e84e8fb9746x.jpg
 'offer2':
   type: finance
@@ -19,6 +20,7 @@
   make: Audi
   model: A4
   trim: 
+  pre: 
   offer: $299
   sub: per month
   details: $3,995 Due At Signing
@@ -32,7 +34,8 @@
   year: 2018
   make: Audi
   model: A4
-  trim: 
+  trim:
+  pre: Up To
   offer: $299
   sub: per month
   details: $3,995 Due At Signing
@@ -46,7 +49,8 @@
   year: 2018
   make: Audi
   model: A4
-  trim: 
+  trim:
+  pre:  
   offer: $299
   sub: per month
   details: $3,995 Due At Signing
@@ -60,7 +64,8 @@
   year: 2018
   make: Audi
   model: A4
-  trim: 
+  trim:
+  pre:  
   offer: $299
   sub: per month
   details: $3,995 Due At Signing
