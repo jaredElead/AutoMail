@@ -1,0 +1,11 @@
+<wrapper class="banner">
+    <row class="collapse">
+        <columns>
+        	{{#if dealer.banner }}
+            	<img src="{{dealer.banner}}" alt="{{dealer.name}}">
+			{{else if brand.banner }}
+				<img src="{{brand.banner}}" alt="{{dealer.name}}">
+			{{/if}}
+        </columns>
+    </row>
+</wrapper>

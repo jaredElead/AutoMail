@@ -1,0 +1,40 @@
+
+    
+<wrapper class="lease">
+    <container>	
+  {{#each sales-offers}}
+  <spacer size="4" class="bg-light-gray"></spacer>
+  <spacer size="20"></spacer>
+    <row>
+            {{#ifequal ../align 'left'}}
+            <columns small="12" large="6">
+                <img src="{{ img-md }}" alt="{{ ../dealer.name }}" width="282">
+            </columns>
+            {{/ifequal}}
+            <columns small="12" large="6">
+                <h6>{{year}} {{ make }} {{model}} {{trim}}</h6>
+                <row class="lease__price border-black">
+                    <columns small="12" valign="middle">
+                        <h3 class="text-left text-secondary lease__price-tag"><small class="text-medium-gray">{{ pre }}</small> {{{offer}}} <small class="text-medium-gray">{{ sub }}</small></h3>
+                    </columns>
+                </row>
+                <spacer size="4"></spacer>
+                <p class="text-medium-gray">
+                    {{{ details }}}
+                </p>
+                <p class="disclaimer text-medium-gray">
+                    {{disclaimer}}
+                </p>
+                <button class="text-center secondary small small-expanded" href="{{#if link }} {{ link }} {{else}} {{../dealer.new-inventory}} {{/if}}">{{link-text}}</button>
+            </columns>
+            {{#if_notequal ../align 'left'}}
+            <columns small="12" large="6">
+                <img src="{{ img-md }}" alt="{{ ../dealer.name }}" width="282">
+            </columns>
+            {{/if_notequal}}
+        </row>
+  {{/each}}
+
+
+ </container>
+</wrapper>

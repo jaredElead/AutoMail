@@ -1,13 +1,14 @@
-{{#ifequal pad 'true'}}<container>{{/ifequal}}
+<spacer size="16"></spacer>
+<container>
     {{#ifequal offer-type 'service'}}
         {{#each service-offers}}
             {{#ifequal ../primary-offer @key}}
             {{#if ../show-img}}
                 {{#ifequal ../img-size 'lg'}}
-                    {{#if offer.img-lg}}
+                    {{#if img-lg}}
                         <row class="collapse">
                             <columns>
-                                <img width="620" src="{{ offer.img-lg }}">
+                                <img width="620" src="{{ img-lg }}">
                             </columns>
                         </row>
                     {{else}}
@@ -15,13 +16,12 @@
                     {{/if}}
                 {{/ifequal}}
              {{#ifequal ../img-size 'md'}}
-                {{#if offer.img-md}}
-                <spacer size="36"></spacer>
+                {{#if img-md}}
                     <row class="collapse">
                         <columns>&nbsp;
                         </columns>
                         <columns large="8">
-                            <img width="350" src="{{offer.img-md}}">
+                            <img width="350" src="{{img-md}}">
                         </columns>
                            <columns>&nbsp;
                         </columns>
@@ -37,17 +37,13 @@
                 </columns>
                <columns large="10">
                     <callout class="white">
-                        <h3 class="text-center">{{offer.title}}</h3>
-                        <center><small class="text-center medium-gray" style="font-weight:normal;font-size:24px;text-transform:uppercase;">{{{ offer.pre }}}</small></center>
-                         {{#ifequal ../img-size 'md'}}
-                            <h1 class="text-center text-secondary" {{#if_notequal ../font-size 'regular'}} style="font-size:80px;line-height:83px;"{{/if_notequal}}>{{{ offer.offer }}}<sup class="medium-gray" style="font-size:14px;padding-left:3px;">{{{ offer.post }}}</sup></h1>
-
-                        {{else}}
-                            <h1 class="text-center text-secondary" {{#if_notequal ../font-size 'regular'}} style="font-size:80px;line-height:83px;"{{/if_notequal}}>{{{ offer.offer }}}<sup style="font-size:36px;padding-left:3px;">{{{ offer.post }}}</sup></h1>
-                       {{/ifequal}}
-                        <h6 class="text-center small">{{{ offer.details }}}</h6>
-                        <p class="text-center" style="font-size:8px !important;">{{ offer.disclaimer }}</p>
-                        <center><button class="tertiary text-center" href="{{#if offer.link }} {{ offer.link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{ offer.link-text }}</button></center>
+                        <h6 class="text-center">{{year}} {{ make }} {{model}} {{trim}}</h6>
+                        <h4 class="text-center text-primary">
+                            <small class="medium-gray">{{ pre }}</small>{{{ offer }}} <small class="medium-gray">{{ sub }}</small>
+                        </h4>
+                        <p class="text-center small">{{ details }}</p>
+                        <p class="text-center" style="font-size:8px !important;">{{ disclaimer }}</p>
+                        <center><button class="text-center" href="{{#if link }} {{ link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{ link-text }}</button></center>
                     </callout>
                 </columns>
                 <columns>&nbsp;
@@ -61,10 +57,10 @@
             {{#ifequal ../primary-offer @key}}
             {{#if ../show-img}}    
             {{#ifequal ../img-size 'lg'}}
-                    {{#if offer.img-lg}}
+                    {{#if img-lg}}
                         <row class="collapse">
                             <columns>
-                                <img width="620" src="{{ offer.img-lg }}">
+                                <img width="620" src="{{ img-lg }}">
                             </columns>
                         </row>
                     {{else}}
@@ -72,12 +68,12 @@
                     {{/if}}
             {{/ifequal}}
              {{#ifequal ../img 'md'}}
-                {{#if offer.img-md}}
+                {{#if img-md}}
                     <row class="collapse">
                         <columns>&nbsp;
                         </columns>
                         <columns large="8">
-                            <img width="350" src="{{ offer.img-md}}">
+                            <img width="350" src="{{ img-md}}">
                         </columns>
                            <columns>&nbsp;
                         </columns>
@@ -92,14 +88,14 @@
                 </columns>
                <columns large="10">
                             <callout class="white">
-                                <h6 class="text-center">{{offer.year}} {{ offer.make }} {{offer.model}} {{trim}}</h6>
+                                <h6 class="text-center">{{year}} {{ make }} {{model}} {{trim}}</h6>
                                 <h4 class="text-center text-primary">
-                                    {{{ offer.offer }}} <small class="medium-gray">{{ offer.post }}</small>
+                                    {{{ offer }}} <small class="medium-gray">{{ sub }}</small>
                                 </h4>
                                
-                                <p class="text-center small">{{ offer.details }}</p>
-                                <p class="text-center" style="font-size:8px !important;">{{ offer.disclaimer }}</p>
-                                <center><button class="text-center" href="{{#if offer.link }} {{ offer.link }} {{else}} {{../dealer.new-inventory}} {{/if}}">{{ offer.link-text }}</button></center>
+                                <p class="text-center small">{{ details }}</p>
+                                <p class="text-center" style="font-size:8px !important;">{{ disclaimer }}</p>
+                                <center><button class="text-center" href="{{#if link }} {{ link }} {{else}} {{../dealer.new-inventory}} {{/if}}">{{ link-text }}</button></center>
                             </callout>
                         </columns>
                         <columns>&nbsp;
@@ -108,5 +104,4 @@
                {{/ifequal}}
            {{/each}}
        {{/ifequal}}
-
-{{#ifequal pad 'true'}}</container>{{/ifequal}}
+</container>

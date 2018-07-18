@@ -1,0 +1,11 @@
+<wrapper class="hero">
+	{{#each hero-list}}
+		{{#ifequal ../hero-src @key}}
+		<row class="collapse">
+        <columns>
+            <img width="620" src="{{ img-lg }}">
+        </columns>
+    </row>
+{{/ifequal}}
+{{/each}}
+</wrapper>

@@ -1,0 +1,41 @@
+<wrapper class="showcase">
+{{#each showcase-list}}
+{{#ifequal ../type this.type}}
+    <container>
+        <row>
+            <columns>
+                <spacer size="16"></spacer>
+                <h2 class="title text-center text-primary">{{title}}</h2>
+            </columns>
+        </row>
+    </container>
+    <row>
+        <columns class="show-for-large" large="3">
+            <img src="{{sq1}}" alt="{{../dealer.name}}">
+            <spacer size="13"></spacer>
+            <img src="{{sq2}}" alt="{{../dealer.name}}">
+        </columns>
+        <columns class="hide-for-large">
+            <row>
+                <columns small="6"><img src="{{sq1}}" alt="{{../dealer.name}}"></columns>
+                <columns small="6"><img src="{{sq2}}" alt="{{../dealer.name}}"></columns>
+            </row>
+        </columns>
+        <columns small="12" large="6">
+            <img src="{{large}}" alt="{{../dealer.name}}">
+        </columns>
+        <columns class="show-for-large" large="3">
+            <img src="{{sq3}}" alt="{{../dealer.name}}">
+            <spacer size="13"></spacer>
+            <img src="{{sq4}}" alt="{{../dealer.name}}">
+        </columns>
+        <columns class="hide-for-large">
+            <row>
+                <columns small="6"><img src="{{sq3}}" alt="{{../dealer.name}}"></columns>
+                <columns small="6"><img src="{{sq4}}" alt="{{../dealer.name}}"></columns>
+            </row>
+        </columns>
+    </row>
+      {{/ifequal}}
+    {{/each}}
+</wrapper>

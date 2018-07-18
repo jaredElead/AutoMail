@@ -1,0 +1,34 @@
+
+<wrapper class="showcase">
+{{#each showcase-list}}
+{{#ifequal ../type this.type}}
+    <container>
+        <row>
+            <columns>
+                <spacer size="16"></spacer>
+                <h2 class="title text-center text-primary">{{title}}</h2>
+            </columns>
+        </row>
+    </container>
+    <row>
+        <columns class="show-for-large" small="12" large="3">
+            <img width="137" src="{{sq1}}" alt="Vehicle 2">
+            <spacer size="15"></spacer>
+            <img width="137" src="{{sq2}}" alt="Vehicle 4">
+            <spacer size="15"></spacer>
+            <img width="137" src="{{sq3}}" alt="Vehicle 1">
+        </columns>
+        <columns small="12" large="9">
+            <img width="443" src="{{large}}" alt="Vehicle 3">
+        </columns>
+        <columns class="hide-for-large">
+            <row>
+                <columns small="4"><img width="124" src="{{sq1}}" alt="Vehicle 2"></columns>
+                <columns small="4"><img width="124" src="{{sq2}}" alt="Vehicle 3"></columns>
+                <columns small="4"><img width="124" src="{{sq3}}" alt="Vehicle 1"></columns>
+            </row>
+        </columns>
+    </row>
+    {{/ifequal}}
+    {{/each}}
+</wrapper>

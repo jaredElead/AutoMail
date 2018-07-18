@@ -2,9 +2,6 @@
 <container>
     {{#ifequal offer-type 'service'}}
     {{#each service-offers}}
-    {{#filter ../tier this.tier}}
-    {{#filter ../col this.col}}
-    {{#exclude ../primary-offer @key}}
     {{{stripe @index 3 }}}
     <columns small="12" large="4">
             <callout class="white">
@@ -13,15 +10,9 @@
                     {{offer}}
                 </h3>
                 <p class="small text-center text-medium-gray">{{ sub }}</p>
-                <center><button class="small primary text-center" href="{{#if link }} {{ link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{link-text}}</button></center>
-                <p class="text-medium-gray">{{{ details }}}</p>
-                <p style="font-size:8px !important;">{{ disclaimer }}</p>
+                <center><button class="small secondary text-center" href="{{#if link }} {{ link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{link-text}}</button></center>
             </callout>
-
         </columns>
-        {{/exclude}}
-         {{/filter}}
-        {{/filter}}
     {{/each}}
 </row>
  {{ else ifequal offer-type 'sales'}}
@@ -34,7 +25,7 @@
                     {{offer}}
                 </h3>
                 <p class="small text-center text-medium-gray">{{ sub }}</p>
-                <center><button class="small primary text-center" href="{{#if link }} {{ link }} {{else}} {{../dealer.new-inventry}} {{/if}}">{{link-text}}</button></center>
+                <center><button class="small secondary text-center" href="{{#if link }} {{ link }} {{else}} {{../dealer.new-inventry}} {{/if}}">{{link-text}}</button></center>
             </callout>
         </columns>
         {{/each}}
