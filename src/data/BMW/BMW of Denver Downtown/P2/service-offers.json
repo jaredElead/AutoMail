@@ -1,0 +1,98 @@
+{
+  "0": {
+    "offer": {
+      "title": "Lifestyle Apparel Special",
+      "pre": "Get",
+      "offer": "25%",
+      "post": "Off",
+      "details": "All BMW Merchandise",
+      "disclaimer": "Valid only at BMW of Denver Downtown.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/BMW-Lifestyle-Apparel-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/BMW-Lifestyle-Apparel-lg.jpg",
+      "col": "2"
+    }
+  },
+  "1": {
+    "offer": {
+      "title": "Cabin Air Filter Special",
+      "pre": "",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>119.95",
+      "post": "+ Tax",
+      "details": "Includes 3-series cabin air filter. Reg price $159.95 + tax",
+      "disclaimer": "3-series models only",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/CabinACFilter-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/CabinACFilter-lg.jpg",
+      "col": "2"
+    }
+  },
+  "2": {
+    "offer": {
+      "title": "Wiper Special",
+      "pre": "",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>32.95",
+      "post": "+ Tax",
+      "details": "Includes set of 2 wiper blades. Reg. price $39.95 + tax",
+      "disclaimer": "Valid only at BMW of Denver Downtown. Applies to 3-series models. BMW wiper blades only. Please present coupon when service order is written. Taxes not included. Not valid in conjunction with other coupons or discounts. See your service professional at BMW of Denver Downtown for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wipers-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wipers-lg.jpg",
+      "col": "2"
+    }
+  },
+  "3": {
+    "offer": {
+      "title": "Classic car discount",
+      "pre": "Get",
+      "offer": "20%",
+      "post": "Off",
+      "details": "Any repairs on models 8 years or older",
+      "disclaimer": "Valid only at BMW of Denver Downtown. $500 maximum savings. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Other restrictions may apply.  Limit one coupon per VIN #. See your service professional at BMW of Denver Downtown for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/Classic-BMW-med.png",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/Classic-BMW-lg.png",
+      "col": "2"
+    }
+  },
+  "4": {
+    "offer": {
+      "title": "Alignment Special",
+      "pre": "For Just",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>169.95",
+      "post": "+ Tax",
+      "details": "Reg. price $199.95 plus tax",
+      "disclaimer": "Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional at BMW of Denver Downtown for details. Dealer not responsible for seized suspension components which could result in additional cost to customer it alignment cannot be adjusted.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg",
+      "col": "1"
+    }
+  },
+  "5": {
+    "offer": {
+      "title": "Brake Special",
+      "pre": "",
+      "offer": "10%",
+      "post": "Off",
+      "details": "Brake Pad & Rotor Replacement</br><small>$250 maximum discount</small>",
+      "disclaimer": "Must be presented at time of write-up. $250 maximum discount. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees. Not retroactive. No cash value. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at BMW of Denver Downtown for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg",
+      "col": "1"
+    }
+  }
+}

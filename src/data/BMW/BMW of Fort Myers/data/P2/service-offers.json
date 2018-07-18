@@ -1,0 +1,17 @@
+{
+  "0": {
+    "offer": {
+      "title": "Oil & Filter Service",
+      "pre": "Only",
+      "offer": "<sup>$</sup>79.95",
+      "post": "+ Tax",
+      "details": "Full Retail Price $139.95",
+      "disclaimer": "Some models may be slightly higher. Up to 5 quarts. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees. Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at BMW of Fort Myers for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg"
+    }
+  }
+}

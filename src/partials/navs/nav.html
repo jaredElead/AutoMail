@@ -11,12 +11,17 @@
     bg-primary light
     {{/ifequal}}
     ">
-    <container class="test">
+{{#each data}}
+    {{#ifequal @key "dealer"}}
+    <container>
         <row class="collapse">
-            <columns small="6"><a href="{{ dealer.link-1 }}"><spacer size="5"></spacer><p class="text-center">{{ dealer.nav-1 }}</p><spacer size="5"></spacer></a></columns>
-            <columns small="6"><a href="{{ dealer.link-2 }}"><spacer size="5"></spacer><p class="text-center">{{ dealer.nav-2 }}</p><spacer size="5"></spacer></a></columns>
-            <columns small="6"><a href="{{ dealer.link-3 }}"><spacer size="5"></spacer><p class="text-center">{{ dealer.nav-3 }}</p><spacer size="5"></spacer></a></columns>
-            <columns small="6"><a href="{{ dealer.link-4 }}"><spacer size="5"></spacer><p class="text-center">{{ dealer.nav-4 }}</p><spacer size="5"></spacer></a></columns>
+            <columns small="6"><a href="{{ nav_1_link }}"><spacer size="5"></spacer><p class="text-center">{{ nav_1 }}</p><spacer size="5"></spacer></a></columns>
+            <columns small="6"><a href="{{ nav_2_link }}"><spacer size="5"></spacer><p class="text-center">{{ nav_2 }}</p><spacer size="5"></spacer></a></columns>
+            <columns small="6"><a href="{{ nav_3_link }}"><spacer size="5"></spacer><p class="text-center">{{ nav_3 }}</p><spacer size="5"></spacer></a></columns>
+            <columns small="6"><a href="{{ nav_4_link }}"><spacer size="5"></spacer><p class="text-center">{{ nav_4 }}</p><spacer size="5"></spacer></a></columns>
         </row>
     </container>
+{{/ifequal}}
+{{/each}}
+
 </wrapper>

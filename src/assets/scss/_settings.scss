@@ -16,9 +16,52 @@
 // 1. Global
 // ---------
 
-$primary-color: #ff0000;
-$secondary-color: #560000;
-$success-color: #111A26;
+//Default
+//$primary-color: #818183;
+//$secondary-color: #eeeeee;
+//$tertiary-color: #818183;
+
+//Nissan
+$primary-color: #BF152D;
+$secondary-color: #eeeeee;
+$tertiary-color: #BF152D;
+
+//Cadillac
+//$primary-color: #818183;
+//$secondary-color: #eeeeee;
+//$tertiary-color: #818183;
+
+//Ford
+//$primary-color: #002E6D;
+//$secondary-color: #666666;
+//$tertiary-color: #002E6D;
+
+//BMW
+//$primary-color: #010101;
+//$secondary-color: #383838;
+//$tertiary-color: #1F61CB;
+
+//Default
+//$primary-color: #091823;
+//$secondary-color: #83070D;
+//$tertiary-color: #83070D;
+
+//Honda
+//$primary-color: #1877B8;
+//$secondary-color: #134e75;
+//$tertiary-color: #0063B2;
+
+//Acura
+// $primary-color: #000000;
+// $secondary-color: #1F1F1F;
+// $tertiary-color: #ff0000;
+
+//Mercedes-Benz
+//$primary-color: #111111;
+//$secondary-color: #1F1F1F;
+//$tertiary-color: #0063B2;
+
+$success-color: #2dd617;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
 $light-gray: #f3f3f3;
@@ -30,31 +73,34 @@ $pre-color: #ff6908;
 $global-width: 580px;
 $global-width-small: 95%;
 $global-gutter: 16px;
-$body-background: $light-gray;
+$body-background: #cccccc;
 $container-background: $white;
+//$container-background: $primary-color;
 $global-padding: 16px;
 $global-margin: 16px;
 $global-radius: 3px;
 $global-rounded: 500px;
 $global-breakpoint: $global-width + $global-gutter;
+    
 // other colors
-$peach: #ff0000;
 $dark-theme: #222222;
 $light-theme: #fefefe;
+$cad-theme: #9C140F;
 
 $color-list: (
-    'primary': #ff0000,
-    'secondary': #560000,
-    'success': #111A26,
-    'white': #fefefe,
-    'black': #0a0a0a,
-    'peach': #ff0000,
+    'primary': $primary-color,
+    'secondary': $secondary-color,
+    'success': $success-color,
+    'white': $white,
+    'black': $black,
+    'tertiary': $tertiary-color,
     'dark-gray': #222222,
     'medium-gray': #8a8a8a,
     'transparent': transparent,
     'light-gray' : $light-gray,
     'light-theme' : $light-theme,
-    'dark-theme' : $dark-theme
+    'dark-theme' : $dark-theme,
+    'cad-theme' : #9C140F
 );
 
 @each $value in $color-list {
@@ -123,10 +169,10 @@ $h2-font-size: 36px;
 $h3-font-size: 32px;
 $h4-font-size: 28px;
 $h5-font-size: 24px;
-$h6-font-size: 18px;
+$h6-font-size: 15px;
 $header-margin-bottom: 10px;
 $paragraph-margin-bottom: 10px;
-$small-font-size: 80%;
+$small-font-size: 50%;
 $small-font-color: $medium-gray;
 $lead-font-size: $global-font-size * 1.1;
 $lead-line-height: 1.6;
@@ -137,7 +183,7 @@ $subheader-font-weight: $global-font-weight;
 $subheader-margin-top: 4px;
 $subheader-margin-bottom: 8px;
 $hr-width: $global-width;
-$hr-border: 1px solid $black;
+$hr-border: 1px solid $medium-gray;
 $hr-margin: 20px auto;
 $anchor-text-decoration: none;
 $anchor-color: $primary-color;
@@ -145,7 +191,6 @@ $anchor-color-visited: $anchor-color;
 $anchor-color-hover: darken($primary-color, 10%);
 $anchor-color-active: $anchor-color-hover;
 $stat-font-size: 40px;
-
 // 5. Button
 // ---------
 
@@ -175,9 +220,9 @@ $button-rounded: $global-rounded;
 
 $callout-background: $white;
 $callout-background-fade: 85%;
-$callout-padding: 10px;
+$callout-padding: 20px;
 $callout-margin-bottom: $global-margin;
-$callout-border: 1px solid darken($callout-background, 20%);
+$callout-border: 0px solid darken($callout-background, 20%);
 $callout-border-secondary: 1px solid darken($secondary-color, 20%);
 $callout-border-success: 1px solid darken($success-color, 20%);
 $callout-border-warning: 1px solid darken($warning-color, 20%);
@@ -203,4 +248,4 @@ $thumbnail-radius: $global-radius;
 // 9. Footer
 // ------------
 
-$footer-bg-color: $black;
+$footer-bg-color: $primary-color;

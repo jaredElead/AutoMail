@@ -1,0 +1,337 @@
+---
+'offer1': 
+  active: true
+  tier: 1
+  col: 2
+  type: Lube, Oil and Filter
+  title: Lube, Oil and Filter
+  pre: 
+  offer: $39.88 - $54.88
+  sub: + tax (Reg. $41.88 - 57.88)
+  details: Full Synthetic Oil Change
+  disclaimer: Applies to Honda vehicles only. Includes up to 5W20 Synthetic Blend Oil. Some models may be slightly higher. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($1.60). Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg
+'offer2':
+  active: true
+  tier: 1
+  col: 2
+  type: Alignment
+  title: Wheel Alignment
+  pre: 
+  offer: $129.88
+  sub: + tax (Reg. $154.88)
+  details: Four Wheel Alignment.
+  disclaimer: 'Honda vehicles only. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.<br/><br/><br/><br/><br/>'
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg
+'offer3': 
+  active: true
+  tier: 1
+  col: 2
+  type: Tires
+  title: Tires Replacement
+  pre: 
+  offer: 25% OFF 
+  sub: Mount & balance 
+  details: (Reg. $120.00 - $295.00) Cannot be used for Pax Tires.
+  disclaimer: '25% off is on mount & balance only. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>'
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-lg.jpg
+'offer4': 
+  active: true
+  tier: 1
+  col: 2
+  type: Brakes
+  title: Brake Service
+  pre: Great
+  offer: Offers
+  sub: On Brakes
+  details: '<ul style="margin-top:0;"><li>$279.00 Front <small>(Reg. $319.00</small></li><li>$239.00 Rear<small>(Reg. $259.00)</small></li><li> $259.00 Shoes<small> (Reg. $279.00)</small></li></ul><p class="text-medium-gray">Machine front rotors and install Genuine Honda Brake Pads</p>'
+  disclaimer: Tax Not Included. Honda vehicles only Does Not Apply to Type R Civic. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($5.65). Not retroactive. No cash value. See dealer for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg
+'offer5': 
+  active: true
+  tier: 1
+  col: 1
+  type: Battery
+  title: Battery Replacement
+  pre: 
+  offer: $148.88
+  sub: + tax (Reg. $165.00)
+  details: Includes installation fee
+  disclaimer: Honda vehicles only. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-lg.jpg
+'offer6': 
+  active: true
+  tier: 1
+  col: 1
+  type: Service Your Way
+  title: Service Your Way
+  pre: 
+  offer: '15<sup style="font-size:36px;">% OFF</sup>'
+  sub: any major service
+  details: Up To $250
+  disclaimer: Honda vehicles only. Valid only at Honda of Stevens Creek. Maximum discount $250. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Tires are excluded. Other restrictions may apply.  Limit one coupon per VIN #.  Honda models only. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg
+'offer7': 
+  active: true
+  tier: 2
+  col: 2
+  type: Lube, oil and filter
+  title: Lube, Oil and Filter
+  pre: 
+  offer: $34.88 - $49.88
+  sub: + tax (Reg. $41.88 - $57.88)
+  details: 
+  disclaimer: Applies to Honda vehicles only. Includes up to 5W20 Synthetic Blend Oil. Some models may be slightly higher. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($1.60). Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg
+'offer8': 
+  active: true
+  tier: 2
+  col: 2
+  type: Alignment
+  title: Wheel Alignment
+  pre: 
+  offer: $119.88
+  sub: + tax (Reg. $154.88)
+  details: Four Wheel Alignment
+  disclaimer: 'Honda vehicles only. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. <br/><br/><br/>'
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg
+'offer9': 
+  active: true
+  tier: 2
+  col: 2
+  type: Tires
+  title: Tire Mount & Balance
+  pre: 
+  offer: 25% OFF
+  sub: Mount & Balance 
+  details: Cannot be used for Pax Tires
+  disclaimer: '25% off is on mount & balance only. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>'
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-lg.jpg
+'offer10':
+  active: true
+  tier: 2
+  col: 2
+  type: Brakes
+  title: Brakes Specials
+  pre: Great
+  offer: Offers
+  sub: On Brakes
+  details: '<ul style="margin-top:0;"><li>$269.00 Front <small>(Reg. $319.00</small></li><li>$229.00 Rear <small>(Reg. $259.00)</small></li><li> $249.00 Shoes<small> (Reg. $279.00)</small></li></ul> <p class="text-medium-gray">Machine front rotors and install Genuine Honda Brake Pads.</p>'
+  disclaimer: Honda vehicles only Does Not Apply to Type R Civic. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($5.65). Not retroactive. No cash value. See dealer for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg
+'offer11':
+  active: true
+  tier: 2
+  col: 1
+  type: Battery
+  title: Battery Replacement
+  pre: 
+  offer: $139.88
+  sub: + tax (Reg. $165.00)
+  details: includes installation fee
+  disclaimer: Honda vehicles only. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-lg.jpg
+'offer12': 
+  active: true
+  tier: 2
+  col: 1
+  type: Service Your Way
+  title: Service Your Way
+  pre: 
+  offer: '15<sup style="font-size:36px;">% OFF</sup>'
+  sub: Any major service
+  details: Up To $250
+  disclaimer: Honda vehicles only. Valid only at Honda of Stevens Creek. Maximum discount $250. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Tires are excluded. Other restrictions may apply.  Limit one coupon per VIN #.  Honda models only. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg
+'offer13': 
+  active: true
+  tier: 3
+  col: 2
+  type: Lube, oil and filter
+  title: Lube, Oil and Filter
+  pre: 
+  offer: $32.88 - $44.88
+  sub: + tax (Reg. $41.88 - $57.88)
+  details: 
+  disclaimer: Applies to Honda vehicles only. Includes up to 5W20 Synthetic Blend Oil. Some models may be slightly higher. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($1.60). Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg
+'offer14': 
+  active: true
+  tier: 3
+  col: 2
+  type: Alignment
+  title: Wheel Alignment
+  pre: 
+  offer: $99.88
+  sub: + tax (Reg. $154.88)
+  details: Four Wheel Alignment
+  disclaimer: 'Honda vehicles only. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. <br/><br/><br/>'
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg
+'offer15': 
+  active: true
+  tier: 3
+  col: 2
+  type: Tires
+  title: Tire Replacement
+  pre: Buy 4 Tires
+  offer: Free
+  sub: Mount and Balance 
+  details: (Reg. $120.00 - $295.00). Cannot be used for Pax Tires
+  disclaimer: 'Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.<br/><br/><br/><br/><br/><br/><br/><br/><br/>' 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-lg.jpg
+'offer16': 
+  active: true
+  tier: 3
+  col: 2
+  type: Brakes
+  title: Brake Service
+  pre: Great
+  offer: Offers
+  sub: On Brakes
+  details: '<ul style="margin-top:0;"><li>$259.00 Front <small>(Reg. $319.00</small></li><li>$219.00 Rear<small>(Reg. $259.00)</small></li><li> $239.00 Shoes<small> (Reg. $279.00)</small></li></ul><p class="text-medium-gray">Machine front rotors and install Genuine Honda Brake Pads</p>'
+  disclaimer: Honda vehicles only Does Not Apply to Type R Civic. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($5.65). Not retroactive. No cash value. See dealer for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg
+'offer17': 
+  active: true
+  tier: 3
+  col: 1
+  type: Battery
+  title: Battery
+  pre: 
+  offer: $134.88
+  sub: + tax (Reg. $165.00)
+  details: Includes Installation Fee
+  disclaimer: Honda vehicles only. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-lg.jpg
+'offer18': 
+  active: true
+  tier: 3
+  col: 2
+  type: Service Your Way
+  title: Service Your Way
+  pre: 
+  offer: '15<sup style="font-size:36px;">% OFF</sup>'
+  sub: Any Major Service
+  details: Up To $250
+  disclaimer: Honda vehicles only. Valid only at Honda of Stevens Creek. Maximum discount $250. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Tires are excluded. Other restrictions may apply.  Limit one coupon per VIN #.  Honda models only. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg
+'offer19': 
+  active: true
+  tier: 3
+  col: 3
+  type: Regular Scheduled Maintenance Packages
+  title: A1 Service Package
+  pre: Get
+  offer: 15% 
+  sub: Off
+  details:  Includes&#58; Oil and Filter Change and Tire Rotation
+  disclaimer: Applies to Honda vehicles only. Includes up to 5W20 Synthetic Blend Oil. Some models may be slightly higher. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($1.60). Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/diagnostic-med2.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/diagnostic-lg.jpg
+'offer20': 
+  active: true
+  tier: 3
+  col: 3
+  type: Wiper Blade Replacement
+  title: Wiper Blade Replacement
+  pre: 
+  offer: $29.88
+  sub: + tax (Reg. $33.88)
+  details: Includes both Front refills and labor
+  disclaimer: Honda factory inserts only. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wipers-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wipers-lg.jpg
+'offer21': 
+  active: true
+  tier: 3
+  col: 3
+  type: Air/Cabin Filter Replacement
+  title: Air/Cabin Filter Replacement
+  pre: 
+  offer: $139.88
+  sub: + tax (Reg. $169.88)
+  details: Includes 1 air and 1 cabin filter
+  disclaimer: Does not apply to cars with 2 cabin filters. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/CabinACFilter-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/CabinACFilter-lg.jpg

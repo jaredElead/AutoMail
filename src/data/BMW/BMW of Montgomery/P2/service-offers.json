@@ -1,0 +1,77 @@
+{
+  "0": {
+    "offer": {
+      "title": "A/C Performance Check",
+      "pre": "Only",
+      "offer": "<sup>$</sup>99.95",
+      "post": "+ Tax",
+      "details": "Reg. Price $169.95",
+      "disclaimer": "Must be presented at time of write-up. Recharge A/C and check for leaks. Some models may be slightly higher. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees. Not retroactive. No cash value. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at BMW of Montgomery for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/CabinACFilter-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/CabinACFilter-lg.jpg"
+    }
+  },
+  "1": {
+    "offer": {
+      "title": "Alignment Special",
+      "pre": "For Just",
+      "offer": "<sup>$</sup>99.95",
+      "post": "+ Tax",
+      "details": "Reg. Price $189.95",
+      "disclaimer": "Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional at BMW of Montgomery for details. Dealer not responsible for seized suspension components which could result in additional cost to customer if alignment cannot be adjusted.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg"
+    }
+  },
+  "2": {
+    "offer": {
+      "title": "Rotate, Align & Balance",
+      "pre": "For Just",
+      "offer": "<sup>$</sup>59.95",
+      "post": "+ Tax",
+      "details": "Reg. Price $79.95",
+      "disclaimer": "Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional at BMW of Montgomery for details. Dealer not responsible for seized suspension components which could result in additional cost to customer if alignment cannot be adjusted.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-lg.jpg"
+    }
+  },
+  "3": {
+    "offer": {
+      "title": "Oil & Filter Special",
+      "pre": "Only",
+      "offer": "<sup>$</sup>89.95",
+      "post": "+ Tax",
+      "details": "Reg. Price $139.95",
+      "disclaimer": "Some models may be slightly higher. Excludes diesels and M\u2019s. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees.. Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at BMW of Montgomery for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg"
+    }
+  },
+  "4": {
+    "offer": {
+      "title": "Service Your Way",
+      "pre": "Get",
+      "offer": "15%",
+      "post": "Off",
+      "details": "Maximum discount $150.<br/> Excludes tires and value service.",
+      "disclaimer": "Valid only at BMW of Montgomery. Maximum discount $150. Excludes tires and value service. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Other restrictions may apply.  Limit one coupon per VIN #. See your service professional at BMW of Montgomery for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg"
+    }
+  }
+}

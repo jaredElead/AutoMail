@@ -1,0 +1,87 @@
+{
+    "list": {
+        "0": {
+            "col3": {
+                "0": {
+                    "layout": "service",
+                    "primary": false,
+                    "offer": {
+                        "title": "Lube, Oil & Filter",
+                        "pre": "&nbsp;",
+                        "offer": "<sup><small class='text-secondary'>$</small></sup>34.95",
+                        "post": "+ Tax",
+                        "details": "<strong>$34.95</strong> 5/w20 Oil<br/>\r\n<strong>$44.95</strong> 0/w20 Oil",
+                        "disclaimer": "E-mail must be presented when service order is written. Cannot be combined with any other offers or in-store coupons or specials. Limit 1 coupon per customer, per visit. Includes up to 5 qts of oil, excludes synthetics and diesels. See Service Advisor for details. Expires 45 days from receipt of this e-mail.",
+                        "link-text": "See More",
+                        "link": "http://www.hugginshonda.com/service-specials.htm",
+                        "img-sq": "",
+                        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg",
+                        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg"
+                    }
+                },
+                "1": {
+                    "layout": "service",
+                    "primary": false,
+                    "offer": {
+                        "title": "Rotate, Align & Balance",
+                        "pre": "Get",
+                        "offer": "<sup><small class='text-secondary'>$</small></sup>9.95",
+                        "post": "+ Tax",
+                        "details": "Tire Rotation & Brake Inspection.",
+                        "disclaimer": "E-mail must be presented when service order is written. Cannot be combined with any other offers or in-store coupons or specials. Limit 1 coupon per customer, per visit. See Service Advisor for details. Expires 45 days from receipt of this e-mail.",
+                        "link-text": "See More",
+                        "link": "http://www.hugginshonda.com/service-specials.htm",
+                        "img-sq": "",
+                        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-med.jpg",
+                        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-lg.jpg"
+                    }
+                },
+                "2": {
+                    "layout": "service",
+                    "primary": false,
+                    "offer": {
+                        "title": "Repair Services",
+                        "pre": "Get",
+                        "offer": "10%",
+                        "post": "Off",
+                        "details": "Any Additional Repair Services Needed.",
+                        "disclaimer": "E-mail must be presented when service order is written. Cannot be combined with any other offers or in-store coupons or specials. Limit 1 coupon per customer, per visit. 10% discount not to exceed $100.00, excludes tires. See Service Advisor for details. Expires 45 days from receipt of this e-mail.",
+                        "link-text": "See More",
+                        "link": "http://www.hugginshonda.com/service-specials.htm",
+                        "img-sq": "",
+                        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg",
+                        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg"
+                    }
+                }
+            }
+        }
+    },
+    "dealer": {
+        "name": "Huggins Honda",
+        "address_1": " 7551 NE Loop 820",
+        "address_2": "",
+        "city": "North Richland Hills",
+        "state": "TX",
+        "zip": "76180",
+        "nav_1": "NEW",
+        "nav_1_link": "http://www.hugginshonda.com/new-inventory/index.htm",
+        "nav_2": "PRE-OWNED",
+        "nav_2_link": "http://www.hugginshonda.com/used-inventory/index.htm",
+        "nav_3": "SPECIALS",
+        "nav_3_link": "http://www.hugginshonda.com/service-specials.htm",
+        "nav_4": "SERVICE",
+        "nav_4_link": "http://www.hugginshonda.com/schedule-service.htm",
+        "new_inventory": "http://www.hugginshonda.com/new-inventory/index.htm",
+        "schedule_service": "http://www.hugginshonda.com/schedule-service.htm",
+        "service_specials": "http://www.hugginshonda.com/service-specials.htm",
+        "new_specials": "http://www.hugginshonda.com/incentives.htm",
+        "used_specials": "http://www.hugginshonda.com/pre-owned-specials.htm",
+        "location": "http://www.hugginshonda.com/dealership/directions.htm",
+        "sales_track_phone": "855-902-9103",
+        "service_track_phone": "817-485-0300",
+        "brand": "Honda",
+        "brand_logo": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/SonicEmail/BrandLogos/Honda-Logo.png",
+        "brand_logo_rev": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/SonicEmail/BrandLogos/Honda-Logo-Reverse.png"
+    },
+    "type": "service"
+}

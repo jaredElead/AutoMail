@@ -1,0 +1,337 @@
+---
+'offer2':
+  active: true
+  tier: 1
+  col: 2
+  type: Rotate Align Balance 
+  title: Rotate Align Balance
+  pre: 
+  offer: $240.00
+  sub: + tax (Reg. $299.76)
+  details: '&nbsp;<br/>'
+  disclaimer: Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-lg.jpg
+'offer3': 
+  active: true
+  tier: 1
+  col: 2
+  type: Alignment
+  title: Alignment
+  pre: 
+  offer: $89.95
+  sub: + tax (Reg. $137.88)
+  details: 4 wheel alignment
+  disclaimer: Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg
+'offer4': 
+  active: true
+  tier: 1
+  col: 2
+  type: Brakes
+  title: Brakes
+  pre: 
+  offer: $299.95
+  sub: + tax (Reg. $364.00)
+  details: 'Replacement of brake pads only <br/><br/>'
+  disclaimer: 'Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($5.65). Not retroactive. No cash value. See dealer for details. <br/><br/>'
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg
+'offer5': 
+  active: true
+  tier: 1
+  col: 2
+  type: Battery
+  title: Battery
+  pre: 
+  offer: $180.00
+  sub: + tax (Reg. $199.95)
+  details: Test battery with ED18 tester and replace battery
+  disclaimer: Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-lg.jpg
+'offer7': 
+  active: true
+  tier: 2
+  col: 2
+  type: Rotate Align Balance
+  title: Rotate Align Balance
+  pre: 
+  offer: $230.00
+  sub: + tax (Reg. $299.76)
+  details: '&nbsp;'
+  disclaimer: Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-lg.jpg
+'offer8': 
+  active: true
+  tier: 2
+  col: 2
+  type: Alignment
+  title: Alignment
+  pre: 
+  offer: $89.95
+  sub: + tax (Reg. $137.88)
+  details: 4 Wheel Alignment
+  disclaimer: Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg
+'offer9': 
+  active: true
+  tier: 2
+  col: 2
+  type: Tires
+  title: Tires
+  pre: 
+  offer: $20.00
+  sub: OFF
+  details: '&nbsp;'
+  disclaimer: 'Please present coupon at time of purchase. Not valid in conjunction with other coupons or discounts. Coupon does not apply to prior purchases.  Other restrictions may apply. Limit one coupon per VIN.'
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-lg.jp
+'offer10': 
+  active: true
+  tier: 2
+  col: 2
+  type: Brakes
+  title: Brakes
+  pre: 
+  offer: $299.95
+  sub: + tax (Reg. $364.00)
+  details: Replacement of brake pads only
+  disclaimer: Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($5.65). Not retroactive. No cash value. See dealer for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg
+'offer11':
+  active: true
+  tier: 2
+  col: 1
+  type: Battery
+  title: Battery
+  pre: 
+  offer: $180.00
+  sub: + tax (Reg. $199.95)
+  details: Test battery with ED18 tester and replace battery
+  disclaimer: Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-lg.jpg
+'offer6': 
+  active: true
+  tier: 2
+  col: 1
+  type: Lube, oil and filter
+  title: Lube, oil and filter
+  pre: 
+  offer: $47.95
+  sub: + tax (Reg. $64.95)
+  details: Full Synthetic Oil Change
+  disclaimer: Includes up to 5 qtrs. of 0W20 Full Synthetic Oil. Some models may be slightly higher. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($1.60). Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg
+'offer22': 
+  active: true
+  tier: 3
+  col: 1
+  type: Engine Tune Up
+  title: Engine Tune Up
+  pre: 
+  offer: $780.00
+  sub: + tax (Reg. $880.00)
+  details: valve adjustment and replace spark plugs
+  disclaimer: Only factory parts are used. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/HondaEngine-md.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/HondaEngine-lg.jpg
+'offer18': 
+  active: true
+  tier: 3
+  col: 1
+  type: Service Your Way
+  title: Service Your Way
+  pre: 
+  offer: '15<sup style="font-size:36px;">% OFF</sup>'
+  sub: Recommended Service
+  details: Up To $200
+  disclaimer: Valid only at Honda of Santa Monica. Maximum discount $200. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Tires are excluded. Other restrictions may apply.  Limit one coupon per VIN #.  Honda models only. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg
+'offer12': 
+  active: true
+  tier: 3
+  col: 2
+  type: Lube, oil and filter
+  title: Lube, oil and filter
+  pre: 
+  offer: $47.95
+  sub: + tax (Reg. $64.95)
+  details: Full Synthetic Oil Change
+  disclaimer: Includes up to 5 qtrs. of 0W20 Full Synthetic Oil. Some models may be slightly higher. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($1.60). Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg
+'offer13': 
+  active: true
+  tier: 3
+  col: 2
+  type: Rotate Align Balance
+  title: Rotate Align Balance
+  pre: 
+  offer: $219.00
+  sub: + tax (Reg. $299.76)
+  details: '&nbsp;'
+  disclaimer: 'Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. <br/><br/><br/>'
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-lg.jpg
+'offer14': 
+  active: true
+  tier: 3
+  col: 2
+  type: Alignment
+  title: Alignment
+  pre: 
+  offer: $89.95
+  sub: + tax (Reg. $137.88)
+  details: 4 Wheel Alignment
+  disclaimer: Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg
+'offer15': 
+  active: true
+  tier: 3
+  col: 2
+  type: Tires
+  title: Tires
+  pre: 
+  offer: $30.00
+  sub: OFF
+  details: '&nbsp;'
+  disclaimer: 'Please present coupon at time of purchase. Not valid in conjunction with other coupons or discounts. Coupon does not apply to prior purchases.  Other restrictions may apply. Limit one coupon per VIN.<br/><br/>'
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-lg.jpg
+'offer16': 
+  active: true
+  tier: 3
+  col: 2
+  type: Brakes
+  title: Brake Service
+  pre: 
+  offer: $279.95
+  sub: + tax (Reg. $364.00)
+  details: 'Replacement of brake pads only<br/><br/>'
+  disclaimer: 'Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($5.65). Not retroactive. No cash value. See dealer for details. <br/><br/>'
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg
+'offer17': 
+  active: true
+  tier: 3
+  col: 2
+  type: Battery
+  title: Battery Replacement
+  pre: 
+  offer: $165.00
+  sub: + tax (Reg. $199.95)
+  details: Test battery with ED18 tester and replace battery
+  disclaimer: Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-lg.jpg
+'offer19': 
+  active: true
+  tier: 3
+  col: 3
+  type: Regular Scheduled Maintenance Packages
+  title: Scheduled Maintenance
+  pre: 
+  offer: $145.00
+  sub: + tax (Reg. $169.70)
+  details: change oil and filter, rotate tires, inspect air and cabin filters, adjust parking brake & perform multi point inspection.
+  disclaimer: B  1 service per maintenance minder. Includes up to 5 qtrs. of 0W20 Full Synthetic Oil. Some models may be slightly higher. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($1.60). Not retroactive. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/diagnostic-med2.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/diagnostic-lg.jpg
+'offer20': 
+  active: true
+  tier: 3
+  col: 3
+  type: Wiper Blade Replacement
+  title: Wiper Blade Replacement
+  pre: 
+  offer: $20.00
+  sub: + tax (Reg. $28.00)
+  details: Replace factory wiper inserts
+  disclaimer: Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wipers-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wipers-lg.jpg
+'offer21': 
+  active: true
+  tier: 3
+  col: 3
+  type: Air/Cabin Filter Replacement
+  title: Air & Cabin Filter Replacement
+  pre: 
+  offer: $145.00
+  sub: + tax (Reg. $165.00)
+  details: Replace engine air filter & in cabin air filter
+  disclaimer: Only use factory installed parts. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/CabinACFilter-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/CabinACFilter-lg.jpg

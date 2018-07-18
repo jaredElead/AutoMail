@@ -1,0 +1,98 @@
+{
+  "0": {
+    "offer": {
+      "title": "Classic Car Discount",
+      "pre": "Get",
+      "offer": "20%",
+      "post": "Off",
+      "details": "Any repairs on models 8 years or older.",
+      "disclaimer": "Valid only at BMW of Denver Downtown. $500 maximum savings. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Other restrictions may apply.  Limit one coupon per VIN #. See your service professional at BMW of Denver Downtown for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/Classic-BMW-med.png",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/Classic-BMW-lg.png",
+      "col": "2"
+    }
+  },
+  "1": {
+    "offer": {
+      "title": "Brake Special",
+      "pre": "Get",
+      "offer": "10%",
+      "post": "Off",
+      "details": "Brake Pad & Rotor Replacement.",
+      "disclaimer": "Must be presented at time of write-up. $250 maximum discount. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees. Not retroactive. No cash value. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at BMW of Denver Downtown for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg",
+      "col": "2"
+    }
+  },
+  "2": {
+    "offer": {
+      "title": "Tire Special",
+      "pre": "Get",
+      "offer": "10%",
+      "post": "Off",
+      "details": "When replacing all 4 tires.",
+      "disclaimer": "Valid only at BMW of Denver Downtown. Please present coupon when service order is written. Taxes not included. Not valid in conjunction with other coupons or discounts. See your service professional at BMW of Denver Downtown for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-lg.jpg",
+      "col": "2"
+    }
+  },
+  "3": {
+    "offer": {
+      "title": "Alignment Special",
+      "pre": "For Just",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>169.95",
+      "post": "+ Tax",
+      "details": "Includes complete Four Wheel alignment. Reg. price $199.95 plus tax",
+      "disclaimer": "Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional at BMW of Denver Downtown for details. Dealer not responsible for seized suspension components which could result in additional cost to customer it alignment cannot be adjusted.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg",
+      "col": "2"
+    }
+  },
+  "4": {
+    "offer": {
+      "title": "Oil Change Special",
+      "pre": "For",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>89.95",
+      "post": "+ Tax",
+      "details": "4 cylinder engines only",
+      "disclaimer": "Some models may be slightly higher. Excludes diesels, M series and V8\u2019s. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees. Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at BMW of Denver Downtown for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg",
+      "col": "1"
+    }
+  },
+  "5": {
+    "offer": {
+      "title": "Service Your Way",
+      "pre": "Get",
+      "offer": "10%",
+      "post": "Off",
+      "details": "Any Repairs.  $250 maximum savings",
+      "disclaimer": "Valid only at BMW of Denver Downtown. $250 maximum savings. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Other restrictions may apply.  Limit one coupon per VIN #. See your service professional at BMW of Denver Downtown for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg",
+      "col": "1"
+    }
+  }
+}

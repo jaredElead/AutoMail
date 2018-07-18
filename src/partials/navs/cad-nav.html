@@ -1,0 +1,28 @@
+<wrapper class="navigation 
+    {{#ifequal theme 'dark'}}
+        bg-black dark
+    {{else ifequal theme 'primary'}} 
+        bg-primary primary
+    {{else ifequal theme 'secondary'}} 
+        bg-secondary secondary
+    {{else ifequal theme 'light'}}
+        bg-white light
+        {{else}}
+    bg-primary light
+    {{/ifequal}}
+    ">
+    {{#each this as |dealer_data|}}
+{{#each dealer_data}}
+{{#if dealer}}
+    <container>
+        <row class="collapse">
+            <columns small="6"><a href="{{ dealer.nav_1_link }}"><spacer size="5"></spacer><p class="cad light text-center">{{ dealer.nav_1 }}</p><spacer size="5"></spacer></a></columns>
+            <columns small="6"><a href="{{ dealer.nav_2_link }}"><spacer size="5"></spacer><p class="cad light text-center">{{ dealer.nav_2 }}</p><spacer size="5"></spacer></a></columns>
+            <columns small="6"><a href="{{ dealer.nav_3_link }}"><spacer size="5"></spacer><p class="cad light text-center">{{ dealer.nav_3 }}</p><spacer size="5"></spacer></a></columns>
+            <columns small="6"><a href="{{ dealer.nav_4_link }}"><spacer size="5"></spacer><p class="cad light text-center">{{ dealer.nav_4 }}</p><spacer size="5"></spacer></a></columns>
+        </row>
+    </container>
+{{/if}}
+{{/each}}
+{{/each}}
+</wrapper>

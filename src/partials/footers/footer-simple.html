@@ -5,20 +5,20 @@
             <columns small="12" large="4">
                 <!--<img src="{{ variables.dealer-footer-mark }}" alt="Hammer Cars Icon">-->
                 <spacer size="8"></spacer>
-                <h6 class="small-text-center">{{ dealer.name}}</h6>
-                <p class="small text-black text-left small-text-center"><small>
-                    {{{dealer.address}}}<br/>
-                </small></p>
+                <h6 class="small-text-center">{{data.dealer.name}}</h6>
+                <p class="small text-black text-left small-text-center">
+                    {{{data.dealer.address_1}}} {{#if data.dealer.address_2}}, {{data.dealer.address_2}} {{/if}}<br/>{{{data.dealer.city}}}, {{{data.dealer.state}}} {{{data.dealer.zip}}}
+                </p>
             </columns>
             <columns small="12" large="4">
                 <spacer size="8"></spacer>
                 <h6 class="small-text-center">Sales Department</h6>
-                <a href="tel:{{dealer.sales-phone}}" title="{{ dealer.name }} Location"><p class="small text-black text-left small-text-center">{{{dealer.sales-phone}}}</p></a>
+                <a href="tel:{{data.dealer.sales_track_phone}}" title="{{data.dealer.name }} Location"><p class="small text-black text-left small-text-center">{{{data.dealer.sales_track_phone}}}</p></a>
                 
             </columns>
             <columns small="12" large="4">
                 <spacer size="8"></spacer><h6 class="small-text-center">Service Department</h6>
-                <a href="tel:{{dealer.service-phone}}" title="{{ dealer.name }} Location"><p class="small text-black text-left small-text-center">{{{dealer.service-phone}}}</p></a>
+                <a href="tel:{{data.dealer.service_track_phone}}" title="{{data.dealer.name }} Location"><p class="small text-black text-left small-text-center">{{{data.dealer.service_track_phone}}}</p></a>
             </columns>
         </row>
     </container>

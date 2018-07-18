@@ -1,0 +1,91 @@
+<spacer size="16"></spacer>
+<wrapper class="">
+<container>
+{{#each this as |data|}} 
+{{#each data as |offers|}}
+{{#each offers}}
+{{#ifequal col "c2"}}
+{{!-- =================================== begin Universal Layout  ============================== --}}
+                    {{#if @first}}<row>{{/if}}
+                    {{#if @last}} {{!-- Center Content if Last && Odd #  --}}
+                            {{#if_odd @index}}
+                                <columns large="2"></columns>
+                                <columns small="12" large="8">
+                            {{else}}
+                                <columns small="12" large="6">
+                            {{/if_odd}}
+                        {{ else }}
+                            <columns small="12" large="6">
+                        {{/if}}
+{{!-- =================================== begin Service Specific Layout ============================== --}}
+{{#ifequal layout "service"}}
+                    <h5 class="text-primary">{{ offer.title }}</h5>
+
+
+                    {{#if_notequal ../../show-img 'false'}}
+                        <img src="{{ offer.img-md }}" alt="{{ offer.title }}" width="282">
+                    {{/if_notequal}}                    
+
+                    <row class="lease__price border-black">
+                        <columns small="12" valign="middle">
+                        <h3 class="text-secondary lease__price-tag"><small class="text-medium-gray">{{{offer.pre}}}</small> {{{offer.offer}}} <small class="text-medium-gray">{{{ offer.post }}}</small></h3>
+                        </columns>
+                    </row>
+                    <spacer size="8"></spacer>
+                    <p class="text-medium-gray">{{{ offer.details }}}</p>
+{{/ifequal}}
+{{!-- =================================== begin Sales Specific Layout ============================== --}}
+{{#ifequal layout "sales"}}
+                    <h5 class="text-primary">{{offer.year}} {{ offer.make }} {{offer.model}}<br/><small>{{offer.trim}}</small></h5>
+                    {{#if_notequal ../../show-img 'false'}}
+                    <img src="{{ offer.img-md }}" alt="{{ offer.title }}" width="282">
+                    {{/if_notequal}}  
+{{!-- =================================== begin Sales / Lease Specific Layout ============================== --}}    
+{{#ifequal offer.type 'lease' }}
+                        <row class="lease__price border-black">
+                        <columns small="12" valign="middle">
+                        <h3 class="text-left text-secondary lease__price-tag"><small class="text-medium-gray">{{{pre}}}</small> {{{offer.offer}}} <small class="text-medium-gray">{{{ offer.post }}}</small></h3>
+                        <spacer size="8"></spacer>
+                        <p class="text-medium-gray">{{{ offer.details }}}</p> 
+                        {{#if offer.vin}}<p><hr/><small class="text-medium-gray">VIN: {{{ offer.vin }}}</small></p>{{/if}}
+                        {{#if offer.stock}}<small class="text-medium-gray">Stock: #{{{ offer.stock }}}</small> </p>{{/if}}
+                        </columns>
+                        </row>
+{{ else }}
+{{!-- =================================== begin Sales/Finance Specific Layout ============================== --}}
+                    <row class="lease__price border-black">
+                    <columns small="12" valign="middle">
+                    <h3 class="text-left text-secondary lease__price-tag"><small class="text-medium-gray">{{{offer.pre}}}</small> {{{offer.offer}}} <small class="text-medium-gray">{{{ offer.post }}}</small></h3>
+                    <spacer size="8"></spacer>
+                    <p class="text-medium-gray">{{{ offer.details }}}</p>
+
+                    {{#if offer.vin}}<hr/><p><small class="text-medium-gray">VIN: {{{ offer.vin }}}</small></p>{{/if}}
+                    {{#if offer.stock}}<p><small class="text-medium-gray">Stock: #{{{ offer.stock }}}</small></p>{{/if}}
+
+                    <p>{{#if offer.msrp}}<small class="text-medium-gray">MSRP: ${{{ offer.msrp }}}</small><br/>{{/if}}
+                    {{#if offer.discount}}<small class="text-medium-gray">Discount: ${{{ offer.discount }}}<br/></small>{{/if}}
+                    {{#if offer.price}}<small class="text-success">Your Price: <strong>${{{ offer.price }}}</strong></small>{{/if}}</p>
+                    </columns>
+                    </row>
+   
+{{/ifequal}}
+{{!-- =================================== Resume Universal Layout ============================== --}}
+{{/ifequal}} 
+                    <p class="disclaimer text-medium-gray">{{{ offer.disclaimer }}}</p>
+                    <center>
+                        <button class="text-center tertiary medium small-expanded" href="{{#if offer.link }} {{ offer.link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{ offer.link-text }}</button>
+                    </center>
+                    {{#if @last}}
+                    {{#if_odd @index}}
+                    <columns large="2"></columns>
+                    {{/if_odd}}
+                    {{/if}}
+                    </columns>
+                </columns> 
+                         {{#if @last}}</row>{{else}}{{{stripe @index 2}}}{{/if}} {{!-- Row Break  --}}
+{{/ifequal}}                               
+{{/each}}
+{{/each}}
+{{/each}} 
+</container>
+</wrapper>

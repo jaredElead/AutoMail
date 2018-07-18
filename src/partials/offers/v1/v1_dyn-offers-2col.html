@@ -1,0 +1,100 @@
+<spacer size="16"></spacer>
+<wrapper class="">
+    <container>
+        {{#ifequal offer-type 'service'}}
+            {{#each service-offers}} 
+            {{#filter ../tier this.tier}}
+            {{#filter ../col this.col}}
+            {{#exclude ../primary-offer @key}}
+                {{{stripe @index 2}}}
+                    <columns small="12" large="6">
+                        <h5 class="text-primary">{{ title }}</h5>
+                        {{#if_notequal ../show-img 'false'}}
+                            {{#if @last}}
+                                {{#if_even @index 2}}
+                                <img src="{{ img-lg }}" alt="{{ title }}" width="620">
+                                {{else}}
+                                <img src="{{ img-md }}" alt="{{ title }}" width="282">
+                            {{/if_even}}
+                            {{else}}
+                                <img src="{{ img-md }}" alt="{{ title }}" width="282">
+                            {{/if}}
+                        {{/if_notequal}}                    
+                       
+                            <row class="lease__price border-black">
+                                <columns small="12" valign="middle">
+                                    <h3 class="text-left text-secondary lease__price-tag"><small class="text-medium-gray">{{{pre}}}</small> {{{offer}}} <small class="text-medium-gray">{{{ sub }}}</small></h3>
+                                </columns>
+                            </row>
+                        <spacer size="8"></spacer>
+                        <p class="text-medium-gray">{{{ details }}}</p>
+                        <p class="disclaimer text-medium-gray">{{{ disclaimer }}}</p>
+                    
+                        <center>
+                            <button class="text-center primary medium small-expanded" href="{{#if link }} {{ link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{ link-text }}</button>
+                        </center>
+                    </columns>
+                    {{/exclude}}
+                    {{/filter}}
+                     {{/filter}}
+            {{/each}}</row>
+        {{ else ifequal offer-type 'sales'}}
+            {{#each sales-offers}} 
+                 {{{stripe @index 2}}}
+                    <columns small="12" large="6">
+                        <h5 class="text-primary">{{year}} {{ make }} {{model}}<br/><small>{{trim}}</small></h5>
+                        {{#if_notequal ../show-img 'false'}}
+                             {{#if @last}}
+                                {{#if_even @index 2}}
+                                <img src="{{ img-lg }}" alt="{{ title }}" width="620">
+                                {{else}}
+                                <img src="{{ img-md }}" alt="{{ title }}" width="282">
+                            {{/if_even}}
+                            {{else}}
+                                <img src="{{ img-md }}" alt="{{ title }}" width="282">
+                            {{/if}}
+                        {{/if_notequal}} 
+                         {{#ifequal type 'lease' }}
+                        <container>
+                            <row class="lease__price border-black">
+                            <columns small="12" valign="middle">
+                                <h3 class="text-left text-secondary lease__price-tag"><small class="text-medium-gray">{{{pre}}}</small> {{{offer}}} <small class="text-medium-gray">{{{ sub }}}</small></h3>
+                                <spacer size="8"></spacer>
+                        <p class="text-medium-gray">{{{ details }}}</p> 
+                        {{#if vin}}<p><hr/><small class="text-medium-gray">VIN: {{{ vin }}}</small></p>{{/if}}
+                                {{#if stock}}<small class="text-medium-gray">Stock: #{{{ stock }}}</small> </p>{{/if}}
+                              
+                            </columns>
+
+                       
+                        </row>
+                        {{else}}
+                          <container>
+                            <row class="lease__price border-black">
+                            <columns small="12" valign="middle">
+                                <h3 class="text-left text-secondary lease__price-tag"><small class="text-medium-gray">{{{pre}}}</small> {{{offer}}} <small class="text-medium-gray">{{{ sub }}}</small></h3>
+                                <spacer size="8"></spacer>
+                                <p class="text-medium-gray">{{{ details }}}</p>
+                                
+                                {{#if vin}}<hr/><p><small class="text-medium-gray">VIN: {{{ vin }}}</small></p>{{/if}}
+                                {{#if stock}}<p><small class="text-medium-gray">Stock: #{{{ stock }}}</small></p>{{/if}}
+                                
+                                <p>{{#if msrp}}<small class="text-medium-gray">MSRP: ${{{ msrp }}}</small><br/>{{/if}}
+                                {{#if discount}}<small class="text-medium-gray">Discount: ${{{ discount }}}<br/></small>{{/if}}
+                                {{#if price}}<small class="text-success">Your Price: <strong>${{{ price }}}</strong></small>{{/if}}</p>
+                            </columns>
+                        </row>
+
+                         {{/ifequal}}
+                        <hr/>
+                        <p class="disclaimer text-medium-gray">{{ disclaimer }}</p>
+                    </container>
+                        <center>
+                            <button class="text-center primary medium small-expanded" href="{{#if link }} {{ link }} {{else}} {{../dealer.new-inventory}} {{/if}}">{{ link-text }}</button>
+                        </center>
+                    </columns>                         
+                {{/each}}
+            </row>
+        {{/ifequal}}
+    </container>
+</wrapper>

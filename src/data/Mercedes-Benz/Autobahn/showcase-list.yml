@@ -1,0 +1,38 @@
+---
+'show1':
+  type: gif
+  title: 
+  label: New
+  caption: 
+  img: https://wd.eleadcrm.com/evo2/companies/CAATOBAHN/Images/AutoMail/Mercedes.gif
+  link:
+'show2':
+  type: left-grid
+  title: 
+  large: https://wd.eleadcrm.com/evo2/companies/CAATOBAHN/Images/AutoMail/GLC300-lg-sq.jpg
+  sq1: https://wd.eleadcrm.com/evo2/companies/CAATOBAHN/Images/AutoMail/GLC-300-sq.jpg
+  sq2: https://wd.eleadcrm.com/evo2/companies/CAATOBAHN/Images/AutoMail/E300-sq.jpg
+  sq3: https://wd.eleadcrm.com/evo2/companies/CAATOBAHN/Images/AutoMail/CLA-sq.jpg
+'show3':
+  type: caption
+  title: 
+  label: New
+  caption: 
+  img: 
+  link:
+'show4':
+  type: center-grid
+  title: This is a title
+  large: https://wd.eleadcrm.com/evo2/companies/CAATOBAHN/Images/AutoMail/GLC300-lg-sq.jpg
+  sq1: https://wd.eleadcrm.com/evo2/companies/CAATOBAHN/Images/AutoMail/GLC-300-sq.jpg
+  sq2: https://wd.eleadcrm.com/evo2/companies/CAATOBAHN/Images/AutoMail/E300-sq.jpg
+  sq3: https://wd.eleadcrm.com/evo2/companies/CAATOBAHN/Images/AutoMail/CLA-sq.jpg
+  sq4: https://wd.eleadcrm.com/evo2/companies/CAATOBAHN/Images/AutoMail/GLC-300-sq.jpg
+'show5':
+  type: text-block
+  title: Welcome to Autobahn Motors
+  msg: You will find everyday offers on New 2017 - 2018 Mercedes-Benz when you shop at Autobahn Motors. We maintain a comprehensive inventory of the latest Mercedes-Benz models including the C-Class, GLC, GLE and the E-Class. Get on the road in your new Mercedes-Benz in Belmont today by making a trip to Autobahn Motors. 
+  img-lg: https://wd.eleadcrm.com/evo2/companies/CAATOBAHN/Images/AutoMail/Hero-1-620.jpg
+  img-sq: https://wd.eleadcrm.com/evo2/companies/CAATOBAHN/Images/AutoMail/dealership.jpg
+  link: 
+  link-text: See Specials

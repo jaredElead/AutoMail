@@ -1,0 +1,82 @@
+{
+  "0": {
+    "offer": {
+      "title": "Cabin Air Filter Special",
+      "pre": "For Just",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>149",
+      "post": "+ Tax",
+      "details": "Includes replacement cabin air filters. Reg. price $200",
+      "disclaimer": "Must be presented at time of write-up. Only applicable to single cabin filter.  Some models may be slightly higher. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($5.65). Not retroactive. No cash value. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at BMW of Birmingham for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/CabinACFilter-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/CabinACFilter-lg.jpg",
+      "col": "2"
+    }
+  },
+  "1": {
+    "offer": {
+      "title": "Wiper Special",
+      "pre": "For Just",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>95",
+      "post": "+ Tax",
+      "details": "Includes replacement of front wiper blades. Reg. price $125.",
+      "disclaimer": "Must be presented at time of write-up. Only applicable to single cabin filter.  Some models may be slightly higher. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees. Not retroactive. No cash value. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at BMW of Birmingham for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wipers-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wipers-lg.jpg",
+      "col": "2"
+    }
+  },
+  "2": {
+    "offer": {
+      "title": "Alignment Special",
+      "pre": "For Just",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>179",
+      "post": "+ Tax",
+      "details": "Includes 4 wheel corrective alignment",
+      "disclaimer": "Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional at BMW of Birmingham for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg",
+      "col": "2"
+    }
+  },
+  "3": {
+    "offer": {
+      "title": "Lube, oil and filter",
+      "pre": "Starting at",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>89.95",
+      "post": "+ Tax",
+      "details": "Reg. price $150",
+      "disclaimer": "Some models may be slightly higher. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees. Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at BMW of Birmingham for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg",
+      "col": "2"
+    }
+  },
+  "4": {
+    "offer": {
+      "title": "Service Your Way",
+      "pre": "Get",
+      "offer": "20%",
+      "post": "Off",
+      "details": "Recommended maintenance",
+      "disclaimer": "Valid only at BMW of Birmingham. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Other restrictions may apply.  Limit one coupon per VIN #. See your service professional at BMW of Birmingham for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg",
+      "col": "1"
+    }
+  }
+}

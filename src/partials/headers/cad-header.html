@@ -1,0 +1,50 @@
+<wrapper class="header 
+    {{#ifequal theme 'dark'}}
+        bg-black dark
+    {{else ifequal theme 'primary'}} 
+        bg-primary primary
+    {{else ifequal theme 'secondary'}} 
+        bg-secondary secondary
+    {{else}}
+        bg-white light
+    {{/ifequal}}">
+
+{{#each this as |dealer_data|}}
+{{#each dealer_data}}
+{{#if dealer}}
+    <container>
+        <row>
+            <columns small="12" large="9">
+                <p class="text-left small-text-center title cad book">
+                            {{ dealer.name }}</p>
+                <a href="{{dealer.location}}" title="{{ dealer.name }} Location">
+                    <p class="small text-left small-text-center cad light">
+                            {{ dealer.address_1 }}{{#if address_2}}, {{ dealer.address_2 }}{{/if}}<br/>
+                            {{dealer.city}}, {{dealer.state}} {{dealer.zip}}
+                        </p>
+                    </a>
+                
+                            {{#ifequal type 'service'}}
+                            <a href="tel:{{dealer.service_track_phone}}" title="{{ dealer.name }} Location">
+                    <p class="small text-left small-text-center cad book">
+                        {{{dealer.service_track_phone}}}
+                            {{else}}
+                             <a href="tel:{{dealer.sales_track_phone}}" title="{{ dealer.name }} Location">
+                    <p class="small text-left small-text-center cad book">
+                        {{{dealer.sales_track_phone}}}
+                            {{/ifequal}}
+                        </p>
+                    </a>
+                    <p class="small text-left small-text-center cad book cad-theme">
+                        Certified Service
+                        </p>
+            </columns>
+            <columns small="12" large="3">
+                <img class="logo float-right" src="{{#ifequal theme 'light'}}{{dealer.brand_logo}} {{else}} {{dealer.brand_logo_rev}}{{/ifequal}}">
+            </columns>
+        </row>
+    </container>
+    {{/if}}
+{{/each}}
+{{/each}}
+</wrapper>

@@ -1,0 +1,64 @@
+---
+'offer1':
+  type: lease
+  year: 2018
+  make: Acura
+  model: RDX
+  trim:  SUV
+  pre: Lease For
+  offer: '$299 <small>/mo</small>' 
+  sub:  36 months
+  vin: 19UDE2F30JA005941
+  stock: JA005941
+  msrp: 28,100
+  discount:
+  price: 28,100
+  details: $2,499.00 total due at signing.
+  disclaimer: Stock# JN001656 36 months / 10,000 miles per year.  Excess miles charge of .25 per mile. Excludes tax, title, tag. Additional equipment may be extra. Requires credit approval. Additional incentives may be available. Expires 5/31/18.
+  link-text: View Inventory
+  link: https://www.acuraofserramonte.com/new/Acura/2018-Acura-RDX-eb4cdbeb0a0e0adf3c6fe9cbf169acaa.htm
+  img-sq: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/JTemp/v2-sq.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/JTemp/v2-lg.jpg
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/JTemp/v2-md.jpg
+'offer2':
+  type: finance
+  year: 2018
+  make: Acura
+  model: TLX 
+  trim: 3.5 V-6 9-AT P-AWS 
+  pre: Get
+  offer: 0.9% 
+  sub: APR for 24-36 months
+  vin: 19UUB2F58JA001517
+  stock: JA001517
+  msrp: 39,900
+  discount: 28,100
+  price: 28,100
+  details: or 1.9% APR for 37-60 months.
+  disclaimer: 'Prices shown do not include taxes, license or a destination & handling charge. Destination charge for ILX, TLX and RLX is $965.00, NSX is $1800.00 and MDX and RDX is $995.00. Actual vehicles/accessory costs, labor and installation vary. Please consult your selected dealer. Based on current year EPA mileage ratings. Use for comparison purposes only. Your actual mileage will vary, depending on how you drive and maintain your vehicle, driving conditions, battery pack age/condition (hybrid models only) and other factors.'
+  link-text: View Inventory
+  link: https://www.acuraofserramonte.com/new/Acura/2018-Acura-TLX-6a7c92e40a0e0ae828480609bdbb88a8.htm
+  img-sq: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/JTemp/v1-sq.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/JTemp/v1-lg.jpg
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/JTemp/v1-md.jpg
+'offer3':
+  type: finance
+  year: 2018
+  make: Acura
+  model: TLX
+  trim: 2.4 8-DCT P-AWS Sedan
+  pre: Get
+  offer: 0.9% 
+  sub: APR for 24-36 months
+  vin: 19UUB1F30JA001617
+  stock: JA001617
+  msrp: $33,000
+  discount:
+  price:
+  details: or 1.9% APR for 37-60 months.
+  disclaimer: 'Prices shown do not include taxes, license or a destination & handling charge. Destination charge for ILX, TLX and RLX is $965.00, NSX is $1800.00 and MDX and RDX is $995.00. Actual vehicles/accessory costs, labor and installation vary. Please consult your selected dealer. Based on current year EPA mileage ratings. Use for comparison purposes only. Your actual mileage will vary, depending on how you drive and maintain your vehicle, driving conditions, battery pack age/condition (hybrid models only) and other factors.'
+  link-text: View Inventory
+  link: https://www.acuraofserramonte.com/new/Acura/2018-Acura-TLX-ad8d5b450a0e0a1777641ac07bf1e7dd.htm
+  img-sq: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/JTemp/v3-sq.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/JTemp/v3-lg.jpg
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/JTemp/v3-md.jpg

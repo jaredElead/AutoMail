@@ -1,16 +1,55 @@
 // These are the styles to make some of the templates look extra nice.
 // Feel free to remove these styles for production!
 
+
+
+//Fonts for Cadillac
+/*@font-face {
+  font-family: "Cadillac Book";
+  font-style: normal; 
+  src: url("https://media-dmg.assets-cdk.com/hydra-graph/hydra-graph-1.0.9517/vendor/dcw-designs-deployable/designs/dcw-design-cadillac/fonts/cadillac/cadillac-sans-book.woff2") format("woff2"), url("https://media-dmg.assets-cdk.com/hydra-graph/hydra-graph-1.0.9517/vendor/dcw-designs-deployable/designs/dcw-design-cadillac/fonts/cadillac/cadillac-sans-book.woff") format("woff"), url("https://media-dmg.assets-cdk.com/hydra-graph/hydra-graph-1.0.9517/vendor/dcw-designs-deployable/designs/dcw-design-cadillac/fonts/cadillac/cadillac-sans-book.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cadillac Light";
+  font-style: normal;
+  src: url("https://media-dmg.assets-cdk.com/hydra-graph/hydra-graph-1.0.9517/vendor/dcw-designs-deployable/designs/dcw-design-cadillac/fonts/cadillac/cadillac-sans-light.woff2") format("woff2"), url("https://media-dmg.assets-cdk.com/hydra-graph/hydra-graph-1.0.9517/vendor/dcw-designs-deployable/designs/dcw-design-cadillac/fonts/cadillac/cadillac-sans-light.woff") format("woff"), url("https://media-dmg.assets-cdk.com/hydra-graph/hydra-graph-1.0.9517/vendor/dcw-designs-deployable/designs/dcw-design-cadillac/fonts/cadillac/cadillac-sans-light.ttf") format("truetype");
+}*/
 // Body Styles 
 body,
 html,
 .body {
-  background: #f2f2f2 !important;
+  background: $body-background !important;
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   padding: 20px 0;
 }
+ th.callout-inner.narrow {
+padding-right:0;
+padding-bottom:0;
+padding-left:0;
+Margin-right:0;
+Margin-bottom:0;
+Margin-left:0;
+}
+.unmar{
+  margin:0 !important;
+}
+.unmar-top{
+margin-top:0px !important;
+}
+.unmar-btm{
+margin-bottom:0px !important;
+}
+.unpad{
+  padding:0 !important;
+}
+.unpad-top{
+padding-top:0px !important;
+}
+.unpad-btm{
+padding-bottom:0px !important;
+}
 table.callout{
-
+  Margin:0;
 }
 h1,h2,h3, h4, p{
   &.thin{
@@ -22,6 +61,23 @@ h1,h2,h3, h4, p{
   .small{
     font-size: 0.6em;
   }
+}
+h3 sup small{
+  color: $primary-color !important;
+}
+.cad.book{
+  font-family: 'Cadillac Book', 'Roboto', Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+}
+.cad.light{
+  font-family: 'Cadillac Book', 'Roboto', Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+}
+p.title.cad.book, a.title.cad.book {
+font-size:24px;
+}
+p.cad-theme{
+  color:$cad-theme !important;
 }
 .purpose{
   position: relative;
@@ -67,6 +123,9 @@ th.callout-inner.transparent{
 table.button table td a{
   letter-spacing: 1px;
 }
+table.button.small table a{
+  text-align:center;
+}
 
 .body-drip {
   border-top: 8px solid #663399;
@@ -93,19 +152,14 @@ small{
 }
 
 // Full Width Headers
+.header.light {
+border-bottom: 1px solid $primary-color;
+border-top:none;
+}
 .header {
   border-top: 5px solid $primary-color;
   .columns {
     padding-bottom: 0;
-  }
-  .dark{
-    color:$white !important;
-  }
-  .light{
-    color:$black !important;
-  }
-  .primary{
-color:$primary-color !important;
   }
   p.title, a.title {
     color: $primary-color;
@@ -187,6 +241,28 @@ color:$primary-color !important;
     }
   }
 }
+// Navigation
+.threecol {
+  .columns {
+    padding-bottom: 0 !important;
+  }
+  p {
+  padding:0 !important;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+  .wrapper-inner {
+    //padding: 10px;
+  }
+  .container {
+    background: transparent;
+  }
+  a {
+    color: $white;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+}
 //themes
 .dark p, .dark h4{
   color:$white;
@@ -200,27 +276,25 @@ color:$primary-color !important;
 .light p, .light h4{
   color:$black;
 }
-.light table.button table td{
-  background-color: $primary-color;
-  border-color: $primary-color;
-}
 
-
-.primary table.button table td{
-  background-color: $secondary-color;
-  border-color: $secondary-color;
+.primary p, .secondary p, .primary h4, .secondary h4{
+color:$medium-gray;
 }
-.primary p, .secondary p, .secondary h4, .secondary h4{
+.primary a, .secondary a, .dark a{
 color:$white;
 }
-
 .secondary table.button table td{
   background-color: $primary-color;
   border-color: $primary-color;
 }
-.navigation.primary p,.navigation.secondary p{
+.primary table.button table td{
+  background-color: $tertiary-color;
+  border-color: $tertiary-color;
+}
+.navigation.primary p,.navigation.secondary p, .header.primary p, .header.secondary p{
   color:$white;
 }
+.header
 
 // Callouts
 th.callout-inner{
@@ -234,7 +308,7 @@ th.callout-inner{
     padding-bottom: 0;
   }
   th.columns.hero__offer{
-    
+    padding:20px !important;
   }
   .button{
     text-transform: uppercase;
@@ -301,8 +375,11 @@ th.showcase{
 }
 // Lease Blocks
 .lease {
+.wrapper-inner{
+  padding-left:10px;
+}
   &__price{
-    border-bottom: 1px solid;
+    
     .columns{
       padding-bottom:0;
     }
@@ -318,9 +395,10 @@ th.showcase{
   }
 }
 .disclaimer{
-  font-size: 10px;
+  font-size: 8px;
   color: get-color(medium-gray);
 }
+
 // Prefooter
 
 .prefooter{
@@ -365,5 +443,6 @@ table.button {
     border-color: #db4a39;
   }
 }
+
 
 

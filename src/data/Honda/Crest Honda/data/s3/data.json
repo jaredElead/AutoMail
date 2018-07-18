@@ -1,0 +1,180 @@
+{
+    "list": {
+        "0": {
+            "col1": {
+                "0": {
+                    "layout": "service",
+                    "primary": true,
+                    "offer": {
+                        "title": "Service Your Way",
+                        "pre": "Get",
+                        "offer": "20%",
+                        "post": "Off",
+                        "details": "Recommended Service<br/>Max Value $125.",
+                        "disclaimer": "Use this coupon towards any regular price menu service. Max discount of $125. Cannot be combined with any other specials or coupons. Tire Purchases Excluded. Honda Vehicles Only. Valid at Crest Honda Only. Must present coupon at time of service. See advisor for details.",
+                        "link-text": "Schedule Service",
+                        "link": "",
+                        "img-sq": "",
+                        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg",
+                        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg"
+                    }
+                }
+            }
+        },
+        "1": {
+            "col2": {
+                "0": {
+                    "layout": "service",
+                    "primary": false,
+                    "offer": {
+                        "title": "Lube, Oil & Filter",
+                        "pre": "&nbsp;",
+                        "offer": "<sup><small class='text-secondary'>$</small></sup>29.95",
+                        "post": "+ Tax",
+                        "details": "Reg. Price $39.95",
+                        "disclaimer": "Regular Price $39.95. Cannot be combined with any other coupons. Honda Vehicles Only. Synthetic and/or Diesel oils are additional. Excludes S2000. Valid at Crest Honda Only. Must present coupon at time of service. See advisor for details.",
+                        "link-text": "Schedule Service",
+                        "link": "",
+                        "img-sq": "",
+                        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg",
+                        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg"
+                    }
+                },
+                "1": {
+                    "layout": "service",
+                    "primary": false,
+                    "offer": {
+                        "title": "Alignment",
+                        "pre": "&nbsp;",
+                        "offer": "<sup><small class='text-secondary'>$</small></sup>89.95",
+                        "post": "+ Tax",
+                        "details": "Reg. Price $99.95",
+                        "disclaimer": "Regular Price $99.95. Cannot be combined with any other coupons. Honda Vehicles Only. Valid at Crest Honda Only. Must present coupon at time of service. See advisor for details.",
+                        "link-text": "Schedule Service",
+                        "link": "",
+                        "img-sq": "",
+                        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg",
+                        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg"
+                    }
+                },
+                "2": {
+                    "layout": "service",
+                    "primary": false,
+                    "offer": {
+                        "title": "Brake Service",
+                        "pre": "&nbsp;",
+                        "offer": "<sup><small class='text-secondary'>$</small></sup>265",
+                        "post": "Per Axle",
+                        "details": "Reg. Price $285. <br/>Replacement of brake pads and turning rotors",
+                        "disclaimer": "Cannot be combined with any other coupons. Honda Vehicles Only. Valid at Crest Honda Only. Must present coupon at time of service. See advisor for details.",
+                        "link-text": "Schedule Service",
+                        "link": "",
+                        "img-sq": "",
+                        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg",
+                        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg"
+                    }
+                },
+                "3": {
+                    "layout": "service",
+                    "primary": false,
+                    "offer": {
+                        "title": "Battery Replacement",
+                        "pre": "&nbsp;",
+                        "offer": "<sup><small class='text-secondary'>$</small></sup>139.95",
+                        "post": "+ Tax",
+                        "details": "Reg. Price $149<br/><br/><br/>",
+                        "disclaimer": "Regular Price $149.95. Cannot be combined with any other coupons. Honda Vehicles Only. Valid at Crest Honda Only. Must present coupon at time of service. See advisor for details.",
+                        "link-text": "Schedule Service",
+                        "link": "",
+                        "img-sq": "",
+                        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-med.jpg",
+                        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-lg.jpg"
+                    }
+                }
+            }
+        },
+        "2": {
+            "col3": {
+                "0": {
+                    "layout": "service",
+                    "primary": false,
+                    "offer": {
+                        "title": "Wiper Blade Replacement",
+                        "pre": "&nbsp;",
+                        "offer": "<sup><small class='text-secondary'>$</small></sup>34.95",
+                        "post": "+ Tax",
+                        "details": "Reg. Price $39.95<br/>Wiper Insert Replacement.",
+                        "disclaimer": "Cannot be combined with any other coupons. Honda Vehicles Only. Valid at Crest Honda Only. Must present coupon at time of service. See advisor for details.",
+                        "link-text": "Schedule Service",
+                        "link": "",
+                        "img-sq": "",
+                        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wipers-med.jpg",
+                        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wipers-lg.jpg 'offer18':"
+                    }
+                },
+                "1": {
+                    "layout": "service",
+                    "primary": false,
+                    "offer": {
+                        "title": "Air Filter Replacement",
+                        "pre": "&nbsp;",
+                        "offer": "<sup><small class='text-secondary'>$</small></sup>40.95",
+                        "post": "+ Tax",
+                        "details": "Air Filter<br/>$79.95 Cabin Filter<br/><br/>",
+                        "disclaimer": "Cannot be combined with any other coupons. Honda Vehicles Only. Valid at Crest Honda Only. Must present coupon at time of service. See advisor for details.",
+                        "link-text": "Schedule Service",
+                        "link": "",
+                        "img-sq": "",
+                        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/airfilterinstall-med.jpg",
+                        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/airfilterinstall-lg.jpg"
+                    }
+                },
+                "2": {
+                    "layout": "service",
+                    "primary": false,
+                    "offer": {
+                        "title": "Engine Tune Up",
+                        "pre": "From",
+                        "offer": "<sup><small class='text-secondary'>$</small></sup>285",
+                        "post": "+ Tax",
+                        "details": "Plugs & Air Filter<br/><br/><br/>",
+                        "disclaimer": "Cannot be combined with any other coupons. Honda Vehicles Only. Valid at Crest Honda Only. Must present coupon at time of service. See advisor for details.",
+                        "link-text": "Schedule Service",
+                        "link": "",
+                        "img-sq": "",
+                        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/HondaEngine-md.jpg",
+                        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/HondaEngine-lg.jpg"
+                    }
+                }
+            }
+        }
+    },
+    "dealer": {
+        "name": "Crest Honda",
+        "address_1": "2215 Rosa L. Parks",
+        "address_2": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37228",
+        "nav_1": "Home",
+        "nav_1_link": "https://www.cresthonda.com",
+        "nav_2": "New",
+        "nav_2_link": "https://www.cresthonda.com/new-inventory/index.htm",
+        "nav_3": "Service",
+        "nav_3_link": "https://www.cresthonda.com/service/appointment-form.htm",
+        "nav_4": "Directions",
+        "nav_4_link": "https://www.cresthonda.com/dealership/directions.htm",
+        "new_inventory": "https://www.cresthonda.com/new-inventory/index.htm",
+        "schedule_service": "https://www.cresthonda.com/service/appointment-form.htm",
+        "service_specials": "https://www.cresthonda.com/specials/service.htm",
+        "new_specials": "https://www.cresthonda.com/specials/lease.htm",
+        "used_specials": "https://www.cresthonda.com/featured-vehicles/used.htm",
+        "location": "https://www.cresthonda.com/dealership/directions.htm",
+        "sales_track_phone": "(855) 241-8685 ",
+        "service_track_phone": "(855) 478-0846 ",
+        "brand": "Honda",
+        "brand_logo": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/SonicEmail/BrandLogos/Honda-Logo.png",
+        "brand_logo_rev": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/SonicEmail/BrandLogos/Honda-Logo-Reverse.png"
+    },
+    "type": "service"
+}

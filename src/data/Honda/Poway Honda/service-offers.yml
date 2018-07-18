@@ -1,0 +1,385 @@
+---
+'offer1': 
+  active: true
+  tier: 1
+  col: 2
+  type: Lube, Oil and Filter
+  title: Lube, Oil and Filter
+  pre: 
+  offer: $54.95
+  sub: + tax (Reg. $59.95)
+  details: Replace oil and filter with full synthetic oil.
+  disclaimer: Honda cars only. Includes up to 5 qts of 0W20 Full Synthetic Oil. Some models may be slightly higher. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($1.60). Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg
+'offer2':
+  active: true
+  tier: 1
+  col: 2
+  type: Rotate Align Balance	
+  title: Rotate, Align & Balance
+  pre: 
+  offer: $149.00
+  sub: + tax (Reg. $174.95)
+  details: 4 wheel alignment and 4 wheel rotate and balance.
+  disclaimer: 'Honda/Acura cars only. Some models higher. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.<br/><br/><br/>'
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-lg.jpg
+'offer3':
+  active: true
+  tier: 1
+  col: 2
+  type: Alignment	
+  title: Alignment Special
+  pre: 
+  offer: $89.99
+  sub: + tax (Reg. $99.95)
+  details: '4 wheel alignment.<br/><br/>'
+  disclaimer: Honda/Acura cars only. Some models higher. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg
+'offer4':
+  active: true
+  tier: 1
+  col: 2
+  type: Tires	
+  title: Tire Special
+  pre: SAVE
+  offer: $40
+  sub: On a set of 4 Tires.
+  details: Mount and Balance 4 Tires. 1/2 Price Labor.
+  disclaimer: Call advisor for pricing on brands. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-lg.jpg
+'offer5':
+  active: true
+  tier: 1
+  col: 2
+  type: Brakes		
+  title: Brakes Special
+  pre: 
+  offer: $199.95
+  sub: + tax (Reg. $259.00)
+  details: Replace brake pads and resurface rotors.
+  disclaimer: Honda/Acura cars only. Some models higher. See Advisor for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg
+'offer6':
+  active: true
+  tier: 1
+  col: 2
+  type: Battery		
+  title: Battery Replacement
+  pre: 
+  offer: $139.00
+  sub: + tax (Reg. $159.00)
+  details: 'Replace battery.<br/><br/>'
+  disclaimer: Honda/Acura cars only. Some models higher. See Advisor for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-lg.jpg
+'offer7':
+  active: true
+  tier: 1
+  col: 2
+  type: Service Your Way		
+  title: Service Your Way
+  pre: 
+  offer: '10<sup style="font-size:36px;">% OFF</sup>'		
+  sub: Any Service
+  details: Up To $100.00.
+  disclaimer: Valid only at Poway Honda. Maximum discount $100. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Tires are excluded. Other restrictions may apply.  Limit one coupon per VIN #.  Honda models only. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg
+'offer14':
+  active: true
+  tier: 2
+  col: 1
+  type: Service Your Way    
+  title: Service Your Way
+  pre: 
+  offer: 10% OFF        
+  sub: Any Service
+  details: Max value $100.00    
+  disclaimer: Valid only at Poway Honda. Maximum discount $100. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Tires are excluded. Other restrictions may apply.  Limit one coupon per VIN #.  Honda models only. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg
+'offer8': 
+  active: true
+  tier: 2
+  col: 2
+  type: Lube, Oil and Filter
+  title: Lube, Oil and Filter
+  pre: 
+  offer: $52.95
+  sub: + tax (Reg. $59.95)
+  details: Replace oil and filter with full synthetic oil.
+  disclaimer: Honda cars only. Includes up to 5 qts of 0W20 Full Synthetic Oil. Some models may be slightly higher. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($1.60). Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg
+'offer9':
+  active: true
+  tier: 2
+  col: 2
+  type: Rotate Align Balance	
+  title: Rotate, Align & Balance
+  pre: 
+  offer: $139.00
+  sub: + tax (Reg. $174.95)
+  details: 4 wheel alignment and 4 wheel rotate and balance.
+  disclaimer: 'Honda/Acura cars only. Some models higher. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.<br/><br/><br/>'
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-lg.jpg
+'offer10':
+  active: true
+  tier: 2
+  col: 2
+  type: Alignment	
+  title: Alignment Special
+  pre: 
+  offer: $89.99
+  sub: + tax (Reg. $99.95)
+  details: '4 wheel alignment.<br/><br/>'
+  disclaimer: Honda/Acura cars only. Some models higher. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg
+'offer11':
+  active: true
+  tier: 2
+  col: 2
+  type: Tires	
+  title: Tire Special
+  pre: SAVE
+  offer: $40
+  sub: On a set of 4 Tires.
+  details: Mount and Balance 4 Tires. 1/2 Price Labor.
+  disclaimer: Call advisor for pricing on brands. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-lg.jpg
+'offer12':
+  active: true
+  tier: 2
+  col: 2
+  type: Brakes		
+  title: Brakes Special
+  pre: 
+  offer: $199.95
+  sub: + tax (Reg. $259.00)
+  details: replace brake pads and resurface rotors.
+  disclaimer: Honda/Acura cars only. Some models higher. See Advisor for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg
+'offer13':
+  active: true
+  tier: 2
+  col: 2
+  type: Battery		
+  title: Battery Replacement
+  pre: 
+  offer: $139.00
+  sub: + tax (Reg. $159.00)
+  details: 'Replace battery.<br/><br/>'
+  disclaimer: Honda/Acura cars only. Some models higher. See Advisor for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-lg.jpg
+'offer15': 
+  active: true
+  tier: 3
+  col: 2
+  type: Lube, Oil and Filter
+  title: Lube, Oil and Filter
+  pre: 
+  offer: $49.95
+  sub: + tax (Reg. $59.95)
+  details: Replace oil and filter with full synthetic oil.
+  disclaimer: Honda cars only. Includes up to 5 qts of 0W20 Full Synthetic Oil. Some models may be slightly higher. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($1.60). Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg
+'offer16':
+  active: true
+  tier: 3
+  col: 2
+  type: Rotate Align Balance	
+  title: Rotate, Align & Balance
+  pre: 
+  offer: $139.00
+  sub: + tax (Reg. $174.95)
+  details: 4 wheel alignment and 4 wheel rotate and balance.
+  disclaimer: 'Honda/Acura cars only. Some models higher. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.<br/><br/><br/>'
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-lg.jpg
+'offer17':
+  active: true
+  tier: 3
+  col: 2
+  type: Alignment	
+  title: Alignment Special
+  pre: 
+  offer: $84.95
+  sub: + tax (Reg. $99.95)
+  details: '4 wheel alignment.<br/><br/>'
+  disclaimer: Honda/Acura cars only. Some models higher. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg
+'offer18':
+  active: true
+  tier: 3
+  col: 2
+  type: Tires	
+  title: Tire Special
+  pre: SAVE
+  offer: $40
+  sub: On a set of 4 Tires.
+  details: Mount and Balance 4 Tires. 1/2 Price Labor.
+  disclaimer: Call advisor for pricing on brands. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-lg.jpg
+'offer19':
+  active: true
+  tier: 3
+  col: 2
+  type: Brakes		
+  title: Brakes Special
+  pre: 
+  offer: $179.00
+  sub: + tax (Reg. $199.00)
+  details: Replace brake pads and resurface rotors.
+  disclaimer: Honda/Acura cars only. Some models higher. See Advisor for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg
+'offer20':
+  active: true
+  tier: 3
+  col: 2
+  type: Battery		
+  title: Battery Replacement
+  pre: 
+  offer: $129.00
+  sub: + tax (Reg. $158.00)
+  details: REPLACE WITH HONDA 100 MONTH PRORATED BATTERY
+  disclaimer: Honda/Acura cars only. Some models higher. See Advisor for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-lg.jpg
+'offer21':
+  active: true
+  tier: 3
+  col: 1
+  type: Service Your Way    
+  title: Service Your Way
+  pre: 
+  offer: '15<sup style="font-size:36px;">% OFF</sup>'   
+  sub: Any Service
+  details: Up To $100.00.
+  disclaimer: Valid only at Poway Honda. Maximum discount $100. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Tires are excluded. Other restrictions may apply.  Limit one coupon per VIN #.  Honda models only. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg
+'offer22':
+  active: true
+  tier: 3
+  col: 3
+  type: Regular Scheduled Maintenance Packages		
+  title: Scheduled Maintenance
+  pre: 	 			
+  offer: $79.95 				
+  sub:  +tax (Reg. $158.00)
+  details: '<strong>A-1 SERVICE</strong>. OIL AND FILTER CHANGE, ROTATE, FULL INSPECTION AND ADJUSTMENT.'
+  disclaimer: Honda cars only. Includes up to 5 qts of 0W20 Full Synthetic Oil. Some models may be slightly higher. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($1.60). Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg
+'offer23':
+  active: true
+  tier: 3
+  col: 3
+  type: Wiper Blade Replacement			
+  title: Wiper Blade Replacement      
+  pre: 			
+  offer: $22.00
+  sub:  '+tax SPECIAL: $13.95'
+  details: REPLACE WIPER INSERTS
+  disclaimer: Honda/Acura cars only. Wiper blades are extra.  Some models higher. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wipers-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wipers-lg.jpg
+'offer24':
+  active: true
+  tier: 3
+  col: 3
+  type: Air/Cabin Filter Replacement
+  title: Engine & Cabin Air Filter 
+  pre: 			
+  offer: $99.00
+  sub:  +tax (Reg. $122.10)
+  details: Air/Cabin Filter Replacement. ENGINE AIR FILTER AND CABIN FILTER
+  disclaimer: Some models higher. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/CabinACFilter-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/CabinACFilter-lg.jpg

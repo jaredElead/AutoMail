@@ -1,0 +1,82 @@
+{
+  "0": {
+    "offer": {
+      "title": "Brake Replacement",
+      "pre": "Get",
+      "offer": "15%",
+      "post": "Off",
+      "details": "Brake pad replacement.",
+      "disclaimer": "Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees. Not retroactive. No cash value. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at BMW of Nashville for details",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg",
+      "col": "2"
+    }
+  },
+  "1": {
+    "offer": {
+      "title": "Tire Special",
+      "pre": "Get",
+      "offer": "10%",
+      "post": "over cost",
+      "details": "Regular price varies per model.",
+      "disclaimer": "Valid only at BMW of Nashville. Please present coupon when service order is written. Taxes not included. Not valid in conjunction with other coupons or discounts. See your service professional at BMW of Nashville for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-lg.jpg",
+      "col": "2"
+    }
+  },
+  "2": {
+    "offer": {
+      "title": "Alignment Special",
+      "pre": "Get",
+      "offer": "50%",
+      "post": "Off",
+      "details": "With purchase of four tires. Regular price varies per model.",
+      "disclaimer": "Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional at BMW of Nashville for details. Dealer not responsible for seized suspension components which could result in additional cost to customer if alignment cannot be adjusted.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg",
+      "col": "2"
+    }
+  },
+  "3": {
+    "offer": {
+      "title": "Oil & Filter Service",
+      "pre": "Only",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>69.99",
+      "post": "+ Tax",
+      "details": "Regular price $129.99.",
+      "disclaimer": "Some models may be slightly higher. Excludes diesels and M\u2019s. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees. Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at BMW of Nashville for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg",
+      "col": "2"
+    }
+  },
+  "4": {
+    "offer": {
+      "title": "Service Your Way",
+      "pre": "Get",
+      "offer": "20%",
+      "post": "Off",
+      "details": "Maximum discount $200.",
+      "disclaimer": "Valid only at BMW of Nashville. Maximum discount $200. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Excludes tires. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Other restrictions may apply.  Limit one coupon per VIN #. See your service professional at BMW of Nashville for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg",
+      "col": "1"
+    }
+  }
+}

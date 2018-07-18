@@ -1,0 +1,76 @@
+<wrapper class="hero">
+{{#each data.hero}}
+
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+ <tr>                                     
+<td background="{{img}}" bgcolor="#666666" width="620" height="320" style="background-position-x:center;vertical-align:{{../t-v-loc}}!important;">
+  <!--[if gte mso 9]>
+  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:620px;height:320px;">
+    <v:fill type="tile" src="{{img}}" color="#666666" />
+    <v:textbox inset="0,0,0,0">
+  <![endif]-->
+  <div>
+
+<row>
+            {{#if_notequal ../t-h-loc "left"}}
+            {{#if_notequal ../t-w "full"}}
+              <columns large="4"></columns>
+            {{/if_notequal}}
+            {{/if_notequal}} 
+
+
+           {{#if_notequal ../t-w "full"}}<columns class="hero__offer" large="8">{{ else }}
+            <columns class="hero__offer" large="12">{{/if_notequal}}
+           {{#ifequal ../overlay "true"}} <table cellspacing="0" cellpadding="0" border="0" width="100%">
+             <tr>                           
+                <td background="https://wd.eleadcrm.com/evo2/companies/TXHGGNHND/Images/AP_AM_IMG/75_black.png" width="300" >
+                  <!--[if gte mso 9]>
+                  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:300px;">
+                    <v:fill type="tile" src="https://wd.eleadcrm.com/evo2/companies/TXHGGNHND/Images/AP_AM_IMG/75_black.png"/>
+                    <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+                  <![endif]-->
+                  <div style="padding:20px 20px 0 20px;">
+                    {{/ifequal}}
+        
+            {{#ifequal ../show-text "true"}}
+            <p class="big text-white {{#ifequal ../t-w 'full'}}text-center{{/ifequal}}" style="margin-bottom:10px;line-height:115%;text-transform:uppercase">
+                {{{headline}}}
+            </p>
+            {{/ifequal}}
+            
+          {{#ifequal ../show-link "true"}}
+           {{#ifequal ../t-w 'full'}}<center>{{/ifequal}} <button class="primary" href="{{#if link }} {{ link }} {{else}} {{../data.dealer.schedule_service}} {{/if}}">{{link_text}}</button>{{#ifequal ../t-w 'full'}}</center>{{/ifequal}}{{/ifequal}}
+            {{#ifequal ../overlay "true"}}
+                </div>
+              <!--[if gte mso 9]>
+                </v:textbox>
+              </v:rect>
+              <![endif]-->
+            </td>
+            </tr>
+            </table>
+            
+            {{/ifequal}}
+            {{#ifequal ../t-h-loc "left"}}
+            {{#if_notequal ../t-w "full"}}
+            </columns><columns large="4"></columns>
+            {{else}}
+            </columns>
+            {{/if_notequal}} 
+            {{/ifequal}} 
+        
+    </row>
+
+
+
+  </div>
+  <!--[if gte mso 9]>
+    </v:textbox>
+  </v:rect>
+  <![endif]-->
+</td>
+</tr>
+</table>
+
+{{/each}}
+</wrapper>

@@ -1,0 +1,67 @@
+
+<container>
+{{#each this as |data|}}
+{{#each data as |offers|}}
+{{#each offers}}
+{{#ifequal col "c3"}}
+{{!-- =================================== begin Universal Layout  ============================== --}}
+{{#if @first}}<row>{{/if}}
+        <columns small="12" large="4">
+{{!-- =================================== begin Service Specific Layout ============================== --}}
+{{#ifequal layout "service"}}
+            {{#if_notequal ../../../show-img 'false'}}
+                <img src="{{ offer.img-md }}" alt="{{ offer.title }}" width="282">
+            {{/if_notequal}}  
+            <callout class="white">
+                <h6 class="text-center text-secondary">{{offer.title}}</h6>
+                <h3 class="text-center text-primary">{{{offer.offer}}}</h3>
+                <p class="small text-center text-medium-gray">{{{ offer.post }}}</p>
+
+                <p class="text-medium-gray">{{{ offer.details }}}</p>
+            </callout>
+{{/ifequal}}
+{{!-- =================================== begin Sales Specific Layout ============================== --}}
+{{#ifequal layout "sales"}}
+{{!-- =================================== begin Sales / Lease Specific Layout ============================== --}}    
+{{#ifequal offer.type 'Lease' }}
+            <callout class="white">
+                <h6 class="text-center">{{offer.year}} {{ offer.make }} {{offer.model}} {{offer.trim}}</h6>
+                <h3 class="text-center text-primary">{{offer.offer}}</h3>
+                <p class="small text-center text-medium-gray">{{ offer.post }}</p>
+            </callout>
+   
+{{ else }}
+{{!-- =================================== begin Sales/Finance Specific Layout ============================== --}}
+             {{#if_notequal ../../../show-img 'false'}}
+                <img src="{{ offer.img-md }}" alt="{{ offer.title }}" width="282">
+            {{/if_notequal}} 
+            <callout class="white">
+
+                <h6 class="text-center">{{offer.year}} {{ offer.make }} {{offer.model}} {{offer.trim}}</h6>
+                <h3 class="text-center text-primary">{{offer.offer}}</h3>
+                <p class="small text-center text-medium-gray">{{ offer.post }}</p>
+
+                    {{#if offer.vin}}<hr/><p><small class="text-medium-gray">VIN: {{{ offer.vin }}}</small></p>{{/if}}
+                    {{#if offer.stock}}<p><small class="text-medium-gray">Stock: #{{{ offer.stock }}}</small></p>{{/if}}
+
+                    <p>{{#if offer.msrp}}<small class="text-medium-gray">MSRP: ${{{ offer.msrp }}}</small><br/>{{/if}}
+                    {{#if offer.discount}}<small class="text-medium-gray">Discount: ${{{ offer.discount }}}<br/></small>{{/if}}
+                    {{#if offer.price}}<small class="text-success">Your Price: <strong>${{{ offer.price }}}</strong></small>{{/if}}</p>
+
+            </callout>
+
+{{/ifequal}}
+{{!-- =================================== Resume Universal Layout ============================== --}}
+{{/ifequal}}
+
+ <center><button class="small tertiary text-center" href="{{#if offer.link }} {{ offer.link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{offer.link-text}}</button></center>
+   <p style="font-size:8px !important;">{{ offer.disclaimer }}</p>
+      </columns>
+{{#if @last}}</row>{{else}}{{{stripe @index 3}}}{{/if}} {{!-- Row Break  --}}
+
+
+{{/ifequal}}                               
+{{/each}}
+{{/each}}
+{{/each}} 
+</container>

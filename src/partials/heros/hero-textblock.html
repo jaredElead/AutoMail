@@ -1,21 +1,23 @@
-<wrapper class="hero">
+  <wrapper class="hero">
+{{#each showcase-list}}
+{{#ifequal ../type this.type}}
     <row class="collapse">
-        <div class="purpose"><div class="purpose-inner">Hero With Caption & Text Block</div></div>
         <columns>
-            <img src="/assets/img/heros/hero-2.jpg" >
+            <img src="{{img-lg}}" >
             <callout class="bg-black">
-                <row>
-                    <columns large="4" valign="middle">
-                        <img src="/assets/img/dealer/logo_bmw.png" alt="Brand Logo">
+                <row class="collapse">
+                    <columns large="4" valign="middle" >
+                        <callout class="bg-black border-0"><img  width="180" src="{{img-sq}}" alt="{{../dealer.name}}"></callout>
                     </columns>
-                    <columns large="8" valign="middle">
-                        <h2 class="text-white text-left">The Ultimate Driving Machine</h2>
-                        <p class="text-white text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque facere sapiente tenetur! A ab blanditiis deleniti expedita fugit illo illum incidunt iste modi, nemo placeat quae quas recusandae, ullam vero!</p>
-                        <button href="#" class="small-expanded">See Specials</button>
+                    <columns large="8" valign="middle" >
+                        <h5 class="text-white text-left">{{{title}}}</h5>
+                        <p class="text-small text-white text-left"><small>{{{msg}}}</small></p>
+                        <button href="{{#if link }} {{ link }} {{else}} {{../dealer.new-inventory-specials}} {{/if}}" class="small-expanded tertiary">{{link-text}}</button>
                     </columns>
                 </row>
-
             </callout>
         </columns>
     </row>
+    {{/ifequal}}
+    {{/each}}
 </wrapper>

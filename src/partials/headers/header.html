@@ -3,45 +3,44 @@
         bg-black dark
     {{else ifequal theme 'primary'}} 
         bg-primary primary
+    {{else ifequal theme 'secondary'}} 
+        bg-secondary secondary
     {{else}}
         bg-white light
     {{/ifequal}}">
+    
+    {{#each data}}
+    {{#ifequal @key "dealer"}}
     <container>
         <row>
             <columns small="12" large="4">
-                <img class="logo" src="{{#ifequal theme 'dark'}}{{brand.logo-white}} {{else}} {{brand.logo}}{{/ifequal}}">
+                <img class="logo" src="{{#ifequal ../theme 'light'}}{{brand_logo}} {{else}} {{brand_logo_rev}}{{/ifequal}}">
             </columns>
             <columns small="12" large="8">
-                <p class="{{#ifequal theme 'dark'}}
-                               dark
-                            {{else}} 
-                                light
-                            {{/ifequal}}
-                                text-right small-text-center title">
-                            {{ dealer.name }}</p>
-                <a href="{{dealer.location-link}}" title="{{ dealer.name }} Location">
-                    <p class="
-                            {{#ifequal theme 'dark'}}
-                               dark
-                            {{else}} 
-                                light
-                            {{/ifequal}}
-                                small text-right small-text-center">
-                            {{{ dealer.address }}}
+                <p class="text-right small-text-center title">
+                            {{ name }}</p>
+                <a href="{{location}}" title="{{ name }} Location">
+                    <p class="small text-right small-text-center">
+                            {{ address_1 }}{{#if address_2}}, {{ address_2 }}{{/if}}<br/>
+                            {{city}}, {{state}} {{zip}}
                         </p>
                     </a>
-                <a href="tel:{{dealer.sales-phone}}" title="{{ dealer.name }} Location">
-                    <p class="
-                    {{#ifequal theme 'dark'}}
-                               dark
-                            {{else}} 
-                                light
+                
+                            {{#ifequal ../data/type 'service'}}
+                            <a href="tel:{{service_track_phone}}" title="{{ name }} Location">
+                    <p class="mall text-right small-text-center">
+                        {{{service_track_phone}}}
+                            {{else}}
+                             <a href="tel:{{sales_track_phone}}" title="{{ name }} Location">
+                    <p class="mall text-right small-text-center">
+                        {{{sales_track_phone}}}
                             {{/ifequal}}
-                                small text-right small-text-center">
-                            {{{dealer.sales-phone}}}
                         </p>
                     </a>
             </columns>
         </row>
     </container>
+    {{/ifequal}}
+
+{{/each}}
 </wrapper>

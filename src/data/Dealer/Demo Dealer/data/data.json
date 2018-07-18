@@ -1,0 +1,116 @@
+{
+    "dealer": {
+        "name": "Demo Dealer",
+        "address_1": "500 Interstate North Pkwy SE",
+        "address_2": "",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30339",
+        "nav_1": "Home",
+        "nav_1_link": "https://www.atlantabmw.com/",
+        "nav_2": "New",
+        "nav_2_link": "https://www.atlantabmw.com/new-inventory/index.htm",
+        "nav_3": "Service",
+        "nav_3_link": "https://www.atlantabmw.com/service/appointment-form.htm",
+        "nav_4": "Directions",
+        "nav_4_link": "https://www.atlantabmw.com/dealership/directions.htm",
+        "new_inventory": "https://www.atlantabmw.com/new-inventory/index.htm",
+        "schedule_service": "https://www.atlantabmw.com/service/appointment-form.htm",
+        "service_specials": "https://www.atlantabmw.com/specials/service.htm",
+        "new_specials": "https://www.atlantabmw.com/specials/new.htm",
+        "used_specials": "https://www.atlantabmw.com/specials/used.htm",
+        "location": "https://www.atlantabmw.com/dealership/directions.htm",
+        "sales_track_phone": "999-999-9999",
+        "service_track_phone": "888-888-8888",
+        "brand": "BMW",
+        "brand_logo": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/SonicEmail/BrandLogos/BMW-Logo.png",
+        "brand_logo_rev": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/SonicEmail/BrandLogos/BMW-Logo-Reverse.png"
+    },
+    "type": "sales",
+    "sales": {
+        "0": {
+            "col1": {
+                "0": {
+                    "primary": false,
+                    "layout": "sales",
+                    "offer": {
+                        "type": "MSRP",
+                        "year": "2018",
+                        "make": "Alfa Romeo",
+                        "model": "Giulia",
+                        "trim": "LX",
+                        "stock": "12345",
+                        "vin": "sD",
+                        "msrp": "12346",
+                        "pre": "&nbsp;",
+                        "offer": "12346",
+                        "post": "",
+                        "apr1": "",
+                        "apr1_from": "",
+                        "apr1_to": "",
+                        "apr2": "",
+                        "apr2_from": "",
+                        "apr2_to": "",
+                        "details": "",
+                        "disclaimer": "SDfat Offer expires - 2018-05-20",
+                        "link-text": "View Specials",
+                        "link": "https://www.toyotawestohio.com/new/Toyota/2018-Toyota-Camry-45fe23810a0e0a176b998211e5d0ffe3.htm",
+                        "img-sq": "",
+                        "img-md": "https://pictures.dealer.com/s/sonictoyotawest/0102/fcf9efcf1ce9993177b54c19f76953bdx.jpg?impolicy=resize&w=650",
+                        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg"
+                    }
+                }
+            }
+        }
+    },
+    "service": {
+        "0": {
+            "col1": {
+                "0": {
+                    "layout": "service",
+                    "primary": false,
+                    "offer": {
+                        "title": "Lube, Oil & Filter",
+                        "pre": "&nbsp;",
+                        "offer": "5%",
+                        "post": "",
+                        "details": "",
+                        "disclaimer": "",
+                        "link-text": "",
+                        "link": "",
+                        "img-sq": "",
+                        "img-md": "",
+                        "img-lg": ""
+                    }
+                }
+            }
+        }
+    },
+    "hero": {
+        "0": {
+            "img": "https://pictures.dealer.com/s/sonictoyotawest/0102/fcf9efcf1ce9993177b54c19f76953bdx.jpg?impolicy=resize&w=650",
+            "headline": "This is a headline",
+            "link_text": "this is a button",
+            "link": "https://www.toyotawestohio.com/new/Toyota/2018-Toyota-Camry-45fe23810a0e0a176b998211e5d0ffe3.htm"
+        }
+    },
+    "message": {
+        "0": {
+            "msg_greeting": "test",
+            "msg_body": "dgsg",
+            "msg_sig": "tesdfgsdg",
+            "cta": {
+                "0": {
+                    "type": "tel:",
+                    "text": "et",
+                    "link": "#"
+                },
+                "1": {
+                    "type": "mailto:",
+                    "text": "aaa",
+                    "link": "#"
+                }
+            }
+        }
+    }
+}

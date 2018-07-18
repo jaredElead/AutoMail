@@ -1,0 +1,55 @@
+<wrapper class="" style="border-top: 6px solid #666666;">
+    <container>
+        {{#each data.message}}
+
+         <row>
+            <columns>
+                <spacer size="32"></spacer>
+                <h5 class="text-left">{{{msg_greeting}}}</h5>
+                <p class="text-left">{{{msg_body}}}</p>
+                <h6 class="text-left"><i>- {{{msg_sig}}}</i></h6>
+                <p class="text-left"><strong>{{{../dealer.name}}}</strong></p>
+                <p class="text-left"><small>{{{../dealer.address}}}</small></p>
+                <row class="collapse">
+                    {{#each cta}}
+                    <columns large="5">
+                       <button class="text-center primary" href="
+{{#ifequal type 'link'}}
+    {{#if link }}
+        {{{ link }}}
+    {{else}}
+        {{{../../data.dealer.schedule_service}}}
+    {{/if}}
+{{else ifequal type 'tel'}} 
+    {{#if link }}
+        {{{type}}}:{{{ link }}}
+    {{else}}
+        {{{type}}}:{{{../../data.dealer.service_track_phone}}}
+    {{/if}}
+{{/ifequal}}
+
+                       ">
+ {{text}}              
+{{#ifequal type 'tel'}} 
+                {{{../../data.dealer.service_track_phone}}}
+{{/ifequal}}
+
+
+               </button>
+                    </columns>
+
+                    {{#if @last}}
+                        {{#ifequal @index 1}}
+                            <columns large="2">&nbsp;</columns>
+                        {{/ifequal}}
+                    {{/if}}
+                     {{/each}}
+                </row>
+             
+            </columns>
+        </row>
+     
+        {{/each}}
+    </container>
+</wrapper>
+

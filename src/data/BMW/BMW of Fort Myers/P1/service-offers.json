@@ -1,0 +1,47 @@
+{
+  "0": {
+    "offer": {
+      "title": "Brake Service",
+      "pre": "Recieve",
+      "offer": "10%",
+      "post": "Off",
+      "details": "Brake inspection and service.",
+      "disclaimer": "Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees. Not retroactive. No cash value. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at BMW of Fort Myers for details. Offer expires - ",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg"
+    }
+  },
+  "1": {
+    "offer": {
+      "title": "Tire Special",
+      "pre": "Get",
+      "offer": "<sup style='font-size:14px;'>$</sup>70",
+      "post": "Off",
+      "details": "New tire replacement.",
+      "disclaimer": "Valid only at BMW of Fort Myers. Please present coupon when service order is written. Taxes not included. Not valid in conjunction with other coupons or discounts. See your service professional at BMW of Fort Myers for details. Offer expires - ",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-lg.jpg"
+    }
+  },
+  "2": {
+    "offer": {
+      "title": "Oil & Filter Service",
+      "pre": "Get",
+      "offer": "<sup style='font-size:36px;'>$</sup>20",
+      "post": "Off",
+      "details": "Oil and filter replacement.",
+      "disclaimer": "Some models may be slightly higher. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees. Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at BMW of Fort Myers for details. Offer expires - ",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg"
+    }
+  }
+}

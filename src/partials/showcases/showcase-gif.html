@@ -1,21 +1,22 @@
+<wrapper class="showcase">
 {{#each showcase-list}}
 {{#ifequal ../type this.type}}
-<wrapper class="showcase">
-    <container>
+  {{#ifequal ../show-title 'true'}}<container>
         <row>
             <columns>
                 <spacer size="16"></spacer>
                 <h2 class="title text-center text-black">{{title}}</h2>
             </columns>
         </row>
-    </container>
-    <container>
+          </container>
+        {{/ifequal}}
+  
         <row class="collapse">
             <columns small="12" large="12">
                 <a href="{{#if link }} {{ link }} {{else}} {{../dealer.new-inventory}} {{/if}}" title="../dealer.name">
                     {{#if_notequal ../cap-location 'bottom'}}
                     <row class="showcase__tags">
-                        <columns class="bg-peach showcase__tags--left" small="3" valign="middle">
+                        <columns class="bg-tertiary showcase__tags--left" small="3" valign="middle">
                             <p class="text-white text-center">{{label}}</p>
                         </columns>
                         <columns class="bg-black showcase__tags--right" small="9" valign="middle">
@@ -23,10 +24,10 @@
                         </columns>
                     </row>
                     {{/if_notequal}}
-                <img src="{{img}}" alt="2018 RLX Premium Sedan">
+                <img width="620" src="{{img}}" alt="{{../dealer.name}}">
                       {{#ifequal ../cap-location 'bottom'}}
                     <row class="showcase__tags">
-                        <columns class="bg-peach showcase__tags--left" small="3" valign="middle">
+                        <columns class="bg-tertiary showcase__tags--left" small="3" valign="middle">
                             <p class="text-white text-center">{{label}}</p>
                         </columns>
                         <columns class="bg-black showcase__tags--right" small="9" valign="middle">
@@ -37,7 +38,7 @@
                 </a>
             </columns>
         </row>
-    </container>
-</wrapper>
+
 {{/ifequal}}
 {{/each}}
+</wrapper>

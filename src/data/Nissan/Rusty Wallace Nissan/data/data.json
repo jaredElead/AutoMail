@@ -1,0 +1,31 @@
+{
+    "list": null,
+    "dealer": {
+        "name": "Rusty Wallace Nissan",
+        "address_1": "2733 EAST STONE DRIVE ",
+        "address_2": "",
+        "city": "KINGSPORT",
+        "state": "TN",
+        "zip": "37660",
+        "nav_1": "Home",
+        "nav_1_link": "https://www.wallacenissan.com",
+        "nav_2": "New",
+        "nav_2_link": "https://www.wallacenissan.com/new-inventory/index.htm",
+        "nav_3": "Service",
+        "nav_3_link": "https://www.wallacenissan.com/service/index.htm",
+        "nav_4": "Directions",
+        "nav_4_link": "https://www.wallacenissan.com/dealership/directions.htm",
+        "new_inventory": "https://www.wallacenissan.com/new-inventory/index.htm",
+        "schedule_service": "https://www.wallacenissan.com/service/index.htm",
+        "service_specials": "https://www.wallacenissan.com/specials/service.htm",
+        "new_specials": "https://www.wallacenissan.com/featured-vehicles/new.htm",
+        "used_specials": "https://www.wallacenissan.com/featured-vehicles/pre-owned.htm",
+        "location": "https://www.wallacenissan.com/dealership/directions.htm",
+        "sales_track_phone": "(866) 795-1550",
+        "service_track_phone": "(866) 462-1193",
+        "brand": "Nissan",
+        "brand_logo": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/logos/Nissan/Nissan_ITE_150x150.png",
+        "brand_logo_rev": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/logos/Nissan/Nissan_ITE_150x150.png"
+    },
+    "type": null
+}

@@ -1,0 +1,76 @@
+<wrapper class="showcase">
+    {{#ifequal show-title 'true'}} 
+    <container>
+        <row>
+            <columns>
+                <spacer size="16"></spacer>
+                <h2 class="title text-center text-primary">{{title}}</h2>
+            </columns>
+        </row>
+    </container>
+    {{/ifequal}}
+    {{#ifequal offer-type 'service'}}
+        {{#each service-offers}} 
+            <row class="collapse">
+                {{#if_even @index 2}}<columns valign="middle" style="padding-bottom: 0"> 
+                    <img width="310" src="{{img-sq}}" alt="{{../dealer.name}}">
+                </columns>{{/if_even}}
+                <columns valign="middle" class="
+                    {{#ifequal ../theme 'dark'}}
+                        bg-dark-theme dark
+                    {{else ifequal ../theme 'light'}}
+                        bg-white-theme light
+                    {{else ifequal ../theme 'primary'}} 
+                        bg-primary primary
+                    {{else ifequal ../theme 'secondary'}} 
+                        bg-secondary secondary
+                    {{else}}
+                    bg-primary light
+                    {{/ifequal}}">
+                    <p class="thin text-center" style="padding:0 20px;">{{title}}</p>
+                    <h4 class="thin text-center" style="padding:0 20px;"><small>{{{pre}}}</small> {{{offer}}}</h4>
+                    <p class="thin text-center" style="padding:0 20px;">{{{sub}}}</p>
+                    <p class="thin text-center" style="padding:0 20px;">{{{details}}}</p>
+                    <center><button class="text-center tertiary" href="{{#if link }} {{ link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{link-text}}</button></center>
+                </columns>
+                {{#if_even @index 2}}{{else}}<columns valign="middle" style="padding-bottom: 0"> 
+                    <img width="310" src="{{img-sq}}" alt="{{../dealer.name}}">
+                </columns>{{/if_even}}
+            </row>
+        {{/each}}
+    {{/ifequal}}
+     {{#ifequal offer-type 'sales'}}
+        {{#each sales-offers}} 
+            <row class="collapse">
+                {{#if_even @index 2}}
+                    <columns valign="middle" style="padding-bottom: 0"> 
+                        <img width="310" src="{{img-sq}}" alt="{{../dealer.name}}">
+                    </columns>
+                {{/if_even}}
+                <columns valign="middle" class="
+                    {{#ifequal ../theme 'dark'}}
+                        bg-dark-theme dark
+                    {{else ifequal ../theme 'light'}}
+                        bg-white-theme light
+                    {{else ifequal ../theme 'primary'}} 
+                        bg-primary primary
+                    {{else ifequal ../theme 'secondary'}} 
+                        bg-secondary secondary
+                    {{else}}
+                    bg-primary light
+                    {{/ifequal}}">
+                    <spacer size="40" class="hide-for-large"></spacer>
+                    <p class="thin text-center" style="padding:0 20px;">{{year}} {{ make }} {{model}}<br/><small>{{trim}}</small></p>
+                    <h4 class="thin text-center lease__price-tag" style="padding:0 20px;"><small>{{{pre}}}</small> {{{offer}}}</h4>
+                    <p class="thin text-center" style="padding:0 20px;"><small>{{{sub}}}</small></p>
+                    <p class="thin text-center" style="padding:0 20px;">{{{details}}}</p>
+                    <center><button class="text-center tertiary" href="{{#if link }} {{ link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{link-text}}</button></center>
+                </columns>
+                {{#if_even @index 2}}{{else}}
+                <columns valign="middle" style="padding-bottom: 0"> 
+                    <img width="310" src="{{img-sq}}" alt="{{../dealer.name}}">
+                </columns>{{/if_even}}
+            </row>
+        {{/each}}
+    {{/ifequal}}
+</wrapper>

@@ -1,0 +1,142 @@
+{
+    "list": {
+        "0": {
+            "col1": {
+                "0": {
+                    "layout": "service",
+                    "primary": true,
+                    "offer": {
+                        "title": "Service Your Way",
+                        "pre": "Get",
+                        "offer": "15%",
+                        "post": "Off",
+                        "details": "Recommended Service.<br/>Max Discount $150",
+                        "disclaimer": "Use this coupon towards any regular price menu service.Up to $100 total discount. Cannot be combined with any other coupons. Tire Purchases an Alignment Excluded. Honda Vehicles Only. Valid at Economy Honda Only. Must present coupon at time of service. See advisor for details.",
+                        "link-text": "Schedule Service",
+                        "link": "",
+                        "img-sq": "",
+                        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg",
+                        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg"
+                    }
+                }
+            }
+        },
+        "1": {
+            "col2": {
+                "0": {
+                    "layout": "service",
+                    "primary": false,
+                    "offer": {
+                        "title": "Lube, Oil & Filter",
+                        "pre": "&nbsp;",
+                        "offer": "<sup><small class='text-secondary'>$</small></sup>39.95",
+                        "post": "+ Tax",
+                        "details": "0W20 full synthetic oil and filter change.<br/>Reg. Price $49.95",
+                        "disclaimer": "Cannot be combined with any other coupons. Honda Vehicles Only. Synthetic and/or Diesel oils are additional. Valid at Economy Honda Only. Must present coupon at time of service. See advisor for details.",
+                        "link-text": "Schedule Service",
+                        "link": "",
+                        "img-sq": "",
+                        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg",
+                        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg"
+                    }
+                },
+                "1": {
+                    "layout": "service",
+                    "primary": false,
+                    "offer": {
+                        "title": "Rotate, Align & Balance",
+                        "pre": "&nbsp;",
+                        "offer": "<sup><small class='text-secondary'>$</small></sup>29.95",
+                        "post": "+ Tax",
+                        "details": "Reg. Price $39.95",
+                        "disclaimer": "Cannot be combined with any other coupons. Honda Vehicles Only. Valid at Economy Honda Only. Must present coupon at time of service. See advisor for details.",
+                        "link-text": "Schedule Service",
+                        "link": "",
+                        "img-sq": "",
+                        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-med.jpg",
+                        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-lg.jpg"
+                    }
+                },
+                "2": {
+                    "layout": "service",
+                    "primary": false,
+                    "offer": {
+                        "title": "Alignment",
+                        "pre": "&nbsp;",
+                        "offer": "<sup><small class='text-secondary'>$</small></sup>69.95",
+                        "post": "+ Tax",
+                        "details": "",
+                        "disclaimer": "Cannot be combined with any other coupons. Honda Vehicles Only. Valid at Economy Honda Only. Must present coupon at time of service. See advisor for details.",
+                        "link-text": "Schedule Service",
+                        "link": "",
+                        "img-sq": "",
+                        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg",
+                        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg"
+                    }
+                },
+                "3": {
+                    "layout": "service",
+                    "primary": false,
+                    "offer": {
+                        "title": "Brake Service",
+                        "pre": "&nbsp;",
+                        "offer": "<sup><small class='text-secondary'>$</small></sup>129.95",
+                        "post": "+ Tax",
+                        "details": "Reg. Price $139.95",
+                        "disclaimer": "Cannot be combined with any other coupons. Honda Vehicles Only. Valid at Economy Honda Only. Must present coupon at time of service. See advisor for details.",
+                        "link-text": "Schedule Service",
+                        "link": "",
+                        "img-sq": "",
+                        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg",
+                        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg"
+                    }
+                },
+                "4": {
+                    "layout": "service",
+                    "primary": false,
+                    "offer": {
+                        "title": "Battery Replacement",
+                        "pre": "&nbsp;",
+                        "offer": "<sup><small class='text-secondary'>$</small></sup>119.95",
+                        "post": "+ Tax",
+                        "details": "Reg. Price $129.95",
+                        "disclaimer": "Some model pricing may be higher. Cannot be combined with any other coupons. Honda Vehicles Only. Valid at Economy Honda Only. Must present coupon at time of service. See advisor for details.",
+                        "link-text": "Schedule Service",
+                        "link": "",
+                        "img-sq": "",
+                        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-med.jpg",
+                        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-lg.jpg"
+                    }
+                }
+            }
+        }
+    },
+    "dealer": {
+        "name": "Economy Honda",
+        "address_1": "2135 Chapman Rd ",
+        "address_2": "",
+        "city": "Chattanooga",
+        "state": "TN",
+        "zip": "37421",
+        "nav_1": "Home",
+        "nav_1_link": "https://www.economyhonda.com/",
+        "nav_2": "New",
+        "nav_2_link": "https://www.economyhonda.com/new-inventory/index.htm",
+        "nav_3": "Service",
+        "nav_3_link": "https://www.economyhonda.com/service/appointment-form.htm",
+        "nav_4": "Directions",
+        "nav_4_link": "https://www.economyhonda.com/dealership/directions.htm",
+        "new_inventory": "https://www.economyhonda.com/new-inventory/index.htm",
+        "schedule_service": "https://www.economyhonda.com/service/appointment-form.htm",
+        "service_specials": "https://www.economyhonda.com/specials/service.htm",
+        "new_specials": "https://www.economyhonda.com/specials/new.htm",
+        "used_specials": "https://www.economyhonda.com/specials/used.htm",
+        "location": "https://www.economyhonda.com/dealership/directions.htm",
+        "sales_track_phone": "(855) 442-2754 ",
+        "service_track_phone": "(855) 242-4977 ",
+        "brand": "Honda",
+        "brand_logo": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/SonicEmail/BrandLogos/Honda-Logo.png",
+        "brand_logo_rev": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/SonicEmail/BrandLogos/Honda-Logo-Reverse.png"
+    },
+    "type": "service"
+}

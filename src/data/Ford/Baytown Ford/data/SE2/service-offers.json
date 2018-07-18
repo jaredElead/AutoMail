@@ -1,0 +1,74 @@
+{
+  "0": {
+    "0": {
+      "col": "c1",
+      "primary": true,
+      "offer": {
+        "title": "Service Your Way",
+        "pre": "Get",
+        "offer": "20%",
+        "post": "Off",
+        "details": "Recommended Service<br/><small>Maximum discount $200</small>",
+        "disclaimer": "Valid only at Baytown Ford. Maximum discount $200. Excludes tires and value service. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Other restrictions may apply.  Limit one coupon per VIN #. See your service professional for details.Offer expires - 2018-08-01",
+        "link-text": "Schedule Service",
+        "link": "",
+        "img-sq": "",
+        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg",
+        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg"
+      }
+    }
+  },
+  "1": {
+    "0": {
+      "col": "c2",
+      "primary": false,
+      "offer": {
+        "title": "Battery Replacement",
+        "pre": "",
+        "offer": "<sup><small class='text-secondary'>$</small></sup>139.95",
+        "post": "+ Tax",
+        "details": "Reg. $164.95",
+        "disclaimer": "Valid only at Baytown Ford. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra.  Excludes diesels. Not valid in conjunction with other coupons or discounts. See your service professional for details.Offer expires - 2018-08-01",
+        "link-text": "Schedule Service",
+        "link": "",
+        "img-sq": "",
+        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-med.jpg",
+        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-lg.jpg"
+      }
+    },
+    "1": {
+      "col": "c2",
+      "primary": false,
+      "offer": {
+        "title": "Brake Test",
+        "pre": "Get",
+        "offer": "FREE",
+        "post": "Brake Testing",
+        "details": "",
+        "disclaimer": "No cash value. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional for details.Offer expires - 2018-08-01",
+        "link-text": "Schedule Service",
+        "link": "",
+        "img-sq": "",
+        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg",
+        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg"
+      }
+    },
+    "2": {
+      "col": "c2",
+      "primary": false,
+      "offer": {
+        "title": "Oil & Tire Rotation",
+        "pre": "",
+        "offer": "<sup><small class='text-secondary'>$</small></sup>39.95",
+        "post": "+ Tax",
+        "details": "",
+        "disclaimer": "Includes up to 5 qtrs. of oil. Some models may be slightly higher. Excludes diesels. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees. Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional for details.Offer expires - 2018-08-01",
+        "link-text": "Schedule Service",
+        "link": "",
+        "img-sq": "",
+        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg",
+        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg"
+      }
+    }
+  }
+}

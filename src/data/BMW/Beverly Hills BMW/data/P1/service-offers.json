@@ -1,0 +1,165 @@
+{
+  "0": {
+    "0": {
+      "layout": "service",
+      "col": "c1",
+      "primary": true,
+      "offer": {
+        "title": "Service Your Way",
+        "pre": "",
+        "offer": "",
+        "post": "",
+        "details": "$20 off $100-200<br/>$30 off $201-$300<br/>$40 off $301-400<br/>$50 off $401-500<br/>$60 off $501-700<br/>$80 off $701-900<br/>$90 off $901 plus",
+        "disclaimer": "Valid only at Beverly Hills BMW. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Other restrictions may apply.  Limit one coupon per VIN #. See your service professional at Beverly Hills BMW for details.",
+        "link-text": "Schedule Service",
+        "link": "",
+        "img-sq": "",
+        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg",
+        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg"
+      }
+    }
+  },
+  "1": {
+    "0": {
+      "layout": "service",
+      "col": "c2",
+      "primary": false,
+      "offer": {
+        "title": "Battery Special",
+        "pre": "Get",
+        "offer": "10%",
+        "post": "Off",
+        "details": "Reg. price $523.97 and up.",
+        "disclaimer": "Valid only at Beverly Hills BMW. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts. See your service professional at Beverly Hills BMW for details.",
+        "link-text": "Schedule Service",
+        "link": "",
+        "img-sq": "",
+        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-med.jpg",
+        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-lg.jpg"
+      }
+    },
+    "1": {
+      "layout": "service",
+      "col": "c2",
+      "primary": false,
+      "offer": {
+        "title": "Brake Special",
+        "pre": "Starting at",
+        "offer": "<sup><small class='text-secondary'>$</small></sup>299.95",
+        "post": "+ Tax",
+        "details": "Front brake pads with installation. Reg. price varies.",
+        "disclaimer": "Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($5.65). Not retroactive. No cash value. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at Beverly Hills BMW for details.",
+        "link-text": "Schedule Service",
+        "link": "",
+        "img-sq": "",
+        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg",
+        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg"
+      }
+    },
+    "2": {
+      "layout": "service",
+      "col": "c2",
+      "primary": false,
+      "offer": {
+        "title": "Tire Special",
+        "pre": "",
+        "offer": "<sup><small class='text-secondary'>$</small></sup>100",
+        "post": "Off",
+        "details": "Buy 4 tires with installation get $100 off. Reg. price varies.",
+        "disclaimer": "Valid only at Beverly Hills BMW. Please present coupon when service order is written. Taxes not included. Not valid in conjunction with other coupons or discounts. See your service professional at Beverly Hills BMW for details.",
+        "link-text": "Schedule Service",
+        "link": "",
+        "img-sq": "",
+        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-med.jpg",
+        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-lg.jpg"
+      }
+    },
+    "3": {
+      "layout": "service",
+      "col": "c2",
+      "primary": false,
+      "offer": {
+        "title": "Alignment Special",
+        "pre": "",
+        "offer": "<sup><small class='text-secondary'>$</small></sup>229.95",
+        "post": "+ Tax",
+        "details": "Reg. price $249.95 + tax",
+        "disclaimer": "Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional at Beverly Hills BMW for details.",
+        "link-text": "Schedule Service",
+        "link": "",
+        "img-sq": "",
+        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg",
+        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg"
+      }
+    },
+    "4": {
+      "layout": "service",
+      "col": "c2",
+      "primary": false,
+      "offer": {
+        "title": "Rotate, Align & Balance",
+        "pre": "",
+        "offer": "<sup><small class='text-secondary'>$</small></sup>299.95",
+        "post": "+ Tax",
+        "details": "Reg. price $399 + tax",
+        "disclaimer": "Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional at Beverly Hills BMW for details.",
+        "link-text": "Schedule Service",
+        "link": "",
+        "img-sq": "",
+        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-med.jpg",
+        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-lg.jpg"
+      }
+    },
+    "5": {
+      "layout": "service",
+      "col": "c2",
+      "primary": false,
+      "offer": {
+        "title": "Oil Change Special",
+        "pre": "Starting at",
+        "offer": "<sup><small class='text-secondary'>$</small></sup>89.95",
+        "post": "+ Tax",
+        "details": "Reg. price $89.95-$239 + tax",
+        "disclaimer": "Some models may be slightly higher. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($1.60). Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at Beverly Hills BMW for details.",
+        "link-text": "Schedule Service",
+        "link": "",
+        "img-sq": "",
+        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg",
+        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg"
+      }
+    }
+  },
+  "2": {
+   
+    "dealer": {
+      "name": "Beverly Hills BMW",
+      "address_1": "5070 Wilshire Blvd.",
+      "address_2": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip": "90036",
+      "nav_1": "Home",
+      "nav_1_link": "https://www.bmwofbeverlyhills.com/",
+      "nav_2": "New",
+      "nav_2_link": "https://www.bmwofbeverlyhills.com/new-bmw/los-angeles.htm",
+      "nav_3": "Service",
+      "nav_3_link": "https://www.bmwofbeverlyhills.com/service/index.htm",
+      "nav_4": "Directions",
+      "nav_4_link": "https://www.bmwofbeverlyhills.com/dealership/directions.htm",
+      "new_inventory": "https://www.bmwofbeverlyhills.com/new-bmw/los-angeles.htm",
+      "schedule_service": "https://www.bmwofbeverlyhills.com/service/index.htm",
+      "service_specials": "https://www.bmwofbeverlyhills.com/specials/service.htm",
+      "new_specials": "https://www.bmwofbeverlyhills.com/specials/new.htm",
+      "used_specials": "https://www.bmwofbeverlyhills.com/featured-vehicles/used.htm",
+      "location": "https://www.bmwofbeverlyhills.com/dealership/directions.htm",
+      "sales_track_phone": "(855) 252-9954",
+      "service_track_phone": "(855) 277-7233",
+      "brand": "BMW",
+      "brand_logo": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/SonicEmail/BrandLogos/BMW-Logo.png",
+      "brand_logo_rev": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/SonicEmail/BrandLogos/BMW-Logo-Reverse.png"
+    }
+  },
+  "3": {
+    "type": "service"
+  }
+}

@@ -1,0 +1,49 @@
+---
+'offer1': 
+  active: true
+  tier: 3
+  col: 3
+  type: Brakes
+  title: Brake Service Special
+  pre: 
+  offer: $299.00
+  sub: (Reg. $399.99)
+  details: Per Axle Includes Pads and Rotor Resurfacing.
+  disclaimer: Tax Not Included. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($5.65). Not retroactive. No cash value. See dealer for details.    
+  link-text: Schedule
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg
+'offer2': 
+  active: true
+  tier: 3
+  col: 3
+  type: Lube, Oil and Filter
+  title: Lube, Oil and Filter
+  pre: 
+  offer: $59.88
+  sub: (Reg. $69.88)
+  details: 
+  disclaimer: Tax Not Included. Includes up to 5 qts of 0W20 Full Synthetic Oil.  Some models may be slightly higher. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($1.60). Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional for details.
+  link-text: Schedule
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg
+'offer3': 
+  active: true
+  tier: 3
+  col: 3
+  type: Battery
+  title: Battery Replacement
+  pre: 
+  offer: $165.88
+  sub: (Reg. $175.95)
+  details: Includes Battery and Installation
+  disclaimer: Tax Not Included. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($5.65). Not retroactive. No cash value. See dealer for details.    
+  link-text: Schedule
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-lg.jpg

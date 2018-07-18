@@ -1,0 +1,113 @@
+{{#ifequal pad 'true'}}<container>{{/ifequal}}
+{{#each this as |data|}}
+{{#each data as |offers|}}
+{{#each offers}}
+{{#ifequal col "c1"}}
+{{#ifequal primary true}}
+{{!-- =================================== begin Universal Layout  ============================== --}}
+                {{#if ../../../show-img}}
+                {{#ifequal ../../../img-size 'lg'}}
+
+                {{#if offer.img-lg}}
+                    <row class="collapse">
+                    <columns large="12">
+                    <img width="620" src="{{ offer.img-lg }}">
+                    </columns>
+                    </row>
+                {{else}}
+                    No large image set
+                {{/if}}
+                {{/ifequal}}
+                {{#ifequal ../../../img-size 'md'}}
+                {{#if offer.img-md}}
+                    <spacer size="36"></spacer>
+                    <row class="collapse">
+                    <columns>&nbsp;
+                    </columns>
+                    <columns large="8">
+                    <img width="350" src="{{offer.img-md}}">
+                    </columns>
+                    <columns>&nbsp;
+                    </columns>
+                    </row>
+
+                {{else}}
+                    No medium Image Set
+                {{/if}}
+                {{/ifequal}}
+                {{/if}}
+                    <row class="collapse">
+                    <columns large="10">
+{{!-- =================================== begin Service Specific Layout ============================== --}}
+{{#ifequal layout "service"}}
+{{#if_notequal ../../../show-content 'false'}}
+                <callout class="white">
+                    <h3 class="text-center cad book">{{offer.title}}</h3>
+                    <center><small class="text-center medium-gray cad book" style="font-weight:normal;font-size:24px;text-transform:uppercase;">{{{ offer.pre }}}</small></center>
+                     {{#ifequal ../../../img-size 'md'}}
+                        <h1 class="text-center text-primary cad book" {{#if_notequal ../../../font-size 'regular'}} style="font-size:80px;line-height:83px;"{{/if_notequal}}>{{{ offer.offer }}}<sup class="cad book medium-gray" style="font-size:14px;padding-left:3px;">{{{ offer.post }}}</sup></h1>
+
+                    {{else}}
+                        <h1 class="text-center text-secondary cad book" {{#if_notequal ../../../font-size 'regular'}} style="font-size:80px;line-height:83px;"{{/if_notequal}}>{{{ offer.offer }}}<sup class="cad book" style="font-size:36px;padding-left:3px; ">{{{ offer.post }}}</sup></h1>
+                   {{/ifequal}}
+                    <h6 class="text-center small cad book">{{{ offer.details }}}</h6>
+                    <p class="text-center cad book" style="font-size:8px !important;">{{ offer.disclaimer }}</p>
+                    <center><button class="tertiary text-center cad book" href="{{#if offer.link }} {{ offer.link }} {{else}} {{dealer.schedule-service}} {{/if}}">{{ offer.link-text }}</button></center>
+                </callout>
+                {{/if_notequal}}   
+{{/ifequal}}
+{{!-- =================================== begin Sales Specific Layout ============================== --}}
+{{#ifequal layout "sales"}}
+<callout class="white">
+{{!-- =================================== begin Sales / Lease Specific Layout ============================== --}}    
+{{#ifequal offer.type 'Lease' }}
+
+                
+                <h6 class="text-center cad book">{{offer.year}} {{ offer.make }} {{offer.model}} {{trim}}</h6>
+                <h4 class="text-center text-primary cad book">
+                    {{{ offer.offer }}} <small class="medium-gray cad book">{{ offer.post }}</small>
+                </h4>
+               
+                <p class="text-center small cad book">{{ offer.details }}</p>
+                                    
+                            
+{{ else }}
+{{!-- =================================== begin Sales/Finance Specific Layout ============================== --}}
+                <h6 class="text-center cad book">{{offer.year}} {{ offer.make }} {{offer.model}} {{trim}}</h6>
+                <h4 class="text-center text-primary cad book">
+                    {{{ offer.offer }}} <small class="medium-gray">{{ offer.post }}</small>
+                </h4>
+               
+                <p class="text-center small cad book">{{ offer.details }}</p>
+
+
+                {{#if offer.vin}}<hr/><p class="text-center cad book"><small class="text-medium-gray cad book">VIN: {{{ offer.vin }}}</small></p>{{/if}}
+                {{#if offer.stock}}<p class="text-center cad book"><small class="text-medium-gray cad book">Stock: #{{{ offer.stock }}}</small></p>{{/if}}
+
+                <p class="text-center cad book">{{#if offer.msrp}}<small class="text-medium-gray cad book">MSRP: ${{{ offer.msrp }}}</small><br/>{{/if}}
+                {{#if offer.discount}}<small class="text-medium-gray cad book">Discount: ${{{ offer.discount }}}<br/></small>{{/if}}
+                {{#if offer.price}}<small class="text-success cad book">Your Price: <strong>${{{ offer.price }}}</strong></small>{{/if}}</p>
+
+                                    
+
+{{/ifequal}}
+</callout>
+{{!-- =================================== Resume Universal Layout ============================== --}}
+<callout class="white">
+    <p class="text-center cad book" style="font-size:8px !important;">{{ offer.disclaimer }}</p>
+<center><button class="text-center cad book" href="{{#if offer.link }} {{ offer.link }} {{else}} {{dealer.new-inventory}} {{/if}}">{{ offer.link-text }}</button></center>
+</callout>
+</columns>
+</row>
+{{/ifequal}}
+{{/ifequal}}
+{{/ifequal}}
+{{/each}}
+{{/each}}
+{{/each}}
+
+       
+                    
+          
+
+{{#ifequal pad 'true'}}</container>{{/ifequal}}

@@ -1,0 +1,92 @@
+
+    
+<wrapper class="lease">
+    <container>	
+
+{{#each this as |data|}}
+{{#each data as |offers|}}
+{{#each offers}}
+{{#ifequal col "c1"}}
+
+{{!-- =================================== begin Universal Layout  ============================== --}}
+
+                <row>
+                {{#ifequal ../../../align 'left'}}
+
+                    <columns small="12" large="6" >
+                        <img src="{{{ offer.img-md }}}" alt="{{ ../dealer.name }}" width="282">
+                    </columns>
+                {{/ifequal}}
+                <columns small="12" large="6">
+
+{{!-- =================================== begin Service Specific Layout ============================== --}}
+{{#ifequal layout "service"}}
+                <row class="lease__price border-black">
+                <columns small="12" valign="middle">
+                <callout class="unpad-top unpad-btm unmar-btm">
+                <h6 class="cad book unmar-btm">{{offer.title}}</h6>
+                <h3 class="text-left lease__price-tag cad book text-dark-gray small"><small class="text-center medium-gray cad book" style="font-weight:normal;font-size:24px;text-transform:uppercase;">{{{ offer.pre }}}</small>{{{ offer.offer }}}<sup class="cad book medium-gray" style="font-size:14px;padding-left:3px;">{{{ offer.post }}}</sup></h3>
+                <p class="text-dark-gray cad book small unmar-btm">
+                {{{ offer.details }}}
+                </p>
+                <p class="disclaimer text-medium-gray cad book">
+                {{offer.disclaimer}}
+                </p>
+                <button class="text-center tertiary small small-expanded cad book unmar-btm" href="{{#if offer.link }} {{ offer.link }} {{else}} {{../dealer.new-inventory}} {{/if}}">{{offer.link-text}}</button>
+
+</callout>
+                </columns>
+                </row>
+
+{{/ifequal}}
+{{!-- =================================== begin Sales Specific Layout ============================== --}}
+{{#ifequal layout "sales"}}
+
+{{!-- =================================== begin Sales / Lease Specific Layout ============================== --}}    
+        {{#ifequal offer.type 'Lease' }}
+                <row class="lease__price border-black">
+                <columns small="12" valign="middle">
+                <h6 class="cad book">{{{offer.year}}} {{{ offer.make }}} {{{offer.model}}}<br/><small>{{offer.trim}}</small></h6>
+                <h3 class="text-left text-primary lease__price-tag cad book"><small class="text-medium-gray cad book">{{{ offer.pre }}}</small> {{{offer.offer}}} <small class="text-medium-gray cad book">{{{ offer.post }}}</small></h3>
+                <p class="text-medium-gray cad book text-small">
+                {{{ offer.details }}}
+                </p>
+                </columns>
+
+                </row>
+
+        {{/ifequal}}
+        {{#ifequal offer.type 'Finance' }}
+                <p>
+                {{#if vin}}<small class="text-medium-gray cad book">VIN: {{{ offer.vin }}}</small>{{/if}}<br/>
+                {{#if stock}}<small class="text-medium-gray cad book">Stock: #{{{ offer.stock }}}</small>{{/if}}
+                </p>
+                <hr/>
+                <p>
+                {{#if msrp}}<small class="text-medium-gray cad book">MSRP: ${{{ offer.msrp }}}</small><br/>{{/if}}
+                {{#if discount}}<small class="text-medium-gray cad book">Discount: ${{{ offer.discount }}}<br/></small>{{/if}}
+                {{#if offer.price}}<small class="text-success cad book">Your Price: <strong>${{{ offer.price }}}</strong></small>{{/if}}
+                </p>
+                
+
+        {{/ifequal}}
+{{/ifequal}}
+{{!-- =================================== Resume Universal Layout ============================== --}}
+                </columns>
+                {{#if_notequal ../../../align 'left'}}
+                <columns small="12" large="6">
+
+                <img src="{{ offer.img-md }}" alt="{{ ../dealer.name }}" width="282">
+                </columns>
+                {{/if_notequal}}
+                </row>
+
+
+{{/ifequal}}
+{{/each}}
+{{/each}}
+{{/each}}
+
+
+ </container>
+</wrapper>

@@ -1,0 +1,42 @@
+---
+offer-type: sales
+primary-offer: offer1
+Brand: Brand
+Dealer: Dealer
+---
+{{> spacer size='24' color='light-gray' content="Header"}}
+{{> header theme='secondary'}}
+{{> nav theme='secondary'}}
+{{> spacer size='24' color='light-gray'}}
+
+{{> spacer size='24' color='light-gray' content="Banner"}}
+{{> banner-simple}}
+
+
+{{> spacer size='24' color='light-gray' content="Showcase"}}
+{{> showcase-grid1 type='center-grid'}}
+{{> showcase-grid2 type='left-grid'}}
+{{> showcase-gif type='gif' cap-location='bottom'}}
+{{> spacer size='24' color='light-gray'}}
+
+
+{{> spacer size='24' color='light-gray' content="Hero"}}
+{{> dyn-hero-overlay show-trans='true'}}
+{{> dyn-hero-caption offer-type="service"}}
+{{> hero-simple hero-src="hero1"}}
+
+{{> spacer size='24' color='light-gray' content="Dynamic Offers"}}
+{{> dyn-primary show-img='true' img-size='lg'}}
+{{> dyn-offers-stag theme='dark' offer-type='service'}}
+{{> inventory-grid v-type='new'}}
+{{> dyn-offers-2col offer-type='service' }}
+{{> dyn-offers-3col offer-type='service'}}
+{{> dyn-lease-1col align='right'}}
+{{> spacer size='24' color='light-gray'}}
+
+{{> spacer size='24' color='light-gray' content="Messages"}}
+{{> msg msg-src="message2"}}
+{{> spacer size='24' color='light-gray'}}
+
+
+{{> footer-simple}}

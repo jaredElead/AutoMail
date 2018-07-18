@@ -1,0 +1,53 @@
+{
+    "list": {
+        "0": {
+            "col1": {
+                "0": {
+                    "layout": "service",
+                    "primary": true,
+                    "offer": {
+                        "title": "Lube, Oil & Filter",
+                        "pre": "Recieve",
+                        "offer": "<sup><small class='text-secondary'>$</small></sup>10",
+                        "post": "Off",
+                        "details": "First Oil Change",
+                        "disclaimer": "E-mail must be presented when service order is written. Includes up to 5 qts of oil, excludes synthetics and diesels. Cannot be combined with any other offers or in-store coupons or specials. Limit 1 coupon per customer, per visit. See Service Advisor for details. Expires 45 days from receipt of this e-mail.",
+                        "link-text": "Schedule Service",
+                        "link": "",
+                        "img-sq": "",
+                        "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg",
+                        "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg"
+                    }
+                }
+            }
+        }
+    },
+    "dealer": {
+        "name": "Huggins Honda",
+        "address_1": " 7551 NE Loop 820",
+        "address_2": "",
+        "city": "North Richland Hills",
+        "state": "TX",
+        "zip": "76180",
+        "nav_1": "NEW",
+        "nav_1_link": "http://www.hugginshonda.com/new-inventory/index.htm",
+        "nav_2": "PRE-OWNED",
+        "nav_2_link": "http://www.hugginshonda.com/used-inventory/index.htm",
+        "nav_3": "SPECIALS",
+        "nav_3_link": "http://www.hugginshonda.com/service-specials.htm",
+        "nav_4": "SERVICE",
+        "nav_4_link": "http://www.hugginshonda.com/schedule-service.htm",
+        "new_inventory": "http://www.hugginshonda.com/new-inventory/index.htm",
+        "schedule_service": "http://www.hugginshonda.com/schedule-service.htm",
+        "service_specials": "http://www.hugginshonda.com/service-specials.htm",
+        "new_specials": "http://www.hugginshonda.com/incentives.htm",
+        "used_specials": "http://www.hugginshonda.com/pre-owned-specials.htm",
+        "location": "http://www.hugginshonda.com/dealership/directions.htm",
+        "sales_track_phone": "855-902-9103",
+        "service_track_phone": "817-485-0300",
+        "brand": "Honda",
+        "brand_logo": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/SonicEmail/BrandLogos/Honda-Logo.png",
+        "brand_logo_rev": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/SonicEmail/BrandLogos/Honda-Logo-Reverse.png"
+    },
+    "type": "service"
+}

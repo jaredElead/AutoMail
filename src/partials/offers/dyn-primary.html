@@ -1,107 +1,118 @@
-<spacer size="16"></spacer>
-<container>
-    {{#ifequal offer-type 'service'}}
-        {{#each service-offers}}
-            {{#ifequal ../primary-offer @key}}
-            {{#if ../show-img}}
-                {{#ifequal ../img-size 'lg'}}
-                    {{#if img-lg}}
-                        <row class="collapse">
-                            <columns>
-                                <img width="620" src="{{ img-lg }}">
-                            </columns>
-                        </row>
-                    {{else}}
-                        No large image set
-                    {{/if}}
-                {{/ifequal}}
-             {{#ifequal ../img-size 'md'}}
-                {{#if img-md}}
+{{#ifequal pad 'true'}}<container>{{/ifequal}}
+{{#each data.list}}
+{{#each col1}}
+{{#ifequal primary true}}
+
+
+
+
+
+{{!-- =================================== begin Universal Layout  ============================== --}}
+                {{#if ../../show-img}}
+                {{#ifequal ../../img-size 'lg'}}
+
+                {{#if offer.img-lg}}
                     <row class="collapse">
-                        <columns>&nbsp;
+                        <columns>
+                            <img width="620" src="{{ offer.img-lg }}">
                         </columns>
-                        <columns large="8">
-                            <img width="350" src="{{img-md}}">
-                        </columns>
-                           <columns>&nbsp;
-                        </columns>
+                    </row>  
+                {{else}}
+                    No large image set
+                {{/if}}
+                {{/ifequal}}
+                {{#ifequal ../../img-size 'md'}}
+                {{#if offer.img-md}}
+                    <spacer size="36"></spacer>
+                    <row class="collapse">
+                        <columns>&nbsp;</columns>
+                        <columns large="8"><img width="350" src="{{offer.img-md}}"></columns>
+                        <columns>&nbsp;</columns>
                     </row>
-               
+
                 {{else}}
                     No medium Image Set
-                 {{/if}}
-            {{/ifequal}}
-            {{/if}}
-            <row class="collapse">
-                <columns>&nbsp;
-                </columns>
-               <columns large="10">
-                    <callout class="white">
-                        <h6 class="text-center">{{year}} {{ make }} {{model}} {{trim}}</h6>
-                        <h4 class="text-center text-primary">
-                            <small class="medium-gray">{{ pre }}</small>{{{ offer }}} <small class="medium-gray">{{ sub }}</small>
-                        </h4>
-                        <p class="text-center small">{{ details }}</p>
-                        <p class="text-center" style="font-size:8px !important;">{{ disclaimer }}</p>
-                        <center><button class="text-center" href="{{#if link }} {{ link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{ link-text }}</button></center>
-                    </callout>
-                </columns>
-                <columns>&nbsp;
-                </columns>
-            </row>
-               {{/ifequal}}
-           {{/each}}
-       {{/ifequal}}
-       {{#ifequal offer-type 'sales'}}
-        {{#each sales-offers}}
-            {{#ifequal ../primary-offer @key}}
-            {{#if ../show-img}}    
-            {{#ifequal ../img-size 'lg'}}
-                    {{#if img-lg}}
-                        <row class="collapse">
-                            <columns>
-                                <img width="620" src="{{ img-lg }}">
-                            </columns>
-                        </row>
-                    {{else}}
-                        No large image set
-                    {{/if}}
-            {{/ifequal}}
-             {{#ifequal ../img 'md'}}
-                {{#if img-md}}
-                    <row class="collapse">
-                        <columns>&nbsp;
-                        </columns>
-                        <columns large="8">
-                            <img width="350" src="{{ img-md}}">
-                        </columns>
-                           <columns>&nbsp;
-                        </columns>
-                    </row>
-                    {{else}}
-                    No Medium Image Set
                 {{/if}}
-            {{/ifequal}}
-            {{/if}}
+                {{/ifequal}}
+                {{/if}}
                     <row class="collapse">
-                       <columns>&nbsp;
-                </columns>
-               <columns large="10">
-                            <callout class="white">
-                                <h6 class="text-center">{{year}} {{ make }} {{model}} {{trim}}</h6>
-                                <h4 class="text-center text-primary">
-                                    {{{ offer }}} <small class="medium-gray">{{ sub }}</small>
-                                </h4>
-                               
-                                <p class="text-center small">{{ details }}</p>
-                                <p class="text-center" style="font-size:8px !important;">{{ disclaimer }}</p>
-                                <center><button class="text-center" href="{{#if link }} {{ link }} {{else}} {{../dealer.new-inventory}} {{/if}}">{{ link-text }}</button></center>
-                            </callout>
-                        </columns>
-                        <columns>&nbsp;
-                </columns>
-                    </row>
-               {{/ifequal}}
-           {{/each}}
-       {{/ifequal}}
-</container>
+                    <columns large="12">
+{{!-- =================================== begin Service Specific Layout ============================== --}}
+{{#ifequal layout "service"}}
+
+                <callout class="white">
+                    <h3 class="text-center">{{offer.title}}</h3>
+                    {{#if offer.offer}}
+                    <center><small class="text-center medium-gray" style="font-weight:normal;font-size:24px;text-transform:uppercase;">{{{ offer.pre }}}</small></center>
+                     {{#ifequal ../../img-size 'md'}}
+                        <h1 class="text-center text-secondary" {{#if_notequal ../../font-size 'regular'}} style="font-size:80px;line-height:83px;"{{/if_notequal}}>{{{ offer.offer }}}<sup class="medium-gray" style="font-size:14px;padding-left:3px;">{{{ offer.post }}}</sup></h1>
+
+                    {{else}}
+                        <h1 class="text-center text-secondary" {{#if_notequal ../../font-size 'regular'}} style="font-size:80px;line-height:83px;"{{/if_notequal}}>{{{ offer.offer }}}<sup style="font-size:36px;padding-left:3px;">{{{ offer.post }}}</sup></h1>
+                   {{/ifequal}}
+                   {{/if}}
+                    <h6 class="text-center small">{{{ offer.details }}}</h6>
+                </callout>
+                   
+{{/ifequal}}
+{{!-- =================================== begin Sales Specific Layout ============================== --}}
+{{#ifequal layout "sales"}}
+ <callout class="white">
+{{!-- =================================== begin Sales / Lease Specific Layout ============================== --}}    
+{{#ifequal offer.type 'Lease' }}
+
+               
+                <h6 class="text-center">{{offer.year}} {{ offer.make }} {{offer.model}} {{trim}}</h6>
+                <h4 class="text-center text-primary">
+                    {{{ offer.offer }}} <small class="medium-gray">{{ offer.post }}</small>
+                </h4>
+               
+                <p class="text-center small">{{ offer.details }}</p>
+                                    
+                            
+{{ else }}
+{{!-- =================================== begin Sales/Finance Specific Layout ============================== --}}
+               
+                <h6 class="text-center">{{offer.year}} {{ offer.make }} {{offer.model}} {{trim}}</h6>
+                <h4 class="text-center text-primary">
+                    {{{ offer.offer }}} <small class="medium-gray">{{ offer.post }}</small>
+                </h4>
+               
+                <p class="text-center small">{{ offer.details }}</p>
+
+
+                {{#if offer.vin}}<hr/><p class="text-center"><small class="text-medium-gray">VIN: {{{ offer.vin }}}</small></p>{{/if}}
+                {{#if offer.stock}}<p class="text-center"><small class="text-medium-gray">Stock: #{{{ offer.stock }}}</small></p>{{/if}}
+
+                <p class="text-center">{{#if offer.msrp}}<small class="text-medium-gray">MSRP: ${{{ offer.msrp }}}</small><br/>{{/if}}
+                {{#if offer.discount}}<small class="text-medium-gray">Discount: ${{{ offer.discount }}}<br/></small>{{/if}}
+                {{#if offer.price}}<small class="text-success">Your Price: <strong>${{{ offer.price }}}</strong></small>{{/if}}</p>
+
+                                    
+</callout>
+{{/ifequal}}
+
+{{!-- =================================== Resume Universal Layout ============================== --}}
+
+{{/ifequal}}
+<callout class="white unpad-top">
+<center><button class="text-center tertiary" href="{{#if offer.link }} {{ offer.link }} {{else}} {{../../data.dealer.schedule_service}} {{/if}}">{{ offer.link-text }}</button></center>
+<p class="text-center" style="font-size:8px !important;">{{ offer.disclaimer }}</p>
+</callout>
+</columns>
+</row>
+
+
+
+
+
+{{/ifequal}}
+{{/each}}
+{{/each}}
+
+
+       
+                    
+          
+
+{{#ifequal pad 'true'}}</container>{{/ifequal}}

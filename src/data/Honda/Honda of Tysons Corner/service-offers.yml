@@ -1,0 +1,289 @@
+---
+'offer1': 
+  active: true
+  tier: 1
+  col: 2
+  type: Lube, Oil and Filter
+  title: Lube, Oil and Filter	
+  pre: 
+  offer: $34.95
+  sub: + tax (Reg. $45.95)
+  details: 
+  disclaimer: Includes up to 5 qts of 5W20 Synthetic Blend Oil. Some models may be slightly higher. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($1.60). Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg
+'offer2':
+  active: true
+  tier: 1
+  col: 2
+  type: Rotate Align Balance
+  title: Rotate, Align & Balance
+  pre: 
+  offer: $21.95				
+  sub: + tax (Reg. $24.95)
+  details: Tire rotation
+  disclaimer: Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details	
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-lg.jpg
+'offer3':
+  active: true
+  tier: 1
+  col: 2
+  type: Alignment
+  title: Alignment Special
+  pre: 
+  offer: $109.95								
+  sub: + tax (Reg. $119.95)
+  details: 4 wheel alignment
+  disclaimer: Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details	
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg
+'offer4':
+  active: true
+  tier: 1
+  col: 2
+  type: Brakes		
+  title: Brake Special	
+  pre: 
+  offer: $279.95								
+  sub: + tax (Reg. $329.95)
+  details: Front or rear brake pad replacement, and resurfacing rotors.
+  disclaimer: Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg
+'offer5':
+  active: true
+  tier: 1
+  col: 1
+  type: Battery			
+  title: Battery Replacement		
+  pre: 
+  offer: $165.95								
+  sub: + tax (Reg. $189.95)
+  details:
+  disclaimer: Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-lg.jpg
+'offer6':
+  active: true
+  tier: 1
+  col: 1
+  type: Service Your Way			
+  title: Service Your Way		
+  pre: 
+  offer: '10<sup style="font-size:36px;">% OFF</sup>'
+  sub: 
+  details: Recommended services 
+  disclaimer: Valid only at Honda of Tyson Corner. Maximum discount $150. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Tires are excluded. Other restrictions may apply.  Limit one coupon per VIN #.  Honda models only. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg
+'offer7': 
+  active: true
+  tier: 2
+  col: 2
+  type: Lube, Oil and Filter
+  title: Lube, Oil and Filter	
+  pre: 
+  offer: $29.95
+  sub: + tax (Reg. 45.95)
+  details: 
+  disclaimer: Includes up to 5 qts of 5W20 Synthetic Blend Oil. Some models may be slightly higher. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($1.60). Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional for details.	
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg
+'offer8':
+  active: true
+  tier: 2
+  col: 2
+  type: Rotate Align Balance
+  title: Rotate, Align and Balance
+  pre: 
+  offer: $19.95			
+  sub: + tax (Reg. $24.95)
+  details: Tire rotation
+  disclaimer: Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-lg.jpg
+'offer9':
+  active: true
+  tier: 2
+  col: 2
+  type: Alignment
+  title: Alignment Special
+  pre: 
+  offer: $99.95								
+  sub: + tax (Reg. $119.95)
+  details: 4 wheel alignment
+  disclaimer: Honda vehicles only. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg
+'offer10':
+  active: true
+  tier: 2
+  col: 2
+  type: Brakes		
+  title: Brake Special	
+  pre: 
+  offer: $259.95								
+  sub: + tax (Reg. $329.95)
+  details: Front or rear brake special.  Includes resurfacing rotors.
+  disclaimer: Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg
+'offer11':
+  active: true
+  tier: 2
+  col: 1
+  type: Battery			
+  title: Battery Replacement	
+  pre: 
+  offer: $155.95								
+  sub: + tax (Reg. $189.95)
+  details: Battery replacement.
+  disclaimer: Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-lg.jpg
+'offer12':
+  active: true
+  tier: 2
+  col: 3
+  type: Service Your Way			
+  title: Service Your Way		
+  pre: 
+  offer: '15<sup style="font-size:36px;">% OFF</sup>'								
+  sub: 
+  details: Recommended services
+  disclaimer: Valid only at Honda of Tyson Corner. Maximum discount $150. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Tires are excluded. Other restrictions may apply.  Limit one coupon per VIN #.  Honda models only. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg
+'offer13': 
+  active: true
+  tier: 3
+  col: 2
+  type: Lube, Oil and Filter
+  title: Lube Oil and Filter	
+  pre: 
+  offer: $24.95
+  sub: + tax (Reg. 45.95)
+  details: 
+  disclaimer: Includes up to 5 qts of 5W20 Synthetic Blend Oil. Some models may be slightly higher. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($1.60). Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional for details.	
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg
+'offer14':
+  active: true
+  tier: 3
+  col: 2
+  type: Rotate Align Balance
+  title: Rotate, Align and Balance
+  pre: 
+  offer: $14.95			
+  sub: + tax (Reg. $24.95)
+  details: Tire rotation
+  disclaimer: Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-lg.jpg
+'offer15':
+  active: true
+  tier: 3
+  col: 2
+  type: Alignment
+  title: Alignment Special
+  pre: 
+  offer: $89.95							
+  sub: + tax (Reg. $119.95)
+  details: 4 wheel alignment
+  disclaimer: Honda vehicles only. Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg
+'offer16':
+  active: true
+  tier: 3
+  col: 2
+  type: Brakes		
+  title: Brake Special		
+  pre: 
+  offer: $249.95								
+  sub: + tax (Reg. $329.95)
+  details: front or rear brake special.  Includes resurfacing rotors.
+  disclaimer: Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg
+'offer17':
+  active: true
+  tier: 3
+  col: 1
+  type: Battery			
+  title: Battery Replacement		
+  pre: 
+  offer: $144.95								
+  sub: + tax (Reg. $189.95)
+  details: Battery replacement.
+  disclaimer: Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-lg.jpg
+'offer18':
+  active: true
+  tier: 3
+  col: 1
+  type: Service Your Way			
+  title: Service Your Way		
+  pre: 
+  offer: '25<sup style="font-size:36px;">% OFF</sup>'								
+  sub: 
+  details: Recommended Services 
+  disclaimer: Valid only at Honda of Tyson Corner. Maximum discount $150. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Tires are excluded. Other restrictions may apply.  Limit one coupon per VIN #.  Honda models only. See your service professional for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg

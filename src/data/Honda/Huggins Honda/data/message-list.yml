@@ -1,0 +1,273 @@
+---
+'message1':
+  type: '12 mo lc RDR'
+  'msg':
+    greeting: 'Dear &lt;{TitleCase}&gt;&lt;{CustFirstName}&gt;&lt;{/TitleCase}&gt;,'
+    body: '<p>At  &lt;{DealershipName}&gt;, we take pride in our commitment to give our customers complete satisfaction and service. We want to personally thank you for giving us the opportunity to sell you a new vehicle. I would like to personally invite you back to  &lt;{DealershipName}&gt; to experience our recent improvements and new exclusive offers to existing customers.</p><p>If you have any questions or need any additional information please contact our service department at (817) 485-0300.</p>'
+    signature: 'Sales Manager'
+  'cta':
+    'cta1':
+      type: 'tel'
+      link: 
+      text: 'Call Us'
+    'cta2':
+      type: 'link'
+      link: 
+      text: 'Schedule Service'
+'message2':
+  type: '12 mo lc RO'
+  'msg':
+    greeting: 'Dear &lt;{TitleCase}&gt;&lt;{CustFirstName}&gt;&lt;{/TitleCase}&gt;,'
+    body: '<p>At  &lt;{DealershipName}&gt;, we take pride in our commitment to give our customers complete satisfaction and service. I want to personally thank you for previously giving us the opportunity to service your vehicle and would like to welcome you back to &lt;{DealershipName}&gt; to experience our recent improvements and new exclusive offers to existing customers.</p><p>If you have any questions or need any additional information please contact our service department at (817) 485-0300.</p>'
+    signature: 'Service Manager'
+  'cta':
+    'cta1':
+      type: 'tel'
+      link: 
+      text: 'Call Us'
+    'cta2':
+      type: 'link'
+      link: 
+      text: 'Schedule Service'
+'message3':
+  type: '1st service reminder'
+  'msg':
+    greeting: 'Dear &lt;{TitleCase}&gt;&lt;{CustFirstName}&gt;&lt;{/TitleCase}&gt;,'
+    body: '<p>As you know, regular scheduled maintenance is important and having that maintenance performed at  &lt;{TitleCase}&gt; &lt;{DealershipName}&gt; &lt;{/TitleCase}&gt; will ensure that your vehicle maintains optimum performance.</p><p>As this is your first time servicing this vehicle, we’d like to extend a special courtesy to you and look over the entire vehicle for issues that may be covered under the manufacturer’s warranty. This is a service that can only be done at  &lt;{TitleCase}&gt; &lt;{DealershipName}&gt; &lt;{/TitleCase}&gt; and ensures the overall quality of your vehicle for years to come.</p><p><ul><li>A complimentary tire rotation!</li><li>Complimentary Multi Point Inspection included with your service visit!</li><li>Courtesy car wash upon completion of your service visit!</li><li>If you have any questions or need any additional information please contact our service department at (817) 485-0300.</li></ul></p>'
+    signature: 'Service Manager'
+  'cta':
+    'cta1':
+      type: 'tel'
+      link: 
+      text: 'Call Us'
+    'cta2':
+      type: 'link'
+      link: 
+      text: 'Schedule Service'
+'message4':
+  type: '6m lc rdr'
+  'msg':
+    greeting: 'Dear &lt;{TitleCase}&gt;&lt;{CustFirstName}&gt;&lt;{/TitleCase}&gt;,'
+    body: '<p>At  &lt;{DealershipName}&gt;, we take pride in our commitment to give our customers complete satisfaction and service. We want to personally thank you for giving us the opportunity to sell you a new vehicle. I would like to personally invite you back to  &lt;{DealershipName}&gt; to experience our recent improvements and new exclusive offers to existing customers.</p><p>If you have any questions or need any additional information please contact our service department at (817) 485-0300.</p>'
+    signature: 'Service Manager'
+  'cta':
+    'cta1':
+      type: 'tel'
+      link: 
+      text: 'Call Us'
+    'cta2':
+      type: 'link'
+      link: 
+      text: 'Schedule Service'
+'message5':
+  type: '6m lc ro'
+  'msg':
+    greeting: 'Dear &lt;{TitleCase}&gt;&lt;{CustFirstName}&gt;&lt;{/TitleCase}&gt;,'
+    body: '<p>At  &lt;{DealershipName}&gt;, we take pride in our commitment to give our customers complete satisfaction and service. I want to personally thank you for previously giving us the opportunity to service your vehicle and would like to welcome you back to &lt;{DealershipName}&gt; to experience our recent improvements and new exclusive offers to existing customers.</p><p>If you have any questions or need any additional information please contact our service department at (817) 485-0300.</p>'
+    signature: 'Service Manager'
+  'cta':
+    'cta1':
+      type: 'tel'
+      link: 
+      text: 'Call Us'
+    'cta2':
+      type: 'link'
+      link: 
+      text: 'Schedule Service'
+'message6':
+  type: '9m lc rdr'
+  'msg':
+    greeting: 'Dear &lt;{TitleCase}&gt;&lt;{CustFirstName}&gt;&lt;{/TitleCase}&gt;,'
+    body: '<p>At  &lt;{DealershipName}&gt;, we take pride in our commitment to give our customers complete satisfaction and service. We want to personally thank you for giving us the opportunity to sell you a new vehicle. I would like to personally invite you back to  &lt;{DealershipName}&gt; to experience our recent improvements and new exclusive offers to existing customers.</p><p>If you have any questions or need any additional information please contact our service department at (817) 485-0300.</p>'
+    signature: 'Service Manager'
+  'cta':
+    'cta1':
+      type: 'tel'
+      link: 
+      text: 'Call Us'
+    'cta2':
+      type: 'link'
+      link: 
+      text: 'Schedule Service'
+'message7':
+  type: '9m lc ro'
+  'msg':
+    greeting: 'Dear &lt;{TitleCase}&gt;&lt;{CustFirstName}&gt;&lt;{/TitleCase}&gt;,'
+    body: '<p>At  &lt;{DealershipName}&gt;, we take pride in our commitment to give our customers complete satisfaction and service. I want to personally thank you for previously giving us the opportunity to service your vehicle and would like to welcome you back to &lt;{DealershipName}&gt; to experience our recent improvements and new exclusive offers to existing customers.</p><p>If you have any questions or need any additional information please contact our service department at (817) 485-0300.</p>'
+    signature: 'Service Manager'
+  'cta':
+    'cta1':
+      type: 'tel'
+      link: 
+      text: 'Call Us'
+    'cta2':
+      type: 'link'
+      link: 
+      text: 'Schedule Service'
+'message8':
+  type: '9m lc ro'
+  'msg':
+    greeting: 'Dear &lt;{TitleCase}&gt;&lt;{CustFirstName}&gt;&lt;{/TitleCase}&gt;,'
+    body: '<p>At  &lt;{DealershipName}&gt;, we take pride in our commitment to give our customers complete satisfaction and service. I want to personally thank you for previously giving us the opportunity to service your vehicle and would like to welcome you back to &lt;{DealershipName}&gt; to experience our recent improvements and new exclusive offers to existing customers.</p><p>If you have any questions or need any additional information please contact our service department at (817) 485-0300.</p>'
+    signature: 'Service Manager'
+  'cta':
+    'cta1':
+      type: 'tel'
+      link: 
+      text: 'Call Us'
+    'cta2':
+      type: 'link'
+      link: 
+      text: 'Schedule Service'
+'message9':
+  type: 'decline service RO'
+  'msg':
+    greeting: 'Dear &lt;{TitleCase}&gt;&lt;{CustFirstName}&gt;&lt;{/TitleCase}&gt;,'
+    body: '<p>When visiting our service department on  &lt;{LastServiceVisitDate}&gt;, you chose not to have some recommended services performed on your  &lt;{VehicleOwnedYear}&gt;  &lt;{VehicleOwnedMake}&gt;  &lt;{VehicleOwnedModel}&gt;. We feel it&apos;s our obligation to let you know all the facts on your vehicle with every visit to our service department. Our factory trained technicians and service advisors will always notify you of any and all items that they identify as needing attention. Some are big, some are small, but all are important. These types of recommendations are what keeps your vehicle in optimum driving condition and it could also help to maintain the performance, reliability, and overall resale value of your vehicle!</p><p>Receive a 15% discount off parts and labor for the recommended service not performed!*
+If you have any questions or need any additional information please contact our service department at (817) 485-0300.</p>'
+    signature: 'Service Manager'
+  'cta':
+    'cta1':
+      type: 'tel'
+      link: 
+      text: 'Call Us'
+    'cta2':
+      type: 'link'
+      link: 
+      text: 'Schedule Service'
+'message10':
+  type: 'defector call follow up'
+  'msg':
+    greeting: 'Dear &lt;{TitleCase}&gt;&lt;{CustFirstName}&gt;&lt;{/TitleCase}&gt;,'
+    body: '<p>Thank you for taking time recently to speak to us about your new purchase. We hope you are enjoying your new vehicle and we want to thank you for choosing  &lt;{DealershipName}&gt;. We appreciate the opportunity to earn your business and would like to invite you to visit our service department for all your service needs. We look forward to welcoming you as our guest and are totally committed to providing the best service experience possible.</p><p>Here are some reasons why you should choose us for your service needs:<ul><li>Remember: Receive $10.00 off your First Oil Change!</li><li>Factory trained Certified Technicians!</li><li>The experts at Huggin Honda’s service center have a thorough knowledge of Honda car repair.</li><li>Our mechanics consistently provide our customers with high-quality auto repairs because we know how much you depend on your car, truck or SUV.</li><li>We will also advise you on any developing maintenance and/or repair issue, using our complimentary Multi-Point inspection performed by our Honda Certified Technicans.</li><li>Wi-Fi available for your convenience!</li><li>Comfortable waiting room with complimentary coffee.</li><li>Complimentary car wash and battery check.</li></ul><p>If you have any questions or need any additional information please contact our service department at (817) 485-0300.</p>'
+    signature: 'Service Manager'
+  'cta':
+    'cta1':
+      type: 'tel'
+      link: 
+      text: 'Call Us'
+    'cta2':
+      type: 'link'
+      link: 
+      text: 'Schedule Service'
+'message11':
+  type: 'initial service recovery'
+  'msg':
+    greeting: 'Dear &lt;{TitleCase}&gt;&lt;{CustFirstName}&gt;&lt;{/TitleCase}&gt;,'
+    body: '<p>It&apos;s been awhile since you&aposve been in for service. At  &lt;{DealershipName}&gt;, we take pride in our commitment to give our customers complete satisfaction and service. I want to personally thank you for previously giving us the opportunity to service your  &lt;{VehicleOwnedYear}&gt;  &lt;{VehicleOwnedMake}&gt;  &lt;{VehicleOwnedModel}&gt; ( &lt;{VehicleOwnedVIN}&gt;) and welcome you back to  &lt;{DealershipName}&gt; to experience our recent improvements and new exclusive offers to existing customers.</p><p>If you have any questions or need any additional information please contact our service department at (817) 485-0300.</p>'
+    signature: 'Service Manager'
+  'cta':
+    'cta1':
+      type: 'tel'
+      link: 
+      text: 'Call Us'
+    'cta2':
+      type: 'link'
+      link: 
+      text: 'Schedule Service'
+'message12':
+  type: 'Notification'
+  'msg':
+    greeting: 'Dear &lt;{TitleCase}&gt;&lt;{CustFirstName}&gt;&lt;{/TitleCase}&gt;,'
+    body: '<p>We’re looking forward to seeing you at  &lt;{DealershipName}&gt; on  &lt;{NextServiceApptDate}&gt; at  &lt;{NextServiceApptTime}&gt; for service on your  &lt;{VehicleOwnedYear}&gt;  &lt;{VehicleOwnedMake}&gt;  &lt;{VehicleOwnedModel}&gt;.</p><p>If you have any questions or need any additional information please contact our service department at (817) 485-0300.</p>'
+    signature: 'Service Manager'
+  'cta':
+    'cta1':
+      type: 'tel'
+      link: 
+      text: 'Call Us'
+    'cta2':
+      type: 'link'
+      link: 
+      text: 'Schedule Service'
+'message13':
+  type: 'Service'
+  'msg':
+    greeting: 'Dear &lt;{TitleCase}&gt;&lt;{CustFirstName}&gt;&lt;{/TitleCase}&gt;,'
+    body: '<p>At  &lt;{DealershipName}&gt;, we take pride in our commitment to give our customers complete satisfaction and service. We want to personally thank you for giving us the opportunity to sell you a new vehicle. I would like to personally invite you back to  &lt;{DealershipName}&gt; to experience our recent improvements and new exclusive offers to existing customers.</p><p>If you have any questions or need any additional information please contact our service department at (817) 485-0300.</p>'
+    signature: 'Service Manager'
+  'cta':
+    'cta1':
+      type: 'tel'
+      link: 
+      text: 'Call Us'
+    'cta2':
+      type: 'link'
+      link: 
+      text: 'Schedule Service'
+'message14':
+  type: 'Appt Confirm'
+  'msg':
+    greeting: 'Dear &lt;{TitleCase}&gt;&lt;{CustFirstName}&gt;&lt;{/TitleCase}&gt;,'
+    body: '<p>We’re looking forward to seeing you at  &lt;{DealershipName}&gt; on  &lt;{NextServiceApptDate}&gt; at  &lt;{NextServiceApptTime}&gt; for service on your  &lt;{VehicleOwnedYear}&gt;  &lt;{VehicleOwnedMake}&gt;  &lt;{VehicleOwnedModel}&gt;.</p><p>If you have any questions or need any additional information please contact our service department at (817) 485-0300.</p>'
+    signature: 'Service Manager'
+  'cta':
+    'cta1':
+      type: 'tel'
+      link: 
+      text: 'Call Us'
+    'cta2':
+      type: 'link'
+      link: 
+      text: 'Schedule Service'
+'message15':
+  type: 'State Inspection'
+  'msg':
+    greeting: 'Dear &lt;{TitleCase}&gt;&lt;{CustFirstName}&gt;&lt;{/TitleCase}&gt;,'
+    body: '<p>My name is Steve with Huggins Honda Service and I was wanting to contact you as a courtesy to let you know our records indicate you are due for a state inspection this month.  I would love to get you scheduled in and have this completed. </p><p>My service director is offering you $5.00 off of this state inspection.  I have available openings this week and next, contact me via email at coleman@hugginscars.com or call 817-485-0300 so that we can ensure we save you some money and take care of that state inspection with our complimentary multi point inspection and our complimentary complete wash! </p><p>I Look forward to hearing from you soon and I hope you have a wonderful day!</p>'
+    signature: 'Service Manager'
+  'cta':
+    'cta1':
+      type: 'tel'
+      link: 
+      text: 'Call Us'
+    'cta2':
+      type: 'link'
+      link: 
+      text: 'Schedule Service'
+'message16':
+  type: 'Welcome To Parts'
+  'msg':
+    greeting: 'Dear &lt;{TitleCase}&gt;&lt;{CustFirstName}&gt;&lt;{/TitleCase}&gt;,'
+    body: '<p>I would like to thank you for your recent purchase and welcome you to the Huggins Honda family.</p><p>The Parts Department will be responsible for taking care of all your vehicle&apos;s customized parts. We offer our new car customers special savings on all accessories during the first 90 days of ownership. We found accessories often increase enjoyment and resale value of your recent investment.<ul><li>Take 10% off your purchase of Genuine Honda Accessories not installed by dealer.</li><li>Take 15% off your purchase of Genuine Honda Accesssories installed by dealer.</li></ul></p><p>If you have any questions or need any additional information please contact our service department at (817) 485-0300.</p>'
+    signature: 'Service Manager'
+  'cta':
+    'cta1':
+      type: 'tel'
+      link: 
+      text: 'Call Us'
+    'cta2':
+      type: 'link'
+      link: 
+      text: 'Schedule Service'
+'message17':
+  type: 'Birthday'
+  'msg':
+    greeting: 'Dear &lt;{TitleCase}&gt;&lt;{CustFirstName}&gt;&lt;{/TitleCase}&gt;,'
+    body: '<p>From all of us at &lt;{DealershipName}&gt;, wishing you a very Happy Birthday and best wishes in the coming year.</p><p>If you have any questions or need any additional information please contact our service department at (817) 485-0300.</p>'
+    signature: 'Service Manager'
+  'cta':
+    'cta1':
+      type: 'tel'
+      link: 
+      text: 'Call Us'
+    'cta2':
+      type: 'link'
+      link: 
+      text: 'Schedule Service'
+'message18':
+  type: 'Service CSI'
+  'msg':
+    greeting: 'Dear &lt;{TitleCase}&gt;&lt;{CustFirstName}&gt;&lt;{/TitleCase}&gt;,'
+    body: '<p>My name is Steve, Service Manager, Huggins Honda Service. I just wanted to make sure that we contacted you after your recent visit with our service department to ensure that your service advisor took excellent care of you and your vehicle. If you have any questions, comments, or concerns please feel free to respond back with any feedback you may have. You may also call me at 817-605-5647. I would absolutely love to hear from you!</p><p>I also want to let you know American Honda may be getting in touch with you in regards to a short survey. It is basically a report card over your service advisor&apos;s performance, the service team and the dealership. If there is any reason you feel you cannot give excellent markings, please give me a call so we an go over the visit and help to ensure we address any of your concerns.</p><p>Thank you so much for doing business with Huggins Honda! I hope you have a great day!
+</p><p>If you have any questions or need any additional information please contact our service department at (817) 485-0300.</p>'
+    signature: 'Service Manager'
+  'cta':
+    'cta1':
+      type: 'tel'
+      link: 
+      text: 'Call Us'
+    'cta2':
+      type: 'link'
+      link: 
+      text: 'Schedule Service'

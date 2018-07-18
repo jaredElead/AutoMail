@@ -1,0 +1,385 @@
+---
+'offer2':
+  active: true
+  tier: 1
+  col: 2
+  type: Rotate & Balance
+  title: Rotate & Balance
+  pre: 
+  offer: $47.95				
+  sub: + tax (Reg. $49.95)
+  details: Electronic 4 wheel balance.
+  disclaimer: Excludes tax and shop fees. See service advisor for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-lg.jpg
+'offer7':
+  active: true
+  tier: 1
+  col: 2
+  type: Rotate & Alignment
+  title: Rotate & Alignment
+  pre: 
+  offer: $133.00
+  sub: + tax (Reg. $139.95)
+  details: Rotate tires, balance, & align.
+  disclaimer: Excludes tax and shop fees. See service advisor for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-lg.jpg
+'offer3':
+  active: true
+  tier: 1
+  col: 2
+  type: Alignment
+  title: Alignment Special
+  pre: 
+  offer: $84.95								
+  sub: + tax (Reg. $89.95)
+  details: '4 wheel alignment<br/><br/>'
+  disclaimer: 'Excludes tax and shop fees. See service advisor for details.<br/><br/>'
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg
+'offer1': 
+  active: true
+  tier: 1
+  col: 2
+  type: Lube, Oil and Filter
+  title: Lube, Oil & Filter 
+  pre: 
+  offer: $49.95
+  sub: + tax (Reg. $54.95)
+  details: Lube, oil & filter change, and multi-point inspection. 
+  disclaimer: Excludes tax and shop fees.  Most makes and models/excludes diesels. Includes up to 5 quarts of synthetic oil. See advisor or details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg
+'offer6':
+  active: true
+  tier: 1
+  col: 2
+  type: Lube, Oil, Filter & Tire Rotation     
+  title: Oil Change & Tire Rotation 
+  pre: 
+  offer: $59.00               
+  sub: + tax (Reg. $71.90)
+  details: Lube, oil & filter change with tire rotation.
+  disclaimer: Excludes tax and shop fees.  Most makes and models/excludes diesels. Includes up to 5 quarts of synthetic oil. See advisor or details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg
+'offer4':
+  active: true
+  tier: 1
+  col: 2
+  type: Brakes		
+  title: Brake Pad Replacement Special		
+  pre: 
+  offer: $219.95								
+  sub: + tax (Reg. $259.95)
+  details: 'Includes rotor resurfacing.<br/><br/>'
+  disclaimer: 'Excludes tax and shop fees. See service advisor for details.<br/><br/>'
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg
+'offer5':
+  active: true
+  tier: 1
+  col: 1
+  type: Service Your Way      
+  title: Service Your Way   
+  pre: 
+  offer: '5<sup style="font-size:36px;">% OFF</sup>'         
+  sub: 
+  details: Recommended services
+  disclaimer: Excludes tax and shop fees. Max discount $100.  See service advisor for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg
+'offer12':
+  active: true
+  tier: 2
+  col: 1
+  type: Service Your Way      
+  title: Service Your Way   
+  pre: 
+  offer: '10<sup style="font-size:36px;">% OFF</sup>'          
+  sub:
+  details: Recommended services.
+  disclaimer: Excludes tax and shop fees. Max discount $100.  See service advisor for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg
+'offer8': 
+  active: true
+  tier: 2
+  col: 2
+  type: Lube, Oil and Filter
+  title: Lube, Oil and Filter	
+  pre: 
+  offer: $44.95
+  sub: + tax (Reg. $54.95)
+  details: Lube, oil & filter change, and multi-point inspection.	
+  disclaimer: Excludes tax and shop fees.  Most makes and models/excludes diesels. Includes up to 5 quarts of synthetic oil. See advisor or details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg
+'offer9':
+  active: true
+  tier: 2
+  col: 2
+  type: Rotate & Balance
+  title: Rotate & Balance
+  pre: 
+  offer: $47.95				
+  sub: + tax (Reg. $49.95)
+  details: 'Electronic 4 wheel balance.<br/><br/>'
+  disclaimer: 'Excludes tax and shop fees. See service advisor for details.<br/><br/>'
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-lg.jpg
+'offer10':
+  active: true
+  tier: 2
+  col: 2
+  type: Alignment
+  title: Alignment Special
+  pre: 
+  offer: $89.95							
+  sub: + tax (Reg. $89.95)
+  details: 4 wheel alignment
+  disclaimer: Excludes tax and shop fees. See service advisor for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg
+'offer11':
+  active: true
+  tier: 2
+  col: 2
+  type: Brakes		
+  title: Brake Special		
+  pre: 
+  offer: $219.95								
+  sub: + tax (Reg. $259.95)
+  details: Includes rotor resurfacing.
+  disclaimer: Excludes tax and shop fees. See service advisor for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg
+'offer13':
+  active: true
+  tier: 2
+  col: 2
+  type: Lube, Oil, Filter & Tire Rotation			
+  title: Lube, Oil, Filter & Tire Rotation	
+  pre: 
+  offer: $59.00								
+  sub: + tax (Reg. $71.90)
+  details: Oil & filter change and tire rotation.
+  disclaimer: Excludes tax and shop fees.  Most makes and models/excludes diesels. Includes up to 5 quarts of synthetic oil. See advisor or details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg
+'offer14':
+  active: true
+  tier: 2
+  col: 2
+  type: Rotate, Balance, & Alignment
+  title: Rotate, Balance, & Alignment		
+  pre: 
+  offer: $126.00
+  sub: + tax (Reg. $139.95)
+  details: Rotate tires, balance, & align.
+  disclaimer: 'Excludes tax and shop fees. See service advisor for details.<br/><br/>'
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-lg.jpg
+'offer15': 
+  active: true
+  tier: 3
+  col: 2
+  type: Lube, Oil and Filter
+  title: Lube, Oil and Filter	
+  pre: 
+  offer: $40.95
+  sub: + tax (Reg. $54.95)
+  details: Full Synthetic. does not include tax or shop fees/ up to 5 quarts.
+  disclaimer: Excludes tax and shop fees.  Most makes and models/excludes diesels. Includes up to 5 quarts of synthetic oil. See advisor or details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg
+'offer16':
+  active: true
+  tier: 3
+  col: 2
+  type: Alignment
+  title: Alignment Special
+  pre: 
+  offer: $74.95							
+  sub: + tax (Reg. $89.95)
+  details: 'Includes 4 wheel alignment.<br/><br/>'
+  disclaimer: 'Excludes tax and shop fees. See service advisor for details.<br/><br/>'
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg
+'offer17':
+  active: true
+  tier: 3
+  col: 2
+  type: Tires
+  title: Tire Special
+  pre: 
+  offer: $10.00 off 							
+  sub: + tax
+  details: Per tire purchased. Mount and balance of 4 tires, and replacement of valve stems, wheel weights.
+  disclaimer: Max of $40.00 off / excludes PAX tires.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-lg.jpg
+'offer18':
+  active: true
+  tier: 3
+  col: 2
+  type: Brakes		
+  title: Brake Special		
+  pre: 
+  offer: $219.95								
+  sub: + tax (Reg. $259.95)
+  details: Includes rotor resurfacing, oem pad replacement, lubing and greasing caliper slides.
+  disclaimer: Excludes tax and shop fees. See service advisor for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg
+'offer19':
+  active: true
+  tier: 3
+  col: 2
+  type: Battery
+  title:  Battery Replacement
+  pre: 
+  offer: $30.00 OFF
+  sub: 
+  details: Battery replacement - Includes battery system, charging and starter testing with replacement.
+  disclaimer: Does not include tax and shop fees.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-lg.jpg
+'offer21':
+  active: true
+  tier: 3
+  col: 2
+  type: Regular Scheduled Maintenance Packages
+  title: Scheduled Maintenance
+  pre: 
+  offer: $59.00
+  sub: + tax (Reg. $71.90)
+  details: 'Oil and filter, tire rotation, multi-point inspection and courtesy car wash.<br/><br/>'
+  disclaimer: Does not include tax or shop fees.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg
+'offer20':
+  active: true
+  tier: 3
+  col: 1
+  type: Service Your Way
+  title: Service Your Way   
+  pre: 
+  offer: '15<sup style="font-size:36px;">% OFF</sup>'        
+  sub:
+  details: Recommended services. 
+  disclaimer: Excludes tax and shop fees. Max discount $150.  See service advisor for details. 
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg
+'offer22':
+  active: true
+  tier: 3
+  col: 3
+  type: Wiper Blade Replacement
+  title: Wiper Blade Replacement
+  pre: 
+  offer: $16.95
+  sub: + tax (Reg. $24.95)
+  details: Wiper blade replacement
+  disclaimer: Excludes tax and shop fees. See service advisor for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wipers-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wipers-lg.jpg
+'offer23':
+  active: true
+  tier: 3
+  col: 3
+  type: Air/Cabin Filter Replacement
+  title: Air & Cabin Filter Replacement
+  pre: 
+  offer: $79.95
+  sub: + tax (Reg. $99.95)
+  details: Replacement of engine air filter and cabin filter.
+  disclaimer: Price may vary on Pilot and Odyssey.  Excludes tax and shop fees. See service advisor for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/airfilterinstall-med.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/airfilterinstall-lg.jpg
+'offer24':
+  active: true
+  tier: 3
+  col: 3
+  type: Engine Tune Up
+  title: Engine Tune Up Special
+  pre: 
+  offer: $25.00
+  sub: OFF
+  details: Includes spark plug replacement and valve adjustment.
+  disclaimer: Excludes hybrid vehicles. Excludes tax and shop fees. See service advisor for details.
+  link-text: Schedule Service
+  link: 
+  img-sq: 
+  img-md: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/diagnostic-med2.jpg
+  img-lg: https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/diagnostic-lg.jpg

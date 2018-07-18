@@ -1,0 +1,59 @@
+<wrapper class="threecol 
+    {{#ifequal theme 'dark'}}
+        bg-black dark
+    {{else ifequal theme 'primary'}} 
+        bg-primary primary
+    {{else ifequal theme 'secondary'}} 
+        bg-secondary light
+    {{else ifequal theme 'light'}}
+        bg-white light
+        {{else}}
+    bg-primary light
+    {{/ifequal}}
+    ">
+    <container>
+    {{#ifequal offer-type 'service'}}
+    {{#each service-offers}}
+    {{#filter ../tier this.tier}}
+    {{#filter ../col this.col}}
+    {{#exclude ../primary-offer @key}}
+    {{{stripe @index 3 }}}
+    <columns small="12" large="4">
+            <callout class="bg-primary">
+                <h6 class="text-center text-medium-gray">{{title}}</h6>
+                <h3 class="text-center text-white">
+                    {{offer}}
+                </h3>
+                <p class="small text-center text-medium-gray">{{ sub }}</p>
+                <p class="text-medium-gray text-center">{{{ details }}}</p>
+                <spacer size="10"></spacer>
+                <center><button class="small secondary text-center" href="{{#if link }} {{ link }} {{else}} {{../dealer.schedule-service}} {{/if}}">{{link-text}}</button></center>
+                
+                <p class="text-medium-gray" style="font-size:8px !important;">{{ disclaimer }}</p>
+            </callout>
+
+        </columns>
+        {{/exclude}}
+         {{/filter}}
+        {{/filter}}
+    {{/each}}
+</row>
+ {{ else ifequal offer-type 'sales'}}
+ {{#each sales-offers}}
+  {{{stripe @index 3 }}}
+<columns small="12" large="4">
+            <callout class="white">
+                <h6 class="text-center">{{year}} {{ make }} {{model}} {{trim}}</h6>
+                <h3 class="text-center text-primary">
+                    {{offer}}
+                </h3>
+                <p class="small text-center text-medium-gray">{{ sub }}</p>
+                <center><button class="small bg-tertiary text-center" href="{{#if link }} {{ link }} {{else}} {{../dealer.new-inventry}} {{/if}}">{{link-text}}</button></center>
+            </callout>
+        </columns>
+        {{/each}}
+</row>
+ {{/ifequal}}
+
+</container>
+</wrapper>

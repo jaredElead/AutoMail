@@ -1,0 +1,50 @@
+{
+  "0": {
+    "offer": {
+      "title": "Wheel Alignment",
+      "pre": "For Just",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>199.95",
+      "post": "+ Tax",
+      "details": "4 Wheel Alignment.<br/>\r\nReg. price $249.95 + tax",
+      "disclaimer": "Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Excludes active steering. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional at Stevens Creek BMW for details. Dealer not responsible for seized suspension components which could result in additional cost to customer it alignment cannot be adjusted.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg",
+      "col": "2"
+    }
+  },
+  "1": {
+    "offer": {
+      "title": "Lube, Oil and Filter",
+      "pre": "For Just",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>109.95",
+      "post": "+ Tax",
+      "details": "Synthetic Oil Change.<br/>\r\nReg. price $169.95.",
+      "disclaimer": "Some models may be slightly higher. Excludes diesels and M\u2019s. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($1.60). Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at Stevens Creek BMW for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg",
+      "col": "2"
+    }
+  },
+  "2": {
+    "offer": {
+      "title": "Service Your Way",
+      "pre": "Get",
+      "offer": "10%",
+      "post": "Off",
+      "details": "Maximum discount $150.00",
+      "disclaimer": "Valid only at Stevens Creek BMW. Maximum discount $150. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Other restrictions may apply.  Limit one coupon per VIN #. See your service professional at Stevens Creek BMW for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg",
+      "col": "1"
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "0": {
+    "offer": {
+      "title": "Engine Tune Up",
+      "pre": "For Just",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>289.95",
+      "post": "+ Tax",
+      "details": "(reg. price $335.95) Spark plugs and labor.",
+      "disclaimer": "Valid only at Long Beach BMW. Please present coupon when service order is written. 30k mile plug. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Other restrictions may apply.  Limit one coupon per VIN #. See your service professional at Long Beach BMW for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/BMW-Service-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/BMW-Service-lg.jpg",
+      "col": "2"
+    }
+  },
+  "1": {
+    "offer": {
+      "title": "Air/Cabin Filter",
+      "pre": "For Just",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>139.95",
+      "post": "+ Tax",
+      "details": "(reg. price $210.95) Parts and labor.",
+      "disclaimer": "Must be presented at time of write-up. Only applicable to single cabin filter.  Some models may be slightly higher. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($5.65). Not retroactive. No cash value. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at Long Beach BMW for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/airfilterinstall-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/airfilterinstall-lg.jpg",
+      "col": "2"
+    }
+  },
+  "2": {
+    "offer": {
+      "title": "Wiper Blade",
+      "pre": "For Just",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>49.95",
+      "post": "+ Tax",
+      "details": "(reg. price $69.95\t) Wipers and N/C install.",
+      "disclaimer": "Valid only at Long Beach BMW. BMW wiper blades only. Please present coupon when service order is written. Taxes not included. Not valid in conjunction with other coupons or discounts. See your service professional at Long Beach BMW for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wipers-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wipers-lg.jpg",
+      "col": "2"
+    }
+  },
+  "3": {
+    "offer": {
+      "title": "Regular Maintenance",
+      "pre": "For Just",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>299.95",
+      "post": "Smooth Ride",
+      "details": "(reg. price 399.95) Oil Change, Alignment and Rotation/Balance.",
+      "disclaimer": "Some models may be slightly higher. Excludes diesels, Mseries and V8\u2019s. Does not apply to 30/60/90k services. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($1.60). Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at Long Beach BMW for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wheelbalance-lg.jpg",
+      "col": "2"
+    }
+  },
+  "4": {
+    "offer": {
+      "title": "Battery Replacement",
+      "pre": "For Just",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>325",
+      "post": "+ Tax",
+      "details": "(reg. price $465.00) Parts and labor. Interstate battery.",
+      "disclaimer": "Valid only at Long Beach BMW. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts. See your service professional at Long Beach BMW for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/battery-lg.jpg",
+      "col": "2"
+    }
+  },
+  "5": {
+    "offer": {
+      "title": "Brake Special",
+      "pre": "For",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>239.95",
+      "post": "+ Tax",
+      "details": "(reg. price $299.95) Pads, sensor and labor.",
+      "disclaimer": "Must be presented at time of write-up. Applies to front brake pads. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($5.65). Not retroactive. No cash value. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at Long Beach BMW for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg",
+      "col": "2"
+    }
+  },
+  "6": {
+    "offer": {
+      "title": "Tire Special",
+      "pre": "Get",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>100",
+      "post": "off set of 4 tires",
+      "details": "",
+      "disclaimer": "Valid only at Long Beach BMW. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts. See your service professional at Long Beach BMW for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/tires-lg.jpg",
+      "col": "3"
+    }
+  },
+  "7": {
+    "offer": {
+      "title": "Wheel Alignment",
+      "pre": "For",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>149.95",
+      "post": "+ Tax",
+      "details": "Alignment & Balance.<br/> (Reg. price $249.95)",
+      "disclaimer": "Coupon not valid with any other offer. Must present coupon at time of purchase. Limit one coupon per person. Coupon does not apply to prior purchases. Other Restrictions may apply. Void where prohibited. See your service professional at Long Beach BMW for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/alignment-lg.jpg",
+      "col": "3"
+    }
+  },
+  "8": {
+    "offer": {
+      "title": "Lube, Oil & Filter",
+      "pre": "For Just",
+      "offer": "<sup><small class='text-secondary'>$</small></sup>89.95",
+      "post": "+ Tax",
+      "details": "(Reg. price $154.95)",
+      "disclaimer": "Some models may be slightly higher. Excludes diesels, Mseries and V8\u2019s. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees ($1.60). Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at Long Beach BMW for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg",
+      "col": "3"
+    }
+  },
+   "9": {
+    "offer": {
+      "title": "Service Your Way",
+      "pre": "Get",
+      "offer": "10%",
+      "post": "Off",
+      "details": " up to $1000<br/>15% off up to $2,000 in repairs.<br/><small>Maximum savings of $1,000</small>",
+      "disclaimer": "Valid only at Long Beach BMW. Maximum savings of $1,000.  Excludes tires and value service. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Other restrictions may apply.  Limit one coupon per VIN #. See your service professional at Long Beach BMW for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg",
+      "col": "1"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "0": {
+    "offer": {
+      "title": "Air & Cabin Filter Special",
+      "pre": "Only",
+      "offer": "<sup>$</sup>123.69",
+      "post": "+ Tax",
+      "details": "Reg. price $144.95",
+      "disclaimer": "Must be presented at time of write-up. Only applicable to single cabin filter.  Some models may be slightly higher. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees. Not retroactive. No cash value. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at BMW of Fort Myers for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/airfilterinstall-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/airfilterinstall-lg.jpg"
+    }
+  },
+  "1": {
+    "offer": {
+      "title": "Wiper Blade Replacement",
+      "pre": "Only",
+      "offer": "<sup>$</sup>61.73",
+      "post": "+ Tax",
+      "details": "Reg. price $79.95",
+      "disclaimer": "Valid only at BMW of Fort Myers. BMW wiper blades only. Please present coupon when service order is written. Taxes not included. Not valid in conjunction with other coupons or discounts. See your service professional at BMW of Fort Myers for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wipers-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/wipers-lg.jpg"
+    }
+  },
+  "2": {
+    "offer": {
+      "title": "Service Checkup",
+      "pre": "Only",
+      "offer": "<sup>$</sup>99",
+      "post": "+ Tax",
+      "details": "Reg. price $159.95. Includes:<ul><li>Cabin air filter replacement</li><li>A/C system deodorizer</li><li>Fluids top off</li><li>Brake inspection</li><li>Tire tread depth check</li><li>Coolant system check</li><li>Multi-point inspection</li></ul>",
+      "disclaimer": "Must be presented at time of write-up. Only applicable to single cabin filter.  Some models may be slightly higher. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees. Not retroactive. No cash value. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at BMW of Fort Myers for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/diagnostic-med2.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/diagnostic-lg.jpg"
+    }
+  },
+  "3": {
+    "offer": {
+      "title": "Brake Special",
+      "pre": "Get",
+      "offer": "<sup>$</sup>194.95",
+      "post": "+ Tax",
+      "details": "Includes labor.",
+      "disclaimer": "Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees. Not retroactive. No cash value. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at BMW of Fort Myers for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/brakes-lg.jpg"
+    }
+  },
+  "4": {
+    "offer": {
+      "title": "Oil & Filter Service",
+      "pre": "Only",
+      "offer": "<sup>$</sup>89.95",
+      "post": "+ Tax",
+      "details": "Full Retail Price $99.95",
+      "disclaimer": "Some models may be slightly higher. Up to 5 quarts. Must be presented at time of write-up. Not valid with any other offers or in-store specials. Does not include sales tax and hazardous waste disposal fees. Not retroactive. See dealer for details. Limit one coupon per person. Coupon does not apply to prior purchases. Void where prohibited. See your service professional at BMW of Fort Myers for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/oilchange-lg.jpg",
+      "col" : "1"
+    }
+  },
+  "5": {
+    "offer": {
+      "title": "Service Your Way",
+      "pre": "Get",
+      "offer": "15%",
+      "post": "Off",
+      "details": "Maximum discount $200",
+      "disclaimer": "Valid only at BMW of Fort Myers. Maximum discount $200. Excludes tires and value service. Please present coupon when service order is written. Taxes and hazardous waste disposal fees extra. Not valid in conjunction with other coupons or discounts (oil change, drains or refill services). Other restrictions may apply.  Limit one coupon per VIN #. See your service professional at BMW of Fort Myers for details.",
+      "link-text": "Schedule Service",
+      "link": "",
+      "img-sq": "",
+      "img-md": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-med.jpg",
+      "img-lg": "https://wd.eleadcrm.com/evo2/companies/FLNADAMAR/Images/ServiceImages/checklist-lg.jpg"
+    }
+  }
+}

@@ -1,9 +1,7 @@
 // Example file src/helpers/bold.js
 module.exports = function(conditional, count, options) {
-  if(conditional == 0){
-  		return '<row>';
-  	} 
-  if((conditional % count) == 0) {
+	var index = Number(conditional) + 1;
+  if((index % count) == 0) {
     return '</row><row>';
-  }
+  } 
 }
