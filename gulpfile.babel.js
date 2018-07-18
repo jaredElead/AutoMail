@@ -32,7 +32,7 @@ gulp.task('default',
 
 // Build emails, then send to litmus
 gulp.task('litmus',
-  gulp.series('build', creds, aws, litmus));
+  gulp.series('build', creds, aws));
 
 // Build emails, then send to EMAIL
 gulp.task('mail',
@@ -41,6 +41,10 @@ gulp.task('mail',
 // Build emails, then zip
 gulp.task('zip',
   gulp.series('build', zip));
+
+// Send images to AWS
+gulp.task('images',
+  gulp.series('build', creds, images, aws));
 
 // Delete the "dist" folder
 // This happens every time a build starts
@@ -139,14 +143,14 @@ function inliner(css) {
 
 // Ensure creds for Litmus are at least there.
 function creds(done) {
-  // var configPath = './config.json';
-  // try { CONFIG = JSON.parse(fs.readFileSync(configPath)); }
-  // catch(e) {
-  //   beep();
-  //   console.log('[AWS]'.bold.red + ' Sorry, there was an issue locating your config.json. Please see README.md');
-  //   process.exit();
-  // }
-  // done();
+  var configPath = './config.json';
+  try { CONFIG = JSON.parse(fs.readFileSync(configPath)); }
+  catch(e) {
+    beep();
+    console.log('[AWS]'.bold.red + ' Sorry, there was an issue locating your config.json. Please see README.md');
+    process.exit();
+  }
+  done();
 }
 
 // Post images to AWS S3 so they are accessible to Litmus and manual test
